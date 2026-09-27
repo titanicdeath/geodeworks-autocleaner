@@ -1,0 +1,66 @@
+{
+  "trial": 2,
+  "strategy": "S1-abs-path",
+  "strategy_params": {
+    "name": "S1-abs-path",
+    "move": "abs_path",
+    "wiggle": false,
+    "nocoalesce": false,
+    "dwell": 0.2,
+    "hold": 0.1,
+    "steps": 6,
+    "step_px": 12,
+    "step_delay": 0.008,
+    "description": "Replica of v0.4: 6 absolute SendInput moves (expected to fail)."
+  },
+  "target": [
+    1206,
+    331
+  ],
+  "parked_at": [
+    1083,
+    330
+  ],
+  "cursor_at_press": [
+    1206,
+    331
+  ],
+  "move_trace": {
+    "strategy": "S1-abs-path",
+    "target": [
+      1206,
+      331
+    ],
+    "start": [
+      1083,
+      330
+    ],
+    "events": 6,
+    "wiggle_events": 0,
+    "arrived": [
+      1206,
+      331
+    ],
+    "end": [
+      1206,
+      331
+    ],
+    "final_error_px": 0.0,
+    "move_ms": 65.7
+  },
+  "hover_patch_changed_px": 0,
+  "verdict": "REMOVED",
+  "removed": true,
+  "local": {
+    "object_px": 4332,
+    "cursor_on_object": true,
+    "gone_frac": 0.92,
+    "changed_frac": 0.928,
+    "patch_changed_px": 4031
+  },
+  "hud_changed_px": 218,
+  "global_change_frac": 0.0069,
+  "minimap_dots_before": 16,
+  "minimap_dots_after": 15,
+  "press_to_capture_ms": 1035
+}

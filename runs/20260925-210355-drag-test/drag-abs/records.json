@@ -1,0 +1,378 @@
+[
+  {
+    "label": "start",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 0.04,
+    "frame": "drag-abs/00-start.jpg"
+  },
+  {
+    "label": "start-again",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 0.331,
+    "frame": "drag-abs/01-start-again.jpg"
+  },
+  {
+    "label": "pressed",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 0.579,
+    "frame": "drag-abs/02-pressed.jpg"
+  },
+  {
+    "label": "at+60+0-0.25s",
+    "offset_cmd": [
+      60,
+      0
+    ],
+    "cursor": [
+      60,
+      0
+    ],
+    "t": 0.919,
+    "frame": "drag-abs/03-at+60+0-0.25s.jpg"
+  },
+  {
+    "label": "at+60+0-0.75s",
+    "offset_cmd": [
+      60,
+      0
+    ],
+    "cursor": [
+      60,
+      0
+    ],
+    "t": 1.455,
+    "frame": "drag-abs/04-at+60+0-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+120+0-0.25s",
+    "offset_cmd": [
+      120,
+      0
+    ],
+    "cursor": [
+      120,
+      0
+    ],
+    "t": 1.801,
+    "frame": "drag-abs/05-at+120+0-0.25s.jpg"
+  },
+  {
+    "label": "at+120+0-0.75s",
+    "offset_cmd": [
+      120,
+      0
+    ],
+    "cursor": [
+      120,
+      0
+    ],
+    "t": 2.339,
+    "frame": "drag-abs/06-at+120+0-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0+0-0.25s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 2.731,
+    "frame": "drag-abs/07-at+0+0-0.25s.jpg"
+  },
+  {
+    "label": "at+0+0-0.75s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 3.266,
+    "frame": "drag-abs/08-at+0+0-0.75s.jpg",
+    "move_events": 12
+  },
+  {
+    "label": "at+0+60-0.25s",
+    "offset_cmd": [
+      0,
+      60
+    ],
+    "cursor": [
+      0,
+      60
+    ],
+    "t": 3.607,
+    "frame": "drag-abs/09-at+0+60-0.25s.jpg"
+  },
+  {
+    "label": "at+0+60-0.75s",
+    "offset_cmd": [
+      0,
+      60
+    ],
+    "cursor": [
+      0,
+      60
+    ],
+    "t": 4.152,
+    "frame": "drag-abs/10-at+0+60-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0+120-0.25s",
+    "offset_cmd": [
+      0,
+      120
+    ],
+    "cursor": [
+      0,
+      120
+    ],
+    "t": 4.496,
+    "frame": "drag-abs/11-at+0+120-0.25s.jpg"
+  },
+  {
+    "label": "at+0+120-0.75s",
+    "offset_cmd": [
+      0,
+      120
+    ],
+    "cursor": [
+      0,
+      120
+    ],
+    "t": 5.03,
+    "frame": "drag-abs/12-at+0+120-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0+0-0.25s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 5.426,
+    "frame": "drag-abs/13-at+0+0-0.25s.jpg"
+  },
+  {
+    "label": "at+0+0-0.75s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 5.968,
+    "frame": "drag-abs/14-at+0+0-0.75s.jpg",
+    "move_events": 12
+  },
+  {
+    "label": "at-60+0-0.25s",
+    "offset_cmd": [
+      -60,
+      0
+    ],
+    "cursor": [
+      -60,
+      0
+    ],
+    "t": 6.308,
+    "frame": "drag-abs/15-at-60+0-0.25s.jpg"
+  },
+  {
+    "label": "at-60+0-0.75s",
+    "offset_cmd": [
+      -60,
+      0
+    ],
+    "cursor": [
+      -60,
+      0
+    ],
+    "t": 6.843,
+    "frame": "drag-abs/16-at-60+0-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at-120+0-0.25s",
+    "offset_cmd": [
+      -120,
+      0
+    ],
+    "cursor": [
+      -120,
+      0
+    ],
+    "t": 7.183,
+    "frame": "drag-abs/17-at-120+0-0.25s.jpg"
+  },
+  {
+    "label": "at-120+0-0.75s",
+    "offset_cmd": [
+      -120,
+      0
+    ],
+    "cursor": [
+      -120,
+      0
+    ],
+    "t": 7.717,
+    "frame": "drag-abs/18-at-120+0-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0+0-0.25s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 8.114,
+    "frame": "drag-abs/19-at+0+0-0.25s.jpg"
+  },
+  {
+    "label": "at+0+0-0.75s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 8.658,
+    "frame": "drag-abs/20-at+0+0-0.75s.jpg",
+    "move_events": 12
+  },
+  {
+    "label": "at+0-60-0.25s",
+    "offset_cmd": [
+      0,
+      -60
+    ],
+    "cursor": [
+      0,
+      -60
+    ],
+    "t": 8.998,
+    "frame": "drag-abs/21-at+0-60-0.25s.jpg"
+  },
+  {
+    "label": "at+0-60-0.75s",
+    "offset_cmd": [
+      0,
+      -60
+    ],
+    "cursor": [
+      0,
+      -60
+    ],
+    "t": 9.537,
+    "frame": "drag-abs/22-at+0-60-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0-120-0.25s",
+    "offset_cmd": [
+      0,
+      -120
+    ],
+    "cursor": [
+      0,
+      -120
+    ],
+    "t": 9.878,
+    "frame": "drag-abs/23-at+0-120-0.25s.jpg"
+  },
+  {
+    "label": "at+0-120-0.75s",
+    "offset_cmd": [
+      0,
+      -120
+    ],
+    "cursor": [
+      0,
+      -120
+    ],
+    "t": 10.414,
+    "frame": "drag-abs/24-at+0-120-0.75s.jpg",
+    "move_events": 6
+  },
+  {
+    "label": "at+0+0-0.25s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 10.81,
+    "frame": "drag-abs/25-at+0+0-0.25s.jpg"
+  },
+  {
+    "label": "at+0+0-0.75s",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 11.349,
+    "frame": "drag-abs/26-at+0+0-0.75s.jpg",
+    "move_events": 12
+  },
+  {
+    "label": "released",
+    "offset_cmd": [
+      0,
+      0
+    ],
+    "cursor": [
+      0,
+      0
+    ],
+    "t": 11.787,
+    "frame": "drag-abs/27-released.jpg"
+  }
+]

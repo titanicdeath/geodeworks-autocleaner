@@ -1,0 +1,45 @@
+[   0.000] geoclean 0.8.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260927-023634-clean
+[   0.009] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   1.470] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   2.126] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   2.126] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   2.127] 
+[   2.127] Cleaning survey. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   3.536] Mode buttons: present=[True, True, True, True], active=survey
+[   3.643] survey: minimap shows 19 (round 1)
+[   5.806]     #1   survey    block -> removed
+[   5.963]     #2   survey    block -> removed
+[   6.119]     #3   survey    block -> removed
+[   6.280]     #4   survey    block -> removed
+[   8.867]     #5   survey    block -> removed
+[   9.025]     #6   survey    block -> removed
+[   9.176]     #7   survey    block -> removed
+[   9.334]     #8   survey    block -> removed
+[   9.490]     #9   survey    block -> removed
+[   9.647]     #10  survey    block -> removed
+[  12.352]     #11  survey    block -> removed
+[  12.510]     #12  survey    block -> removed
+[  12.657]     #13  survey    block -> removed
+[  12.802]     #14  survey    block -> removed
+[  14.393]     #15  survey    block -> removed
+[  16.546]     #16  survey    block -> removed
+[  16.593] survey: minimap shows 8 (round 2)
+[  18.519]     #17  survey    block -> removed
+[  18.668]     #18  survey    block -> removed
+[  18.816]     #19  survey    block -> removed
+[  20.656]     #20  survey    block -> removed
+[  21.282]     #21  survey    block -> no_change
+[  22.834]     #22  survey    block -> removed
+[  25.063]     #23  survey    block -> removed
+[  25.114] survey: minimap shows 2 (round 3)
+[  27.239]     #24  survey    block -> removed
+[  27.288] survey: minimap shows 1 (round 4)
+[  28.251]     #25  survey    block -> removed
+[  28.294] Stopped: Mode buttons not recognised (present=[True, True, True, True], colors=[[64, 56, 52], [39, 29, 25], [39, 29, 25], [39, 29, 25]]); not clicking.
+[  28.335] 
+[  28.335] M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: Mode buttons not recognised (present=[True, True, True, True], colors=[[64, 56, 52], [39, 29, 25], [39, 29, 25], [39, 29, 25]]); not clicking.
+Total 24.8s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg
+[  28.337] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260927-023634-clean

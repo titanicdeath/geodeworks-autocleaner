@@ -1,0 +1,16 @@
+[   0.000] geoclean 0.8.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260927-023827-clean
+[   0.007] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   0.765] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   1.326] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   1.327] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   1.328] 
+[   1.328] Cleaning bright. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   2.442] Mode buttons: present=[True, True, True, True], active=None
+[   2.442] Stopped: Mode buttons not recognised; not clicking anything.
+[   2.485] 
+[   2.485] M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: Mode buttons not recognised; not clicking anything.
+Total 0.0s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg
+[   2.485] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260927-023827-clean

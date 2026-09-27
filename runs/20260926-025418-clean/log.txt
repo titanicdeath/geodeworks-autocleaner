@@ -1,0 +1,43 @@
+[   0.000] geoclean 0.8.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260926-025418-clean
+[   0.009] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   1.420] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   1.993] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   1.993] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   1.993] 
+[   1.994] Cleaning survey. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   3.844] Mode buttons: present=[True, True, True, True], active=survey
+[   3.971] survey: minimap shows 15 (round 1)
+[   5.906]     #1   survey    block -> removed
+[   6.091]     #2   survey    block -> removed
+[   8.044]     #3   survey    block -> removed
+[   8.262]     #4   survey    block -> removed
+[  10.134]     #5   survey    block -> removed
+[  12.993]     #6   survey    block -> no_change
+[  13.191]     #7   survey    block -> removed
+[  13.384]     #8   survey    block -> removed
+[  13.590]     #9   survey    block -> removed
+[  15.835]     #10  survey    block -> removed
+[  16.040]     #11  survey    block -> removed
+[  16.259]     #12  survey    block -> removed
+[  19.426]     #13  survey    block -> no_change
+[  19.620]     #14  survey    block -> removed
+[  21.375]     #15  survey    block -> removed
+[  21.437] survey: minimap shows 5 (round 2)
+[  23.726]     #16  survey    block -> no_change
+[  26.229]     #17  survey    block -> changed
+[  27.733]     #18  survey    block -> no_change
+[  29.525]     #19  survey    block -> removed
+[  31.948]     #20  survey    block -> removed
+[  32.005] survey: minimap shows 2 (round 3)
+[  34.466]     #21  survey    block -> removed
+[  37.512]     #22  survey    block -> no_change
+[  37.573] survey: minimap shows 1 (round 4)
+[  39.089]     #23  survey    block -> no_change
+[  39.158] survey: 16 removed (+1 revealed another), 6 without effect, 1 left on the minimap, 14 views, 35.2s
+[  39.223] 
+[  39.223] M3 cleaning report
+
+survey     16 removed (+1 revealed another), 6 clicks without effect; minimap per round [15, 5, 2, 1] -> 1 left; 14 views in 35.2s
+Zoom: bright 1.4x, polarized 2.08x
+Total 35.4s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg
+[  39.224] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260926-025418-clean

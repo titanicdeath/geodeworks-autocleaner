@@ -1,0 +1,1176 @@
+{
+  "rel": {
+    "method": "rel",
+    "rows": [
+      {
+        "label": "start",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "start-again",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "pressed",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "at+60+0-0.25s",
+        "offset_cmd": [
+          60,
+          0
+        ],
+        "cursor": [
+          60,
+          0
+        ],
+        "shift": [
+          50.6,
+          -1.0
+        ],
+        "response": 0.956,
+        "ring_shift": [
+          -1.9,
+          -0.01
+        ]
+      },
+      {
+        "label": "at+60+0-0.75s",
+        "offset_cmd": [
+          60,
+          0
+        ],
+        "cursor": [
+          60,
+          0
+        ],
+        "shift": [
+          50.6,
+          -1.0
+        ],
+        "response": 0.956,
+        "ring_shift": [
+          -1.9,
+          -0.01
+        ]
+      },
+      {
+        "label": "at+120+0-0.25s",
+        "offset_cmd": [
+          120,
+          0
+        ],
+        "cursor": [
+          120,
+          0
+        ],
+        "shift": [
+          101.2,
+          -1.1
+        ],
+        "response": 0.597,
+        "ring_shift": [
+          -3.79,
+          -0.05
+        ]
+      },
+      {
+        "label": "at+120+0-0.75s",
+        "offset_cmd": [
+          120,
+          0
+        ],
+        "cursor": [
+          120,
+          0
+        ],
+        "shift": [
+          101.2,
+          -1.1
+        ],
+        "response": 0.597,
+        "ring_shift": [
+          -3.79,
+          -0.05
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          10.1,
+          -1.0
+        ],
+        "response": 1.069,
+        "ring_shift": [
+          -0.42,
+          -0.06
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          10.1,
+          -1.0
+        ],
+        "response": 1.069,
+        "ring_shift": [
+          -0.42,
+          -0.06
+        ]
+      },
+      {
+        "label": "at+0+60-0.25s",
+        "offset_cmd": [
+          0,
+          60
+        ],
+        "cursor": [
+          0,
+          60
+        ],
+        "shift": [
+          -0.0,
+          48.5
+        ],
+        "response": 0.626,
+        "ring_shift": [
+          -0.05,
+          -1.95
+        ]
+      },
+      {
+        "label": "at+0+60-0.75s",
+        "offset_cmd": [
+          0,
+          60
+        ],
+        "cursor": [
+          0,
+          60
+        ],
+        "shift": [
+          -0.0,
+          48.5
+        ],
+        "response": 0.626,
+        "ring_shift": [
+          -0.05,
+          -1.95
+        ]
+      },
+      {
+        "label": "at+0+120-0.25s",
+        "offset_cmd": [
+          0,
+          120
+        ],
+        "cursor": [
+          0,
+          120
+        ],
+        "shift": [
+          -0.2,
+          107.4
+        ],
+        "response": 0.275,
+        "ring_shift": [
+          -0.06,
+          -4.03
+        ]
+      },
+      {
+        "label": "at+0+120-0.75s",
+        "offset_cmd": [
+          0,
+          120
+        ],
+        "cursor": [
+          0,
+          120
+        ],
+        "shift": [
+          -0.2,
+          107.4
+        ],
+        "response": 0.275,
+        "ring_shift": [
+          -0.06,
+          -4.03
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.1,
+          8.8
+        ],
+        "response": 1.077,
+        "ring_shift": [
+          0.06,
+          -0.59
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.1,
+          8.8
+        ],
+        "response": 1.077,
+        "ring_shift": [
+          0.06,
+          -0.59
+        ]
+      },
+      {
+        "label": "at-60+0-0.25s",
+        "offset_cmd": [
+          -60,
+          0
+        ],
+        "cursor": [
+          -60,
+          0
+        ],
+        "shift": [
+          -50.4,
+          -1.1
+        ],
+        "response": 0.881,
+        "ring_shift": [
+          1.86,
+          -0.04
+        ]
+      },
+      {
+        "label": "at-60+0-0.75s",
+        "offset_cmd": [
+          -60,
+          0
+        ],
+        "cursor": [
+          -60,
+          0
+        ],
+        "shift": [
+          -50.4,
+          -1.1
+        ],
+        "response": 0.881,
+        "ring_shift": [
+          1.86,
+          -0.04
+        ]
+      },
+      {
+        "label": "at-120+0-0.25s",
+        "offset_cmd": [
+          -120,
+          0
+        ],
+        "cursor": [
+          -120,
+          0
+        ],
+        "shift": [
+          -110.5,
+          -1.1
+        ],
+        "response": 0.479,
+        "ring_shift": [
+          4.51,
+          -0.02
+        ]
+      },
+      {
+        "label": "at-120+0-0.75s",
+        "offset_cmd": [
+          -120,
+          0
+        ],
+        "cursor": [
+          -120,
+          0
+        ],
+        "shift": [
+          -110.5,
+          -1.1
+        ],
+        "response": 0.479,
+        "ring_shift": [
+          4.51,
+          -0.02
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -10.2,
+          -1.0
+        ],
+        "response": 1.078,
+        "ring_shift": [
+          0.47,
+          -0.0
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -10.2,
+          -1.0
+        ],
+        "response": 1.078,
+        "ring_shift": [
+          0.47,
+          -0.0
+        ]
+      },
+      {
+        "label": "at+0-60-0.25s",
+        "offset_cmd": [
+          0,
+          -60
+        ],
+        "cursor": [
+          0,
+          -60
+        ],
+        "shift": [
+          0.2,
+          -59.3
+        ],
+        "response": 0.716,
+        "ring_shift": [
+          -0.1,
+          2.01
+        ]
+      },
+      {
+        "label": "at+0-60-0.75s",
+        "offset_cmd": [
+          0,
+          -60
+        ],
+        "cursor": [
+          0,
+          -60
+        ],
+        "shift": [
+          0.2,
+          -59.3
+        ],
+        "response": 0.716,
+        "ring_shift": [
+          -0.1,
+          2.01
+        ]
+      },
+      {
+        "label": "at+0-120-0.25s",
+        "offset_cmd": [
+          0,
+          -120
+        ],
+        "cursor": [
+          0,
+          -120
+        ],
+        "shift": [
+          1.0,
+          -115.5
+        ],
+        "response": 0.306,
+        "ring_shift": [
+          -0.05,
+          4.4
+        ]
+      },
+      {
+        "label": "at+0-120-0.75s",
+        "offset_cmd": [
+          0,
+          -120
+        ],
+        "cursor": [
+          0,
+          -120
+        ],
+        "shift": [
+          1.0,
+          -115.5
+        ],
+        "response": 0.306,
+        "ring_shift": [
+          -0.05,
+          4.4
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -1.0
+        ],
+        "response": 1.084,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -1.0
+        ],
+        "response": 1.084,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "released",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -1.0
+        ],
+        "response": 1.084,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "cursor_followed": true,
+    "view_moved": true,
+    "gains": [
+      0.8433333333333334,
+      0.8433333333333334,
+      0.8083333333333333,
+      0.895,
+      0.84,
+      0.9208333333333333,
+      0.9883333333333333,
+      0.9625
+    ],
+    "drift": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "abs": {
+    "method": "abs",
+    "rows": [
+      {
+        "label": "start",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "start-again",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "pressed",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.0,
+          -0.0
+        ],
+        "response": 1.0,
+        "ring_shift": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "label": "at+60+0-0.25s",
+        "offset_cmd": [
+          60,
+          0
+        ],
+        "cursor": [
+          60,
+          0
+        ],
+        "shift": [
+          60.8,
+          -0.8
+        ],
+        "response": 0.873,
+        "ring_shift": [
+          -2.52,
+          -0.04
+        ]
+      },
+      {
+        "label": "at+60+0-0.75s",
+        "offset_cmd": [
+          60,
+          0
+        ],
+        "cursor": [
+          60,
+          0
+        ],
+        "shift": [
+          60.8,
+          -0.8
+        ],
+        "response": 0.873,
+        "ring_shift": [
+          -2.52,
+          -0.04
+        ]
+      },
+      {
+        "label": "at+120+0-0.25s",
+        "offset_cmd": [
+          120,
+          0
+        ],
+        "cursor": [
+          120,
+          0
+        ],
+        "shift": [
+          111.3,
+          -0.9
+        ],
+        "response": 0.654,
+        "ring_shift": [
+          -4.44,
+          -0.07
+        ]
+      },
+      {
+        "label": "at+120+0-0.75s",
+        "offset_cmd": [
+          120,
+          0
+        ],
+        "cursor": [
+          120,
+          0
+        ],
+        "shift": [
+          111.3,
+          -0.9
+        ],
+        "response": 0.654,
+        "ring_shift": [
+          -4.44,
+          -0.07
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          20.2,
+          -0.8
+        ],
+        "response": 1.013,
+        "ring_shift": [
+          -0.42,
+          -0.06
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          20.2,
+          -0.8
+        ],
+        "response": 1.013,
+        "ring_shift": [
+          -0.42,
+          -0.06
+        ]
+      },
+      {
+        "label": "at+0+60-0.25s",
+        "offset_cmd": [
+          0,
+          60
+        ],
+        "cursor": [
+          0,
+          60
+        ],
+        "shift": [
+          -0.1,
+          38.2
+        ],
+        "response": 0.794,
+        "ring_shift": [
+          0.05,
+          -1.42
+        ]
+      },
+      {
+        "label": "at+0+60-0.75s",
+        "offset_cmd": [
+          0,
+          60
+        ],
+        "cursor": [
+          0,
+          60
+        ],
+        "shift": [
+          -0.1,
+          38.2
+        ],
+        "response": 0.794,
+        "ring_shift": [
+          0.05,
+          -1.42
+        ]
+      },
+      {
+        "label": "at+0+120-0.25s",
+        "offset_cmd": [
+          0,
+          120
+        ],
+        "cursor": [
+          0,
+          120
+        ],
+        "shift": [
+          -0.2,
+          107.4
+        ],
+        "response": 0.27,
+        "ring_shift": [
+          -0.06,
+          -4.03
+        ]
+      },
+      {
+        "label": "at+0+120-0.75s",
+        "offset_cmd": [
+          0,
+          120
+        ],
+        "cursor": [
+          0,
+          120
+        ],
+        "shift": [
+          -0.2,
+          107.4
+        ],
+        "response": 0.27,
+        "ring_shift": [
+          -0.06,
+          -4.03
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.1,
+          8.8
+        ],
+        "response": 1.056,
+        "ring_shift": [
+          0.06,
+          -0.59
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -0.1,
+          8.8
+        ],
+        "response": 1.056,
+        "ring_shift": [
+          0.06,
+          -0.59
+        ]
+      },
+      {
+        "label": "at-60+0-0.25s",
+        "offset_cmd": [
+          -60,
+          0
+        ],
+        "cursor": [
+          -60,
+          0
+        ],
+        "shift": [
+          -50.3,
+          -1.0
+        ],
+        "response": 0.881,
+        "ring_shift": [
+          1.86,
+          -0.04
+        ]
+      },
+      {
+        "label": "at-60+0-0.75s",
+        "offset_cmd": [
+          -60,
+          0
+        ],
+        "cursor": [
+          -60,
+          0
+        ],
+        "shift": [
+          -50.3,
+          -1.0
+        ],
+        "response": 0.881,
+        "ring_shift": [
+          1.86,
+          -0.04
+        ]
+      },
+      {
+        "label": "at-120+0-0.25s",
+        "offset_cmd": [
+          -120,
+          0
+        ],
+        "cursor": [
+          -120,
+          0
+        ],
+        "shift": [
+          -110.5,
+          -0.8
+        ],
+        "response": 0.466,
+        "ring_shift": [
+          4.51,
+          -0.02
+        ]
+      },
+      {
+        "label": "at-120+0-0.75s",
+        "offset_cmd": [
+          -120,
+          0
+        ],
+        "cursor": [
+          -120,
+          0
+        ],
+        "shift": [
+          -110.5,
+          -0.8
+        ],
+        "response": 0.466,
+        "ring_shift": [
+          4.51,
+          -0.02
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -10.1,
+          -0.9
+        ],
+        "response": 1.064,
+        "ring_shift": [
+          0.47,
+          -0.0
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          -10.1,
+          -0.9
+        ],
+        "response": 1.064,
+        "ring_shift": [
+          0.47,
+          -0.0
+        ]
+      },
+      {
+        "label": "at+0-60-0.25s",
+        "offset_cmd": [
+          0,
+          -60
+        ],
+        "cursor": [
+          0,
+          -60
+        ],
+        "shift": [
+          0.2,
+          -49.4
+        ],
+        "response": 0.718,
+        "ring_shift": [
+          -0.1,
+          2.01
+        ]
+      },
+      {
+        "label": "at+0-60-0.75s",
+        "offset_cmd": [
+          0,
+          -60
+        ],
+        "cursor": [
+          0,
+          -60
+        ],
+        "shift": [
+          0.2,
+          -49.4
+        ],
+        "response": 0.718,
+        "ring_shift": [
+          -0.1,
+          2.01
+        ]
+      },
+      {
+        "label": "at+0-120-0.25s",
+        "offset_cmd": [
+          0,
+          -120
+        ],
+        "cursor": [
+          0,
+          -120
+        ],
+        "shift": [
+          0.8,
+          -106.4
+        ],
+        "response": 0.408,
+        "ring_shift": [
+          -0.09,
+          4.08
+        ]
+      },
+      {
+        "label": "at+0-120-0.75s",
+        "offset_cmd": [
+          0,
+          -120
+        ],
+        "cursor": [
+          0,
+          -120
+        ],
+        "shift": [
+          0.8,
+          -106.4
+        ],
+        "response": 0.408,
+        "ring_shift": [
+          -0.09,
+          4.08
+        ]
+      },
+      {
+        "label": "at+0+0-0.25s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.1,
+          -10.7
+        ],
+        "response": 1.045,
+        "ring_shift": [
+          -0.02,
+          0.46
+        ]
+      },
+      {
+        "label": "at+0+0-0.75s",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.1,
+          -10.7
+        ],
+        "response": 1.045,
+        "ring_shift": [
+          -0.02,
+          0.46
+        ]
+      },
+      {
+        "label": "released",
+        "offset_cmd": [
+          0,
+          0
+        ],
+        "cursor": [
+          0,
+          0
+        ],
+        "shift": [
+          0.1,
+          -10.7
+        ],
+        "response": 1.045,
+        "ring_shift": [
+          -0.02,
+          0.46
+        ]
+      }
+    ],
+    "cursor_followed": true,
+    "view_moved": true,
+    "gains": [
+      1.0133333333333334,
+      0.9275,
+      0.6366666666666667,
+      0.895,
+      0.8383333333333334,
+      0.9208333333333333,
+      0.8233333333333334,
+      0.8866666666666667
+    ],
+    "drift": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

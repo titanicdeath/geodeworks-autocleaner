@@ -1,0 +1,374 @@
+[   0.000] geoclean 0.7.0-m2 map-slide  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260926-001806-map-slide
+[   0.008] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[  10.047] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[  10.626] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[  10.627] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[  10.627] 
+[  10.628] Mapping plan: 16 stops x 3 modes (survey, bright, polarized).
+[  10.628] Survey mode, any position. Tap F6, then take your hand OFF the mouse (~1 minute).
+[  15.443] Mode buttons: present=[True, True, True, True], active=survey
+[  15.479] Start position from minimap: V=[1.0, 0.0]
+[  20.078]   stop 1/16 at V=[-767.0, -737.0] (4 drags)
+[  24.202]   stop 2/16 at V=[-254.0, -745.0] (2 drags)
+[  28.935]   stop 3/16 at V=[257.0, -745.0] (2 drags)
+[  32.020]   stop 4/16 at V=[257.0, -745.0] (1 drags)
+[  36.782]   stop 5/16 at V=[763.0, -251.0] (2 drags)
+[  41.688]   stop 6/16 at V=[254.0, -247.0] (2 drags)
+[  42.815]     note: tracked position disagreed with the minimap by 202px; resynced.
+[  46.569]   stop 7/16 at V=[-262.0, -255.0] (2 drags)  WARNING ring moved 5.05px across modes
+[  51.524]     note: view still changing 1s after switching to survey; continuing
+[  51.560]   stop 8/16 at V=[-763.0, -251.0] (2 drags)
+[  52.679]     note: tracked position disagreed with the minimap by 174px; resynced.
+[  55.888]   stop 9/16 at V=[-762.0, 250.0] (2 drags)
+[  60.851]     note: view still changing 1s after switching to survey; continuing
+[  60.888]   stop 10/16 at V=[-259.0, 249.0] (2 drags)
+[  62.013]     note: tracked position disagreed with the minimap by 199px; resynced.
+[  66.053]     note: view still changing 1s after switching to polarized; continuing
+[  66.093]   stop 11/16 at V=[253.0, 250.0] (2 drags)
+[  70.773]   stop 12/16 at V=[762.0, 249.0] (2 drags)
+[  75.791]   stop 13/16 at V=[755.0, 739.0] (2 drags)
+[  80.143]   stop 14/16 at V=[254.0, 745.0] (2 drags)
+[  84.719]   stop 15/16 at V=[-260.0, 748.0] (2 drags)
+[  88.847]   stop 16/16 at V=[-762.0, 745.0] (2 drags)
+[  88.929] Sweep finished in 78.3s (16 stops). Analysing...
+[  95.153] M2 slide map report
+
+Stops: 16, modes: survey, bright, polarized, slide coverage 78% of the canvas
+Stitching: 0 overlapping pairs registered; residual after least squares median None px, max None px; tracked positions moved by median 0.0 px, max 0.0 px
+Imperfections found: 327  by mode: {'polarized': 113, 'survey': 90, 'bright': 124}
+  minimap in survey mode: 19 dots; 19 matched to a found survey object, 0 dots with nothing found, 71 found objects without a dot
+  minimap in bright mode: 8 dots; 4 matched to a found bright object, 4 dots with nothing found, 120 found objects without a dot
+  minimap in polarized mode: 5 dots; 2 matched to a found polarized object, 3 dots with nothing found, 111 found objects without a dot
+Survey-only guess (texture/contrast) agrees with the multi-mode label for 81% of objects
+Low-confidence mode labels (own-mode contrast < 1.15x the next mode): 11
+
+ id mode       kind         S (slide px)   area contrast by mode                           dom views
+  1 polarized  block        (-736, -253)    275 {'survey': 0.39, 'bright': 3.1, 'polarized': 10.58} 3.413     1
+  2 survey     block        (-764, -216)   4440 {'survey': 39.47, 'bright': 4.05, 'polarized': 2.29} 9.746     1
+  3 polarized  block        (-717, -230)     79 {'survey': 0.0, 'bright': 0.04, 'polarized': 11.11} 277.75     1
+  4 bright     block         (-309, 281)   4504 {'survey': 32.7, 'bright': 3.68, 'polarized': 1.94} 8.886     2
+  5 bright     block         (-326, 239)    166 {'survey': 0.37, 'bright': 10.66, 'polarized': 1.69} 6.308     1
+  6 bright     block        (-768, -180)   2067 {'survey': 0.09, 'bright': 13.77, 'polarized': 1.81} 7.608     1
+  7 survey     block         (-184, 256)   6360 {'survey': 30.59, 'bright': 6.25, 'polarized': 4.27} 4.894     1
+  8 polarized  block         (-286, 320)    475 {'survey': 0.17, 'bright': 0.87, 'polarized': 13.64} 15.678     1
+  9 survey     line          (-181, 251)    594 {'survey': 7.16, 'bright': 4.61, 'polarized': 14.48} 0.494     1
+ 10 survey     block         (184, -291)   4417 {'survey': 41.27, 'bright': 5.07, 'polarized': 2.1}  8.14     1
+ 11 survey     block          (338, 259)    565 {'survey': 38.0, 'bright': 5.26, 'polarized': 0.01} 7.224     1
+ 12 polarized  line           (732, 335)   2757 {'survey': 2.33, 'bright': 4.27, 'polarized': 83.49} 19.553     1
+ 13 polarized  block         (-356, 232)    296 {'survey': 0.0, 'bright': 0.02, 'polarized': 10.73} 536.5     2
+ 14 bright     block         (198, -332)    564 {'survey': 0.99, 'bright': 11.46, 'polarized': 1.24} 9.242     1
+ 15 polarized  block          (354, 266)  12608 {'survey': 48.14, 'bright': 5.3, 'polarized': 1.53} 9.083     2
+ 16 bright     line           (343, 302)    404 {'survey': 1.15, 'bright': 17.67, 'polarized': 3.64} 4.854     1
+ 17 polarized  line           (652, 264)   2713 {'survey': 9.05, 'bright': 13.39, 'polarized': 81.72} 6.103     2
+ 18 survey     block         (331, -328)    632 {'survey': 8.56, 'bright': 13.35, 'polarized': 0.0} 0.641     1
+ 19 polarized  block        (-818, -148)   1599 {'survey': 0.0, 'bright': 0.05, 'polarized': 14.67} 293.4     1
+ 20 polarized  block        (-696, -155)    746 {'survey': 0.0, 'bright': 0.0, 'polarized': 13.63} 13630000.0     1
+ 21 bright     block         (-161, 183)     89 {'survey': 0.0, 'bright': 9.35, 'polarized': 1.61} 5.807     1
+ 22 survey     block         (324, -349)     64 {'survey': 10.55, 'bright': 3.32, 'polarized': 0.0} 3.178     1
+ 23 polarized  block          (359, 318)    435 {'survey': 0.43, 'bright': 0.93, 'polarized': 17.68} 19.011     1
+ 24 bright     block         (-380, 292)   1217 {'survey': 20.46, 'bright': 4.4, 'polarized': 1.8} 0.215     1
+ 25 survey     block        (-740, -378)   4185 {'survey': 41.69, 'bright': 4.13, 'polarized': 0.01} 10.094     1
+ 26 survey     block         (-638, 284)   2049 {'survey': 21.26, 'bright': 0.04, 'polarized': 0.0} 531.5     1
+ 27 bright     block         (-156, 330)    558 {'survey': 0.12, 'bright': 16.05, 'polarized': 0.69} 23.261     1
+ 28 bright     line           (852, 346)   9073 {'survey': 2.81, 'bright': 48.96, 'polarized': 1.17} 17.423     1
+ 29 bright     block         (-123, 251)    259 {'survey': 0.12, 'bright': 10.66, 'polarized': 3.7} 2.881     1
+ 30 bright     block         (326, -366)    528 {'survey': 5.09, 'bright': 13.24, 'polarized': 0.0} 2.601     1
+ 31 bright     block         (-389, 302)   5982 {'survey': 3.24, 'bright': 53.08, 'polarized': 4.19} 12.668     1
+ 32 polarized  block         (182, -368)    789 {'survey': 1.39, 'bright': 1.9, 'polarized': 11.2} 5.895     1
+ 33 bright     block         (347, -357)   6592 {'survey': 31.38, 'bright': 3.72, 'polarized': 2.42} 8.435     2
+ 34 bright     block         (116, -292)    609 {'survey': 1.09, 'bright': 14.94, 'polarized': 5.58} 2.677     1
+ 35 bright     block          (673, 366)   1000 {'survey': 7.91, 'bright': 55.32, 'polarized': 4.09} 6.994     3
+ 36 survey     block          (618, 291)   5035 {'survey': 38.55, 'bright': 8.78, 'polarized': 2.17} 4.391     2
+ 37 polarized  block         (-407, 281)    328 {'survey': 0.12, 'bright': 3.23, 'polarized': 14.63} 4.529     1
+ 38 bright     line            (764, 96)    158 {'survey': 0.29, 'bright': 58.39, 'polarized': 0.29} 201.345     1
+ 39 survey     block          (147, 136)    269 {'survey': 83.69, 'bright': 1.38, 'polarized': 1.25} 60.645     1
+ 40 survey     block        (-882, -354)   1564 {'survey': 41.74, 'bright': 4.93, 'polarized': 0.89} 8.467     1
+ 41 bright     block         (136, -352)    424 {'survey': 1.38, 'bright': 10.25, 'polarized': 1.86} 5.511     1
+ 42 bright     block         (117, -326)    167 {'survey': 1.49, 'bright': 11.27, 'polarized': 1.43} 7.564     1
+ 43 bright     block         (393, -322)    759 {'survey': 0.08, 'bright': 14.55, 'polarized': 0.01} 181.875     1
+ 44 polarized  block         (359, -366)    641 {'survey': 5.5, 'bright': 4.42, 'polarized': 13.89} 0.396     2
+ 45 survey     block        (-842, -389)   4493 {'survey': 23.1, 'bright': 2.31, 'polarized': 0.6}  10.0     1
+ 46 bright     line            (812, 95)    127 {'survey': 0.0, 'bright': 58.52, 'polarized': 0.0} 58520000.0     1
+ 47 bright     block         (697, -103)   8163 {'survey': 61.93, 'bright': 2.56, 'polarized': 0.0} 24.191     3
+ 48 bright     block         (-598, 279)   1269 {'survey': 17.45, 'bright': 81.46, 'polarized': 0.06} 4.668     1
+ 49 polarized  block         (-120, 342)   1745 {'survey': 0.18, 'bright': 1.35, 'polarized': 16.77} 12.422     1
+ 50 survey     block          (90, -210)   4232 {'survey': 39.99, 'bright': 0.77, 'polarized': 0.0} 51.935     1
+ 51 bright     block         (298, -410)    576 {'survey': 0.22, 'bright': 14.59, 'polarized': 0.23} 63.435     1
+ 52 survey     block          (699, 406)   4304 {'survey': 36.41, 'bright': 1.85, 'polarized': 0.79} 19.681     1
+ 53 polarized  line          (-429, 249)    295 {'survey': 0.0, 'bright': 1.86, 'polarized': 15.66} 8.419     2
+ 54 polarized  block          (402, 331)    123 {'survey': 1.6, 'bright': 1.04, 'polarized': 9.23} 5.769     1
+ 55 bright     block          (627, 142)  10397 {'survey': 53.78, 'bright': 9.3, 'polarized': 0.25} 5.783     2
+ 56 survey     block         (365, -379)     81 {'survey': 6.34, 'bright': 9.55, 'polarized': 2.73} 0.664     1
+ 57 bright     block          (-96, 305)    792 {'survey': 0.57, 'bright': 11.86, 'polarized': 2.37} 5.004     1
+ 58 polarized  block         (-115, 153)     85 {'survey': 0.93, 'bright': 0.0, 'polarized': 10.13} 10.892     1
+ 59 survey     block          (92, -691)   3587 {'survey': 19.8, 'bright': 0.31, 'polarized': 0.0} 63.871     1
+ 60 polarized  block          (424, 281)   3515 {'survey': 10.09, 'bright': 49.06, 'polarized': 2.22} 0.045     1
+ 61 bright     block        (-690, -411)    757 {'survey': 0.07, 'bright': 13.6, 'polarized': 0.1} 136.0     1
+ 62 polarized  line           (82, -294)   1824 {'survey': 0.55, 'bright': 1.97, 'polarized': 15.76}   8.0     1
+ 63 polarized  line           (587, 211)    895 {'survey': 4.85, 'bright': 10.74, 'polarized': 79.96} 7.445     2
+ 64 bright     line            (853, 95)    101 {'survey': 0.0, 'bright': 59.1, 'polarized': 0.0} 59100000.0     1
+ 65 survey     block           (182, 83)   9694 {'survey': 56.1, 'bright': 1.65, 'polarized': 0.09}  34.0     3
+ 66 bright     block        (-775, -432)    626 {'survey': 1.34, 'bright': 16.36, 'polarized': 0.79} 12.209     1
+ 67 bright     block          (382, 120)    229 {'survey': 0.0, 'bright': 54.14, 'polarized': 0.0} 54140000.0     1
+ 68 polarized  block         (-394, 376)   1755 {'survey': 0.0, 'bright': 0.14, 'polarized': 15.94} 113.857     2
+ 69 polarized  line           (850, 411)   9826 {'survey': 1.84, 'bright': 0.65, 'polarized': 79.54} 43.228     1
+ 70 survey     line           (936, 310)   9857 {'survey': 48.71, 'bright': 2.13, 'polarized': 0.73} 22.869     1
+ 71 polarized  block          (404, 140)   5957 {'survey': 5.06, 'bright': 58.38, 'polarized': 0.83} 11.538     2
+ 72 bright     block          (574, 243)   1137 {'survey': 26.77, 'bright': 50.46, 'polarized': 7.77} 1.885     1
+ 73 bright     block          (947, 283)     65 {'survey': 0.0, 'bright': 9.57, 'polarized': 0.0} 9570000.0     1
+ 74 bright     block          (607, 358)    972 {'survey': 2.55, 'bright': 56.31, 'polarized': 1.13} 22.082     1
+ 75 survey     block         (606, -356)   7568 {'survey': 27.38, 'bright': 2.11, 'polarized': 0.41} 12.976     1
+ 76 polarized  line           (-71, 271)    410 {'survey': 0.01, 'bright': 2.34, 'polarized': 10.48} 4.479     1
+ 77 polarized  block         (419, -348)    118 {'survey': 0.0, 'bright': 0.87, 'polarized': 9.52} 10.943     1
+ 78 bright     line            (879, 94)   5116 {'survey': 1.53, 'bright': 58.44, 'polarized': 0.05} 38.196     1
+ 79 polarized  block          (632, 396)   1049 {'survey': 56.96, 'bright': 4.98, 'polarized': 1.35} 11.438     2
+ 80 bright     line            (337, 72)    344 {'survey': 11.57, 'bright': 53.77, 'polarized': 0.0} 4.647     1
+ 81 bright     block          (656, 416)     60 {'survey': 0.74, 'bright': 9.66, 'polarized': 2.73} 3.538     1
+ 82 polarized  block         (-567, 282)   3320 {'survey': 36.74, 'bright': 5.64, 'polarized': 2.91} 6.514     2
+ 83 survey     line           (925, 133)   6590 {'survey': 56.79, 'bright': 1.26, 'polarized': 0.0} 45.071     1
+ 84 bright     line           (580, 164)   4598 {'survey': 10.3, 'bright': 58.8, 'polarized': 2.46} 5.709     1
+ 85 polarized  block          (-58, 242)    109 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.12} 10120000.0     1
+ 86 survey     block           (90, 369)   4478 {'survey': 40.04, 'bright': 0.67, 'polarized': 0.0} 59.761     1
+ 87 survey     block           (704, 54)   2521 {'survey': 24.35, 'bright': 0.25, 'polarized': 0.3} 81.167     1
+ 88 bright     block          (65, -172)    339 {'survey': 0.4, 'bright': 13.55, 'polarized': 0.0} 33.875     1
+ 89 bright     block          (587, 351)   2092 {'survey': 4.85, 'bright': 54.26, 'polarized': 2.66} 11.188     2
+ 90 survey     block          (456, 275)   2355 {'survey': 22.63, 'bright': 4.03, 'polarized': 2.16} 5.615     1
+ 91 bright     line            (898, 93)    107 {'survey': 0.0, 'bright': 58.93, 'polarized': 0.0} 58930000.0     1
+ 92 survey     block          (-59, 688)   7832 {'survey': 29.42, 'bright': 0.04, 'polarized': 0.01} 735.5     1
+ 93 bright     block          (721, 456)    290 {'survey': 0.25, 'bright': 11.54, 'polarized': 0.01} 46.16     1
+ 94 bright     block          (967, 296)    319 {'survey': 0.62, 'bright': 9.72, 'polarized': 4.04} 2.406     1
+ 95 survey     block         (602, -389)    385 {'survey': 5.31, 'bright': 11.96, 'polarized': 0.0} 0.444     1
+ 96 survey     block          (-179, 53)   3989 {'survey': 22.95, 'bright': 0.52, 'polarized': 0.43} 44.135     1
+ 97 bright     block          (-61, 172)   5823 {'survey': 37.85, 'bright': 0.03, 'polarized': 0.9} 42.056     2
+ 98 polarized  line          (333, -447)   1653 {'survey': 0.68, 'bright': 2.8, 'polarized': 15.84} 5.657     2
+ 99 polarized  block         (398, -408)     69 {'survey': 0.96, 'bright': 11.94, 'polarized': 3.86} 0.323     1
+100 polarized  block          (556, 183)   3334 {'survey': 3.82, 'bright': 12.77, 'polarized': 77.3} 6.053     5
+101 bright     block           (106, 91)    551 {'survey': 0.0, 'bright': 82.86, 'polarized': 0.0} 82860000.0     1
+102 survey     block         (-658, 554)   4102 {'survey': 46.61, 'bright': 0.09, 'polarized': 0.09} 517.889     1
+103 bright     line         (-940, -380)    719 {'survey': 0.21, 'bright': 19.59, 'polarized': 0.64} 30.609     1
+104 polarized  line           (542, 238)    419 {'survey': 1.92, 'bright': 3.45, 'polarized': 13.24} 3.838     1
+105 bright     block          (34, -238)    718 {'survey': 1.47, 'bright': 11.84, 'polarized': 1.1} 8.054     1
+106 survey     block          (-38, 724)     91 {'survey': 33.15, 'bright': 0.0, 'polarized': 0.0} 33150000.0     1
+107 bright     block        (-723, -471)    479 {'survey': 0.85, 'bright': 10.29, 'polarized': 1.49} 6.906     1
+108 polarized  block          (984, 284)     76 {'survey': 0.71, 'bright': 1.08, 'polarized': 10.58} 9.796     1
+109 bright     block         (429, -388)    461 {'survey': 0.26, 'bright': 13.58, 'polarized': 1.55} 8.761     1
+110 bright     block         (-536, 255)    297 {'survey': 6.73, 'bright': 64.53, 'polarized': 2.15} 9.588     1
+111 polarized  block        (-756, -478)   2340 {'survey': 0.47, 'bright': 1.67, 'polarized': 16.55}  9.91     1
+112 bright     block          (671, -42)  16041 {'survey': 1.94, 'bright': 61.73, 'polarized': 0.56} 31.82     4
+113 survey     block           (27, 210)    287 {'survey': 83.96, 'bright': 0.0, 'polarized': 0.0} 83960000.0     1
+114 polarized  block          (485, 240)     62 {'survey': 0.0, 'bright': 24.78, 'polarized': 82.73} 3.339     1
+115 bright     line           (538, 312)    358 {'survey': 0.0, 'bright': 15.82, 'polarized': 1.82} 8.692     1
+116 polarized  block         (-535, 301)    440 {'survey': 1.22, 'bright': 4.33, 'polarized': 22.01} 5.083     1
+117 bright     block         (347, -461)    125 {'survey': 0.04, 'bright': 9.74, 'polarized': 2.56} 3.805     1
+118 polarized  block          (626, 439)    408 {'survey': 0.0, 'bright': 0.86, 'polarized': 17.27} 20.081     1
+119 survey     block          (405, 428)   7853 {'survey': 8.49, 'bright': 58.83, 'polarized': 3.9} 6.929     2
+120 bright     block         (-542, 332)   1965 {'survey': 0.28, 'bright': 55.05, 'polarized': 1.7} 32.382     1
+121 polarized  block         (464, -353)    965 {'survey': 0.0, 'bright': 0.0, 'polarized': 14.64} 14640000.0     2
+122 bright     line            (939, 93)    136 {'survey': 0.0, 'bright': 58.94, 'polarized': 0.0} 58940000.0     1
+123 polarized  line           (489, 246)    874 {'survey': 8.06, 'bright': 15.64, 'polarized': 81.23} 5.194     1
+124 polarized  block          (75, -406)    619 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.9} 10900000.0     1
+125 survey     block        (-158, -470)   4394 {'survey': 22.53, 'bright': 0.6, 'polarized': 0.5} 37.55     1
+126 survey     block          (426, 415)   1226 {'survey': 40.53, 'bright': 3.7, 'polarized': 0.14} 10.954     1
+127 bright     block         (-524, 290)   1174 {'survey': 2.23, 'bright': 53.4, 'polarized': 8.17} 6.536     1
+128 bright     block         (621, -448)    746 {'survey': 0.02, 'bright': 10.53, 'polarized': 0.0} 526.5     1
+129 survey     block         (-435, 574)   3945 {'survey': 43.15, 'bright': 0.13, 'polarized': 0.0} 331.923     2
+130 bright     block          (23, -153)    950 {'survey': 0.0, 'bright': 14.05, 'polarized': 0.04} 351.25     1
+131 bright     block          (19, -661)   6357 {'survey': 3.55, 'bright': 49.04, 'polarized': 2.75} 13.814     1
+132 bright     block          (596, 439)    855 {'survey': 0.26, 'bright': 60.15, 'polarized': 8.11} 7.417     1
+133 bright     block        (-856, -486)   6215 {'survey': 3.12, 'bright': 52.37, 'polarized': 3.93} 13.326     1
+134 bright     block          (508, 231)     91 {'survey': 0.0, 'bright': 10.34, 'polarized': 1.78} 5.809     1
+135 polarized  block         (-507, 261)    109 {'survey': 1.13, 'bright': 2.21, 'polarized': 18.55} 8.394     1
+136 survey     block           (638, 23)    257 {'survey': 85.81, 'bright': 21.98, 'polarized': 0.0} 3.904     1
+137 bright     block           (26, 372)    694 {'survey': 0.22, 'bright': 10.89, 'polarized': 0.0}  49.5     1
+138 survey     block          (466, 398)   1258 {'survey': 35.46, 'bright': 2.54, 'polarized': 0.22} 13.961     1
+139 bright     block           (381, 23)    867 {'survey': 30.42, 'bright': 55.4, 'polarized': 6.2} 1.821     1
+140 bright     block         (512, -326)   1248 {'survey': 0.21, 'bright': 13.64, 'polarized': 0.16} 64.952     1
+141 polarized  block         (320, -500)    108 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.78} 10780000.0     1
+142 survey     block          (558, 415)   1205 {'survey': 54.05, 'bright': 3.08, 'polarized': 4.12} 13.119     1
+143 bright     line         (-937, -448)    106 {'survey': 0.0, 'bright': 10.83, 'polarized': 1.69} 6.408     1
+144 polarized  block        (-645, -486)    752 {'survey': 0.62, 'bright': 0.75, 'polarized': 13.6} 18.133     1
+145 bright     block         (548, -405)    585 {'survey': 0.26, 'bright': 12.49, 'polarized': 0.0} 48.038     1
+146 survey     block         (-81, -546)   4371 {'survey': 37.19, 'bright': 0.08, 'polarized': 0.06} 464.875     3
+147 polarized  line           (512, 302)    877 {'survey': 17.0, 'bright': 4.01, 'polarized': 83.9} 4.935     1
+148 survey     block          (-651, -8)   4484 {'survey': 22.1, 'bright': 0.09, 'polarized': 0.09} 245.556     1
+149 bright     block         (532, -389)    212 {'survey': 0.03, 'bright': 9.33, 'polarized': 0.0} 311.0     1
+150 polarized  block            (0, 324)    783 {'survey': 0.0, 'bright': 0.0, 'polarized': 12.77} 12770000.0     1
+151 survey     block           (447, 61)   3485 {'survey': 27.5, 'bright': 0.27, 'polarized': 3.47} 7.925     4
+152 survey     block            (145, 2)   3378 {'survey': 27.4, 'bright': 0.68, 'polarized': 0.11} 40.294     1
+153 survey     block        (-523, -329)   4116 {'survey': 38.26, 'bright': 0.0, 'polarized': 0.0} 38260000.0     1
+154 bright     block         (-18, -224)    255 {'survey': 0.22, 'bright': 9.74, 'polarized': 0.22} 44.273     1
+155 bright     block          (586, 462)    392 {'survey': 0.0, 'bright': 59.64, 'polarized': 0.04} 1491.0     1
+156 polarized  block         (-515, 373)   1258 {'survey': 0.11, 'bright': 0.45, 'polarized': 23.65} 52.556     2
+157 bright     block          (665, 510)   1185 {'survey': 0.37, 'bright': 13.04, 'polarized': 2.4} 5.433     1
+158 bright     block            (3, 152)   3686 {'survey': 0.12, 'bright': 16.83, 'polarized': 0.0} 140.25     1
+159 polarized  line            (403, 12)   1915 {'survey': 29.11, 'bright': 22.05, 'polarized': 75.66} 0.385     7
+160 polarized  block          (318, -26)   2070 {'survey': 1.08, 'bright': 9.25, 'polarized': 68.43} 7.398     1
+161 survey     block           (680, 22)    108 {'survey': 57.88, 'bright': 34.69, 'polarized': 11.19} 1.668     1
+162 bright     block            (613, 4)  14263 {'survey': 5.93, 'bright': 54.1, 'polarized': 2.35} 9.123     2
+163 polarized  block         (456, -450)    486 {'survey': 0.0, 'bright': 10.15, 'polarized': 3.11} 0.306     1
+164 bright     block           (-8, 611)   5446 {'survey': 2.0, 'bright': 67.63, 'polarized': 0.05} 33.815     1
+165 survey     line            (985, 62)   1231 {'survey': 56.91, 'bright': 6.42, 'polarized': 1.65} 8.864     1
+166 bright     block          (480, 326)   4086 {'survey': 0.61, 'bright': 3.2, 'polarized': 64.92} 20.287     2
+167 polarized  line           (506, 392)   3518 {'survey': 0.39, 'bright': 6.03, 'polarized': 85.93} 14.25     2
+168 bright     line          (-620, 489)    265 {'survey': 1.26, 'bright': 14.83, 'polarized': 1.34} 11.067     1
+169 polarized  block          (610, 502)    226 {'survey': 0.0, 'bright': 0.27, 'polarized': 10.37} 38.407     1
+170 polarized  line          (491, -422)    102 {'survey': 0.0, 'bright': 0.0, 'polarized': 9.7} 9700000.0     1
+171 survey     block         (-32, -322)   4128 {'survey': 37.85, 'bright': 0.0, 'polarized': 0.0} 37850000.0     1
+172 survey     block          (-32, -69)    283 {'survey': 81.17, 'bright': 0.0, 'polarized': 0.0} 81170000.0     1
+173 polarized  block        (-999, -430)   2485 {'survey': 0.29, 'bright': 1.93, 'polarized': 16.44} 8.518     1
+174 bright     block           (23, 437)   2084 {'survey': 0.14, 'bright': 12.43, 'polarized': 0.0} 88.786     1
+175 bright     block         (-146, -27)   5084 {'survey': 2.27, 'bright': 72.08, 'polarized': 2.21} 31.753     1
+176 polarized  block         (451, -474)    408 {'survey': 0.0, 'bright': 1.1, 'polarized': 13.45} 12.227     1
+177 survey     block        (-346, -544)   3907 {'survey': 36.04, 'bright': 0.07, 'polarized': 0.07} 514.857     2
+178 bright     block         (-465, 527)    313 {'survey': 0.84, 'bright': 13.84, 'polarized': 0.0} 16.476     1
+179 polarized  block         (-24, -127)    893 {'survey': 0.0, 'bright': 0.08, 'polarized': 14.36} 179.5     1
+180 bright     block           (46, 736)   2128 {'survey': 0.14, 'bright': 15.54, 'polarized': 0.11} 111.0     1
+181 polarized  block          (701, 549)    525 {'survey': 0.08, 'bright': 0.22, 'polarized': 11.67} 53.045     1
+182 bright     block          (548, 469)    580 {'survey': 0.0, 'bright': 58.69, 'polarized': 2.25} 26.084     1
+183 survey     block        (-555, -164)   4282 {'survey': 38.56, 'bright': 0.7, 'polarized': 0.71} 54.31     1
+184 polarized  block         (-27, -622)    183 {'survey': 0.0, 'bright': 1.21, 'polarized': 19.85} 16.405     2
+185 survey     block          (896, -30)   3849 {'survey': 66.78, 'bright': 1.28, 'polarized': 3.13} 21.335     1
+186 bright     block           (120, 37)    439 {'survey': 0.43, 'bright': 10.13, 'polarized': 0.0} 23.558     1
+187 polarized  block          (447, 229)     91 {'survey': 0.0, 'bright': 0.0, 'polarized': 9.82} 9820000.0     1
+188 survey     block          (418, -19)   2456 {'survey': 31.16, 'bright': 1.2, 'polarized': 1.54} 20.234     2
+189 polarized  block            (38, 18)   1173 {'survey': 0.56, 'bright': 0.49, 'polarized': 86.7} 154.821     1
+190 polarized  block         (-63, -239)    885 {'survey': 0.0, 'bright': 0.0, 'polarized': 13.24} 13240000.0     1
+191 bright     block         (-597, 474)   1014 {'survey': 1.0, 'bright': 14.52, 'polarized': 1.27} 11.433     1
+192 survey     block         (-445, 259)   6517 {'survey': 32.25, 'bright': 2.87, 'polarized': 3.72} 8.669     1
+193 bright     block         (-505, 544)   1214 {'survey': 0.8, 'bright': 14.34, 'polarized': 0.48} 17.925     1
+194 survey     block         (-443, 245)    132 {'survey': 9.1, 'bright': 1.08, 'polarized': 2.94} 3.095     1
+195 survey     block          (561, 339)   1548 {'survey': 54.38, 'bright': 5.62, 'polarized': 4.85} 9.676     1
+196 survey     block         (444, -294)   4315 {'survey': 41.72, 'bright': 0.0, 'polarized': 0.0} 41720000.0     1
+197 polarized  block        (-922, -531)    564 {'survey': 0.46, 'bright': 1.17, 'polarized': 10.98} 9.385     1
+198 polarized  block         (1078, 318)    282 {'survey': 1.08, 'bright': 0.73, 'polarized': 10.32} 9.556     1
+199 polarized  block         (502, -455)   1260 {'survey': 0.0, 'bright': 0.35, 'polarized': 13.64} 38.971     3
+200 polarized  block         (1059, 379)    114 {'survey': 0.0, 'bright': 0.06, 'polarized': 11.08} 184.667     1
+201 bright     block         (472, -398)    924 {'survey': 0.49, 'bright': 13.02, 'polarized': 2.41} 5.402     1
+202 survey     block        (-577, -356)    324 {'survey': 15.69, 'bright': 5.86, 'polarized': 0.0} 2.677     2
+203 bright     block         (-34, -495)     60 {'survey': 0.0, 'bright': 10.85, 'polarized': 0.0} 10850000.0     1
+204 survey     block             (9, 22)    295 {'survey': 82.24, 'bright': 1.29, 'polarized': 1.14} 63.752     1
+205 polarized  line           (244, -86)    654 {'survey': 0.0, 'bright': 0.0, 'polarized': 84.7} 84700000.0     1
+206 bright     block        (-589, -333)    600 {'survey': 3.91, 'bright': 14.61, 'polarized': 0.0} 3.737     1
+207 polarized  block        (-712, -584)    450 {'survey': 0.0, 'bright': 0.0, 'polarized': 11.53} 11530000.0     1
+208 polarized  block         (390, -561)    245 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.1} 10100000.0     1
+209 survey     block        (-587, -365)     64 {'survey': 6.13, 'bright': 11.84, 'polarized': 0.0} 0.518     1
+210 survey     block         (-175, 585)   4402 {'survey': 44.95, 'bright': 0.0, 'polarized': 0.0} 44950000.0     1
+211 polarized  line           (536, 453)   1421 {'survey': 0.08, 'bright': 2.57, 'polarized': 74.26} 28.895     1
+212 bright     block          (493, 504)    778 {'survey': 0.13, 'bright': 16.64, 'polarized': 0.44} 37.818     1
+213 bright     block         (-631, 420)   1659 {'survey': 0.09, 'bright': 13.44, 'polarized': 0.07} 149.333     1
+214 polarized  block           (54, 590)    562 {'survey': 0.0, 'bright': 0.59, 'polarized': 22.66} 38.407     1
+215 polarized  block         (565, -542)    682 {'survey': 0.36, 'bright': 0.33, 'polarized': 10.83} 30.083     2
+216 survey     line          (1091, 371)    921 {'survey': 56.42, 'bright': 4.39, 'polarized': 1.63} 12.852     1
+217 survey     block          (-449, 46)   4465 {'survey': 21.88, 'bright': 0.0, 'polarized': 0.0} 21880000.0     2
+218 bright     block          (416, -66)    471 {'survey': 0.41, 'bright': 88.31, 'polarized': 8.38} 10.538     1
+219 bright     block           (91, 686)    517 {'survey': 0.25, 'bright': 10.1, 'polarized': 0.27} 37.407     1
+220 polarized  line            (41, 555)    345 {'survey': 0.0, 'bright': 0.43, 'polarized': 16.69} 38.814     1
+221 polarized  block           (65, 598)    438 {'survey': 0.0, 'bright': 0.0, 'polarized': 23.39} 23390000.0     1
+222 survey     line          (1013, 511)   2708 {'survey': 56.17, 'bright': 0.18, 'polarized': 0.83} 67.675     1
+223 bright     block         (-47, -446)   1077 {'survey': 0.17, 'bright': 15.7, 'polarized': 0.17} 92.353     1
+224 polarized  line            (48, 547)    177 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.24} 10240000.0     1
+225 bright     block        (-102, -340)    581 {'survey': 0.1, 'bright': 12.92, 'polarized': 0.06} 129.2     1
+226 survey     block          (411, 136)    291 {'survey': 86.21, 'bright': 0.44, 'polarized': 0.36} 195.932     1
+227 bright     block         (-500, 468)    996 {'survey': 0.02, 'bright': 11.5, 'polarized': 0.01} 575.0     1
+228 bright     block          (567, 444)    510 {'survey': 0.0, 'bright': 10.34, 'polarized': 0.8} 12.925     2
+229 survey     block        (-610, -389)    918 {'survey': 18.65, 'bright': 3.76, 'polarized': 0.92}  4.96     1
+230 bright     block            (58, 71)    338 {'survey': 0.04, 'bright': 10.46, 'polarized': 0.0} 261.5     1
+231 survey     block        (-606, -400)    849 {'survey': 20.14, 'bright': 5.54, 'polarized': 0.52} 3.635     1
+232 survey     block        (-105, -645)   4397 {'survey': 34.0, 'bright': 0.36, 'polarized': 1.37} 24.818     2
+233 bright     block          (26, -495)    252 {'survey': 0.54, 'bright': 9.65, 'polarized': 0.52} 17.87     1
+234 polarized  line            (45, 526)    149 {'survey': 0.0, 'bright': 0.0, 'polarized': 13.01} 13010000.0     1
+235 polarized  block          (-84, 422)    573 {'survey': 0.05, 'bright': 0.05, 'polarized': 10.18} 203.6     1
+236 bright     line           (1106, 89)    119 {'survey': 0.0, 'bright': 58.94, 'polarized': 0.0} 58940000.0     1
+237 polarized  block           (40, 511)    615 {'survey': 0.0, 'bright': 0.01, 'polarized': 25.7} 2570.0     1
+238 survey     block        (-121, -689)   4644 {'survey': 19.83, 'bright': 0.0, 'polarized': 0.0} 19830000.0     2
+239 survey     block            (16, 10)    287 {'survey': 81.78, 'bright': 0.66, 'polarized': 0.68} 120.265     1
+240 bright     block         (-539, 483)    399 {'survey': 0.0, 'bright': 10.8, 'polarized': 0.0} 10800000.0     1
+241 polarized  line        (-1017, -542)    222 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.66} 10660000.0     1
+242 polarized  block         (-107, -94)    738 {'survey': 1.17, 'bright': 1.21, 'polarized': 13.35} 11.033     2
+243 bright     block          (495, -59)    277 {'survey': 1.08, 'bright': 37.82, 'polarized': 1.88} 20.117     1
+244 polarized  block         (453, -588)    101 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.18} 10180000.0     1
+245 polarized  block        (-130, -118)     91 {'survey': 0.47, 'bright': 0.29, 'polarized': 12.04} 25.617     1
+246 polarized  block        (-153, -212)    534 {'survey': 0.0, 'bright': 0.0, 'polarized': 10.54} 10540000.0     1
+247 bright     block        (-646, -399)    139 {'survey': 0.81, 'bright': 10.52, 'polarized': 0.04} 12.988     1
+248 bright     line           (569, -12)    260 {'survey': 0.14, 'bright': 58.99, 'polarized': 0.0} 421.357     1
+249 survey     block          (-31, -47)    276 {'survey': 86.87, 'bright': 2.98, 'polarized': 0.0} 29.151     1
+250 bright     block          (39, -450)    237 {'survey': 0.39, 'bright': 10.38, 'polarized': 0.39} 26.615     1
+251 polarized  block          (158, 735)    570 {'survey': 0.0, 'bright': 0.0, 'polarized': 11.59} 11590000.0     1
+252 polarized  block         (418, -488)    149 {'survey': 0.01, 'bright': 0.0, 'polarized': 9.96} 996.0     1
+253 polarized  line           (772, -93)  17524 {'survey': 2.23, 'bright': 2.61, 'polarized': 83.25} 31.897     1
+254 survey     line           (764, 475)   4184 {'survey': 56.64, 'bright': 0.08, 'polarized': 0.07} 708.0     1
+255 polarized  line            (929, 23)  14631 {'survey': 5.36, 'bright': 5.61, 'polarized': 84.04} 14.98     1
+256 bright     line           (722, 445)   4275 {'survey': 0.15, 'bright': 57.23, 'polarized': 0.01} 381.533     1
+257 bright     block           (106, -8)  13969 {'survey': 0.38, 'bright': 56.67, 'polarized': 0.3} 149.132     1
+258 polarized  block           (126, 64)   9675 {'survey': 42.83, 'bright': 1.28, 'polarized': 0.13} 33.461     2
+259 survey     block          (566, 383)   6497 {'survey': 2.23, 'bright': 3.46, 'polarized': 39.79}  11.5     2
+260 polarized  line          (1062, 409)   6389 {'survey': 4.31, 'bright': 0.13, 'polarized': 71.9} 16.682     1
+261 survey     block          (215, 401)   3606 {'survey': 40.28, 'bright': 0.39, 'polarized': 0.58} 69.448     1
+262 survey     line           (581, 138)   3289 {'survey': 56.08, 'bright': 0.0, 'polarized': 2.39} 23.464     1
+263 bright     block          (594, 321)   1384 {'survey': 17.45, 'bright': 52.11, 'polarized': 1.61} 2.986     1
+264 polarized  block          (514, 500)   5076 {'survey': 2.11, 'bright': 4.29, 'polarized': 78.57} 18.315     2
+265 survey     block          (754, 104)   2939 {'survey': 56.38, 'bright': 0.43, 'polarized': 0.72} 78.306     1
+266 bright     line          (1106, 335)   3375 {'survey': 4.88, 'bright': 58.54, 'polarized': 1.35} 11.996     1
+267 polarized  block        (-939, -561)   3359 {'survey': 0.24, 'bright': 0.42, 'polarized': 13.43} 31.976     1
+268 polarized  line          (215, -107)   2594 {'survey': 0.56, 'bright': 0.69, 'polarized': 84.76} 122.841     1
+269 survey     line           (508, 490)   2371 {'survey': 56.02, 'bright': 0.15, 'polarized': 0.0} 373.467     1
+270 survey     block        (-284, -113)   1306 {'survey': 52.68, 'bright': 0.67, 'polarized': 0.79} 66.684     1
+271 polarized  block        (-844, -608)   1262 {'survey': 1.13, 'bright': 1.19, 'polarized': 21.29} 17.891     1
+272 bright     line          (592, -101)   8609 {'survey': 0.83, 'bright': 57.06, 'polarized': 0.19} 68.747     2
+273 bright     line           (1096, 94)   1488 {'survey': 3.09, 'bright': 58.87, 'polarized': 0.0} 19.052     1
+274 survey     line           (110, 401)   2611 {'survey': 56.1, 'bright': 0.54, 'polarized': 0.5} 103.889     1
+275 bright     line           (1096, 83)   1506 {'survey': 4.34, 'bright': 57.97, 'polarized': 0.0} 13.357     1
+276 polarized  line          (638, -108)   5787 {'survey': 0.69, 'bright': 4.31, 'polarized': 76.13} 17.664     1
+277 bright     block          (-602, 92)   4676 {'survey': 9.79, 'bright': 67.99, 'polarized': 0.49} 6.945     1
+278 bright     line         (-379, -620)   1392 {'survey': 0.97, 'bright': 15.58, 'polarized': 1.02} 15.275     1
+279 polarized  block          (673, 624)    409 {'survey': 0.15, 'bright': 0.17, 'polarized': 11.64} 68.471     1
+280 survey     block        (-354, -369)   2066 {'survey': 18.06, 'bright': 0.51, 'polarized': 0.46} 35.412     1
+281 survey     block        (-573, -589)   4043 {'survey': 38.37, 'bright': 0.38, 'polarized': 0.35} 100.974     1
+282 bright     line           (455, 489)   2256 {'survey': 0.0, 'bright': 56.53, 'polarized': 0.85} 66.506     1
+283 polarized  block          (-32, 518)   1463 {'survey': 0.0, 'bright': 0.0, 'polarized': 13.44} 13440000.0     1
+284 survey     block        (-649, -317)   5149 {'survey': 30.16, 'bright': 3.47, 'polarized': 0.39} 8.692     1
+285 survey     block         (-339, 133)    125 {'survey': 35.57, 'bright': 0.34, 'polarized': 0.3} 104.618     2
+286 bright     block          (529, -35)   2694 {'survey': 1.53, 'bright': 48.67, 'polarized': 1.79} 27.19     1
+287 bright     block         (1000, -69)   6506 {'survey': 8.46, 'bright': 61.94, 'polarized': 0.99} 7.322     1
+288 polarized  block          (114, 112)   6579 {'survey': 0.17, 'bright': 0.16, 'polarized': 18.25} 107.353     2
+289 bright     block         (-361, 242)   2216 {'survey': 0.37, 'bright': 15.28, 'polarized': 3.28} 4.659     1
+290 survey     line           (346, 143)    279 {'survey': 51.95, 'bright': 0.36, 'polarized': 1.4} 37.107     1
+291 polarized  block            (438, 6)   5244 {'survey': 7.62, 'bright': 8.0, 'polarized': 80.26} 10.033     1
+292 polarized  block          (148, 704)   3832 {'survey': 0.36, 'bright': 0.44, 'polarized': 16.14} 36.682     1
+293 bright     block        (-654, -134)   4207 {'survey': 0.78, 'bright': 11.89, 'polarized': 0.74} 15.244     1
+294 survey     block         (431, -373)   3674 {'survey': 33.74, 'bright': 1.18, 'polarized': 1.18} 28.593     1
+295 bright     block        (-134, -387)   1120 {'survey': 0.83, 'bright': 10.6, 'polarized': 0.67} 12.771     1
+296 survey     block         (352, -211)   3645 {'survey': 41.83, 'bright': 0.08, 'polarized': 0.06} 522.875     1
+297 bright     block        (-153, -319)   1356 {'survey': 0.88, 'bright': 12.78, 'polarized': 0.88} 14.523     1
+298 bright     block         (450, -113)   1279 {'survey': 0.83, 'bright': 13.24, 'polarized': 2.39}  5.54     1
+299 survey     block        (-562, -113)   1206 {'survey': 55.54, 'bright': 0.77, 'polarized': 0.76} 72.13     1
+300 polarized  block         (-568, 379)    726 {'survey': 0.78, 'bright': 0.91, 'polarized': 16.24} 17.846     1
+301 bright     block          (576, -10)    243 {'survey': 0.32, 'bright': 58.81, 'polarized': 0.0} 183.781     1
+302 polarized  block          (349, 314)    855 {'survey': 0.4, 'bright': 0.03, 'polarized': 13.28}  33.2     1
+303 survey     block          (-534, 99)   1607 {'survey': 36.69, 'bright': 3.35, 'polarized': 0.78} 10.952     1
+304 bright     block             (63, 9)    571 {'survey': 0.5, 'bright': 82.72, 'polarized': 0.42} 165.44     1
+305 survey     block          (358, 362)   2514 {'survey': 40.52, 'bright': 0.46, 'polarized': 0.65} 62.338     1
+306 polarized  block          (129, 588)   1228 {'survey': 0.0, 'bright': 0.0, 'polarized': 24.07} 24070000.0     1
+307 survey     block         (157, -652)   2424 {'survey': 42.3, 'bright': 0.19, 'polarized': 0.19} 222.632     1
+308 polarized  block           (72, 488)    896 {'survey': 0.0, 'bright': 0.0, 'polarized': 21.44} 21440000.0     1
+309 bright     line           (24, -426)    249 {'survey': 0.92, 'bright': 12.25, 'polarized': 0.88} 13.315     1
+310 polarized  block          (563, 625)    617 {'survey': 0.04, 'bright': 0.04, 'polarized': 10.9} 272.5     1
+311 polarized  block         (489, -579)    161 {'survey': 0.06, 'bright': 0.06, 'polarized': 10.16} 169.333     1
+312 bright     block          (1139, 48)    666 {'survey': 0.0, 'bright': 58.69, 'polarized': 3.68} 15.948     1
+313 bright     block        (-674, -372)    433 {'survey': 0.43, 'bright': 10.27, 'polarized': 1.36} 7.551     1
+314 polarized  block         (-562, 445)    920 {'survey': 0.26, 'bright': 0.28, 'polarized': 15.39} 54.964     1
+315 polarized  block         (-124, 456)    425 {'survey': 0.21, 'bright': 0.25, 'polarized': 11.11} 44.44     1
+316 polarized  block         (-348, 368)    319 {'survey': 0.16, 'bright': 0.46, 'polarized': 10.63} 23.109     1
+317 bright     block           (44, 129)    351 {'survey': 23.38, 'bright': 88.51, 'polarized': 0.0} 3.786     1
+318 polarized  block         (383, -456)     81 {'survey': 0.35, 'bright': 0.35, 'polarized': 11.29} 32.257     1
+319 polarized  block         (429, -528)     93 {'survey': 0.57, 'bright': 0.57, 'polarized': 11.89} 20.86     1
+320 survey     block          (447, 142)     94 {'survey': 57.87, 'bright': 3.14, 'polarized': 10.39}  5.57     1
+321 polarized  block         (386, -467)     76 {'survey': 0.5, 'bright': 0.5, 'polarized': 11.16} 22.32     1
+322 polarized  block         (468, -571)    114 {'survey': 0.61, 'bright': 0.61, 'polarized': 10.98}  18.0     1
+323 survey     block          (89, -478)    140 {'survey': 25.66, 'bright': 2.63, 'polarized': 1.89} 9.757     1
+324 survey     line         (-402, -492)    279 {'survey': 29.95, 'bright': 0.0, 'polarized': 0.0} 29950000.0     1
+325 polarized  block          (172, 691)     90 {'survey': 1.41, 'bright': 1.41, 'polarized': 10.38} 7.362     1
+326 polarized  block         (371, -442)     96 {'survey': 1.16, 'bright': 1.1, 'polarized': 12.66} 10.914     1
+327 polarized  block          (-85, 525)     61 {'survey': 0.0, 'bright': 0.0, 'polarized': 11.12} 11120000.0     1
+[  95.165] Map: G:\Revisit\Geo\geodeworks-prototype\runs\20260926-001806-map-slide\map.png
+[  95.167] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260926-001806-map-slide

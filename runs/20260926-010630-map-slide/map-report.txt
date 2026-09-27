@@ -1,0 +1,45 @@
+M2 slide map report
+
+Stops: 16 (Survey), slide coverage 82% of the canvas
+Stitching: 8 overlapping pairs registered; residual after least squares median 1.92 px, max 3.49 px; tracked positions moved by median 2.5 px, max 31.2 px
+Imperfections found: 33  by mode: {'survey': 15, 'bright': 4, 'survey?': 3, 'polarized': 7, 'faded?': 4}  (+ 7 floating specks, not counted)
+  minimap in survey: 16 dots, 15 matched to a found object, 1 with nothing found nearby
+  minimap in bright: 5 dots, 4 matched to a found object, 1 with nothing found nearby
+  minimap in polarized: 7 dots, 7 matched to a found object, 0 with nothing found nearby
+  found objects with no minimap dot nearby: 7
+Survey-only look (full contrast vs faded) agrees with the minimap mode for 77% of matched objects
+
+ id mode       kind     S (slide px)   area     dE   tex look   dot_px views
+  1 survey     block      (283, 265)   4258  63.25   4.6 full      9.1     1
+  2 survey     block     (-321, 288)   4575  55.89  4.44 full     34.2     2
+  3 survey     block     (250, -326)   7615  44.08  4.41 full     24.0     2
+  4 bright     block      (234, 159)   4286  24.13   1.3 faded    14.4     2
+  5 survey?    block    (-341, -236)  10559  41.92   4.1 full     None     2
+  6 bright     block     (-181, 308)   4076  21.28  1.47 faded    16.0     3
+  7 survey     block    (-304, -332)   4439  55.05  4.14 full     27.8     3
+  8 survey     block     (-357, 199)   6554  34.76  3.98 faded    23.0     2
+  9 survey     block      (152, 197)   4520  50.79  4.17 full     12.8     2
+ 10 survey     block    (-136, -320)   4240  54.41  4.52 full     13.0     2
+ 11 survey     block     (169, -364)   4355  52.14  4.33 full      8.0     3
+ 12 survey     block    (-367, -150)   3875  49.01  3.73 faded    39.8     2
+ 13 polarized  line       (-754, 16)   1890   33.6  2.02 faded    18.2     3
+ 14 polarized  line      (-865, -58)   1415   33.6  2.02 faded    16.5     3
+ 15 polarized  line     (-486, -180)   1656   33.6  2.02 faded    40.0     3
+ 16 polarized  line      (-640, -53)   1298   33.6  2.02 faded    39.9     3
+ 17 faded?     line     (-613, -162)    493   33.6  2.02 faded    None     3
+ 18 survey     block       (96, 346)   4173   52.7  3.87 faded     5.0     3
+ 19 survey?    block      (457, 215)   4283  45.97  4.02 full     None     2
+ 20 survey     block      (-401, 88)   5290  41.95   3.9 faded    16.3     3
+ 21 survey     block     (-366, -58)   4236  61.61  3.74 faded    13.5     3
+ 22 bright     block     (469, -180)   4436  25.61  1.25 faded    18.6     2
+ 23 faded?     block     (-42, -360)   4299   53.2  3.94 faded    None     3
+ 24 survey     block      (475, 143)   4546   44.9  4.38 full     34.0     3
+ 25 bright     block      (422, -64)   3897  23.44   1.7 faded     8.8     3
+ 26 survey     block     (-57, -446)   6801  39.24  3.86 faded    38.0     4
+ 27 survey     block       (439, 16)   4231  51.52   4.3 full      8.5     3
+ 28 faded?     line        (95, 575)   1238  33.83  2.14 faded    None     4
+ 29 polarized  line         (4, 502)    698  33.83  2.14 faded    13.6     4
+ 30 polarized  line       (179, 634)    439  33.83  2.14 faded    49.2     4
+ 31 faded?     line       (-56, 490)    410  33.83  2.14 faded    None     4
+ 32 polarized  line       (-98, 456)    390  33.83  2.14 faded     8.4     4
+ 33 survey?    block     (475, -122)    332  31.97  4.54 full     None     1

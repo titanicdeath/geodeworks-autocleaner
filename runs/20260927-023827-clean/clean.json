@@ -1,0 +1,36 @@
+{
+  "modes": [
+    "bright"
+  ],
+  "results": {},
+  "stopped": "Mode buttons not recognised; not clicking anything.",
+  "seconds": 0.0,
+  "zoom": {
+    "survey": {
+      "zoom": 1.0,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": true
+    },
+    "bright": {
+      "zoom": 1.4,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    },
+    "polarized": {
+      "zoom": 2.08,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    }
+  },
+  "clicks": [],
+  "pans": []
+}

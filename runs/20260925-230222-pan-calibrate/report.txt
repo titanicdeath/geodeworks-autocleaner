@@ -1,0 +1,4 @@
+M1 pan calibration report
+
+Latency: view settled 52.8 ms after a held jump (probes: [50.8, 52.8]), settle used 0.11s
+STOPPED EARLY: Drags are inconsistent (scatter 5%, cross-axis coupling 0.10; a good run is under 10% and 0.10). The game is probably not seeing the cursor where the tool thinks it is - an input timing problem. Calibration NOT saved.

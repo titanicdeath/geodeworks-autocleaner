@@ -1,0 +1,2450 @@
+{
+  "modes": [
+    "survey",
+    "bright",
+    "polarized"
+  ],
+  "limit_xy": [
+    782.2,
+    765.0
+  ],
+  "spacing": 540.0,
+  "ring_scale": [
+    26.1,
+    25.526
+  ],
+  "minimap": [
+    1855.5,
+    134.5,
+    49.78463363647461
+  ],
+  "crop_origin": [
+    489,
+    57
+  ],
+  "crop_layout": {
+    "scope": [
+      470.4999999999885,
+      470.4463501838587,
+      466.23343294363366
+    ],
+    "minimap": null,
+    "size": [
+      940,
+      940
+    ]
+  },
+  "stops": [
+    {
+      "i": 0,
+      "target": [
+        -762.2,
+        -745.0
+      ],
+      "V": [
+        -767.1,
+        -737.4
+      ],
+      "pan": {
+        "target": [
+          -762.2,
+          -745.0
+        ],
+        "V": [
+          -767.1,
+          -737.4
+        ],
+        "error": 9.05,
+        "drags": 4,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop00-survey.jpg",
+        "bright": "frames/stop00-bright.jpg",
+        "polarized": "frames/stop00-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1826.11,
+          105.61
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 1,
+      "target": [
+        -254.06666666666666,
+        -745.0
+      ],
+      "V": [
+        -254.1,
+        -745.0
+      ],
+      "pan": {
+        "target": [
+          -254.06666666666666,
+          -745.0
+        ],
+        "V": [
+          -254.1,
+          -745.0
+        ],
+        "error": 0.0,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop01-polarized.jpg",
+        "bright": "frames/stop01-bright.jpg",
+        "survey": "frames/stop01-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1835.55,
+          105.54
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 2,
+      "target": [
+        254.06666666666672,
+        -745.0
+      ],
+      "V": [
+        256.6,
+        -745.5
+      ],
+      "pan": {
+        "target": [
+          254.06666666666672,
+          -745.0
+        ],
+        "V": [
+          256.6,
+          -745.5
+        ],
+        "error": 2.56,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop02-survey.jpg",
+        "bright": "frames/stop02-bright.jpg",
+        "polarized": "frames/stop02-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1865.09,
+          105.33
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 3,
+      "target": [
+        762.2,
+        -745.0
+      ],
+      "V": [
+        256.6,
+        -745.5
+      ],
+      "pan": {
+        "target": [
+          762.2,
+          -745.0
+        ],
+        "V": [
+          256.6,
+          -745.5
+        ],
+        "error": 505.62,
+        "drags": 1,
+        "stuck": true
+      },
+      "frames": {
+        "polarized": "frames/stop03-polarized.jpg",
+        "bright": "frames/stop03-bright.jpg",
+        "survey": "frames/stop03-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1872.98,
+          105.37
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 4,
+      "target": [
+        762.2,
+        -248.33333333333331
+      ],
+      "V": [
+        762.8,
+        -251.0
+      ],
+      "pan": {
+        "target": [
+          762.2,
+          -248.33333333333331
+        ],
+        "V": [
+          762.8,
+          -251.0
+        ],
+        "error": 2.75,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop04-survey.jpg",
+        "bright": "frames/stop04-bright.jpg",
+        "polarized": "frames/stop04-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1884.83,
+          124.54
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 5,
+      "target": [
+        254.06666666666672,
+        -248.33333333333331
+      ],
+      "V": [
+        253.7,
+        -247.2
+      ],
+      "pan": {
+        "target": [
+          254.06666666666672,
+          -248.33333333333331
+        ],
+        "V": [
+          253.7,
+          -247.2
+        ],
+        "error": 1.22,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop05-polarized.jpg",
+        "bright": "frames/stop05-bright.jpg",
+        "survey": "frames/stop05-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1875.5,
+          124.49
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 6,
+      "target": [
+        -254.06666666666666,
+        -248.33333333333331
+      ],
+      "V": [
+        -261.6,
+        -255.4
+      ],
+      "pan": {
+        "target": [
+          -254.06666666666666,
+          -248.33333333333331
+        ],
+        "V": [
+          -261.6,
+          -255.4
+        ],
+        "error": 10.33,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop06-survey.jpg",
+        "bright": "frames/stop06-bright.jpg",
+        "polarized": "frames/stop06-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1845.48,
+          124.49
+        ],
+        "bright": [
+          1841.03,
+          126.88
+        ],
+        "polarized": null
+      },
+      "ring_spread": 5.05
+    },
+    {
+      "i": 7,
+      "target": [
+        -762.2,
+        -248.33333333333331
+      ],
+      "V": [
+        -763.5,
+        -250.5
+      ],
+      "pan": {
+        "target": [
+          -762.2,
+          -248.33333333333331
+        ],
+        "V": [
+          -763.5,
+          -250.5
+        ],
+        "error": 2.54,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop07-polarized.jpg",
+        "bright": "frames/stop07-bright.jpg",
+        "survey": "frames/stop07-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1834.55,
+          127.14
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 8,
+      "target": [
+        -762.2,
+        248.33333333333337
+      ],
+      "V": [
+        -762.3,
+        249.5
+      ],
+      "pan": {
+        "target": [
+          -762.2,
+          248.33333333333337
+        ],
+        "V": [
+          -762.3,
+          249.5
+        ],
+        "error": 1.18,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop08-survey.jpg",
+        "bright": "frames/stop08-bright.jpg",
+        "polarized": "frames/stop08-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1826.18,
+          144.48
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 9,
+      "target": [
+        -254.06666666666666,
+        248.33333333333337
+      ],
+      "V": [
+        -259.4,
+        249.4
+      ],
+      "pan": {
+        "target": [
+          -254.06666666666666,
+          248.33333333333337
+        ],
+        "V": [
+          -259.4,
+          249.4
+        ],
+        "error": 5.44,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop09-polarized.jpg",
+        "bright": "frames/stop09-bright.jpg",
+        "survey": "frames/stop09-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1835.5,
+          144.51
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 10,
+      "target": [
+        254.06666666666672,
+        248.33333333333337
+      ],
+      "V": [
+        252.8,
+        249.8
+      ],
+      "pan": {
+        "target": [
+          254.06666666666672,
+          248.33333333333337
+        ],
+        "V": [
+          252.8,
+          249.8
+        ],
+        "error": 1.93,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop10-survey.jpg",
+        "bright": "frames/stop10-bright.jpg",
+        "polarized": "frames/stop10-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1865.53,
+          144.52
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 11,
+      "target": [
+        762.2,
+        248.33333333333337
+      ],
+      "V": [
+        761.5,
+        248.6
+      ],
+      "pan": {
+        "target": [
+          762.2,
+          248.33333333333337
+        ],
+        "V": [
+          761.5,
+          248.6
+        ],
+        "error": 0.75,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop11-polarized.jpg",
+        "bright": "frames/stop11-bright.jpg",
+        "survey": "frames/stop11-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1874.48,
+          144.52
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 12,
+      "target": [
+        762.2,
+        745.0
+      ],
+      "V": [
+        755.2,
+        738.8
+      ],
+      "pan": {
+        "target": [
+          762.2,
+          745.0
+        ],
+        "V": [
+          755.2,
+          738.8
+        ],
+        "error": 9.36,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop12-survey.jpg",
+        "bright": "frames/stop12-bright.jpg",
+        "polarized": "frames/stop12-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1884.47,
+          163.47
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 13,
+      "target": [
+        254.06666666666672,
+        745.0
+      ],
+      "V": [
+        254.1,
+        745.0
+      ],
+      "pan": {
+        "target": [
+          254.06666666666672,
+          745.0
+        ],
+        "V": [
+          254.1,
+          745.0
+        ],
+        "error": 0.0,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop13-polarized.jpg",
+        "bright": "frames/stop13-bright.jpg",
+        "survey": "frames/stop13-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1873.89,
+          164.38
+        ]
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 14,
+      "target": [
+        -254.06666666666666,
+        745.0
+      ],
+      "V": [
+        -259.5,
+        747.8
+      ],
+      "pan": {
+        "target": [
+          -254.06666666666666,
+          745.0
+        ],
+        "V": [
+          -259.5,
+          747.8
+        ],
+        "error": 6.11,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "survey": "frames/stop14-survey.jpg",
+        "bright": "frames/stop14-bright.jpg",
+        "polarized": "frames/stop14-polarized.jpg"
+      },
+      "rings": {
+        "survey": [
+          1845.51,
+          163.88
+        ],
+        "bright": null,
+        "polarized": null
+      },
+      "ring_spread": 0.0
+    },
+    {
+      "i": 15,
+      "target": [
+        -762.2,
+        745.0
+      ],
+      "V": [
+        -762.2,
+        745.0
+      ],
+      "pan": {
+        "target": [
+          -762.2,
+          745.0
+        ],
+        "V": [
+          -762.2,
+          745.0
+        ],
+        "error": 0.0,
+        "drags": 2,
+        "stuck": false
+      },
+      "frames": {
+        "polarized": "frames/stop15-polarized.jpg",
+        "bright": "frames/stop15-bright.jpg",
+        "survey": "frames/stop15-survey.jpg"
+      },
+      "rings": {
+        "polarized": null,
+        "bright": null,
+        "survey": [
+          1834.51,
+          164.46
+        ]
+      },
+      "ring_spread": 0.0
+    }
+  ],
+  "minimap_dots": {
+    "survey": [
+      [
+        1851.0,
+        109.0
+      ],
+      [
+        1840.36,
+        112.36
+      ],
+      [
+        1877.0,
+        117.8
+      ],
+      [
+        1879.17,
+        121.7
+      ],
+      [
+        1833.75,
+        120.0
+      ],
+      [
+        1863.81,
+        121.81
+      ],
+      [
+        1829.0,
+        121.25
+      ],
+      [
+        1870.59,
+        124.82
+      ],
+      [
+        1870.59,
+        124.82
+      ],
+      [
+        1834.36,
+        128.04
+      ],
+      [
+        1872.0,
+        134.0
+      ],
+      [
+        1837.65,
+        144.24
+      ],
+      [
+        1837.65,
+        144.24
+      ],
+      [
+        1867.81,
+        144.81
+      ],
+      [
+        1875.71,
+        148.02
+      ],
+      [
+        1875.71,
+        148.02
+      ],
+      [
+        1859.0,
+        149.0
+      ],
+      [
+        1838.0,
+        157.0
+      ],
+      [
+        1854.0,
+        163.0
+      ]
+    ],
+    "bright": [
+      [
+        1859.0,
+        108.0
+      ],
+      [
+        1849.0,
+        116.0
+      ],
+      [
+        1832.0,
+        120.0
+      ],
+      [
+        1838.0,
+        136.0
+      ],
+      [
+        1872.0,
+        136.0
+      ],
+      [
+        1832.0,
+        146.0
+      ],
+      [
+        1872.0,
+        146.0
+      ],
+      [
+        1852.0,
+        160.0
+      ]
+    ],
+    "polarized": [
+      [
+        1856.0,
+        137.0
+      ],
+      [
+        1866.72,
+        137.26
+      ],
+      [
+        1866.72,
+        137.26
+      ],
+      [
+        1869.88,
+        144.33
+      ],
+      [
+        1868.0,
+        151.0
+      ]
+    ]
+  },
+  "switch_ms": [
+    216,
+    215,
+    632,
+    864,
+    871,
+    883,
+    212,
+    943,
+    959,
+    1174,
+    1173,
+    1083,
+    1165,
+    737,
+    1062,
+    1180,
+    771,
+    770,
+    1133,
+    1221,
+    1111,
+    1109,
+    1111,
+    889,
+    1123,
+    1001,
+    863,
+    748,
+    964,
+    645,
+    559,
+    787
+  ],
+  "calibration": "G:\\Revisit\\Geo\\geodeworks-prototype\\pan_calibration.json",
+  "seconds": 78.3,
+  "pan_history": [
+    {
+      "n": 1,
+      "tag": "stop0",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        418.0
+      ],
+      "predicted": [
+        416.6,
+        406.7
+      ],
+      "shift": [
+        383.0,
+        387.0
+      ],
+      "score": 0.583,
+      "source": "image",
+      "V_before": [
+        1.0,
+        0.1
+      ],
+      "V": [
+        -390.8,
+        -392.5
+      ],
+      "V_chain": [
+        -381.9,
+        -386.9
+      ],
+      "V_ring": [
+        -417.4,
+        -409.1
+      ],
+      "ring": [
+        1839.51,
+        118.47
+      ],
+      "ring_before": [
+        1855.54,
+        134.5
+      ],
+      "anchor": [
+        749.5,
+        318.5
+      ],
+      "end": [
+        1169.5,
+        736.4
+      ],
+      "events": 106,
+      "held_ms": 882
+    },
+    {
+      "n": 2,
+      "tag": "stop0",
+      "style": "v800",
+      "cursor": [
+        374.5,
+        362.2
+      ],
+      "predicted": [
+        371.4,
+        352.5
+      ],
+      "shift": [
+        370.0,
+        391.0
+      ],
+      "score": 0.527,
+      "source": "image",
+      "V_before": [
+        -390.8,
+        -392.5
+      ],
+      "V": [
+        -766.0,
+        -778.8
+      ],
+      "V_chain": [
+        -760.8,
+        -783.5
+      ],
+      "V_ring": [
+        -781.8,
+        -764.7
+      ],
+      "ring": [
+        1825.55,
+        104.54
+      ],
+      "ring_before": [
+        1839.51,
+        118.47
+      ],
+      "anchor": [
+        772.2,
+        346.3
+      ],
+      "end": [
+        1146.8,
+        708.6
+      ],
+      "events": 94,
+      "held_ms": 819
+    },
+    {
+      "n": 3,
+      "tag": "stop0",
+      "style": "v800",
+      "cursor": [
+        -3.6,
+        -34.8
+      ],
+      "predicted": [
+        -3.8,
+        -33.8
+      ],
+      "shift": [
+        -1.8,
+        -41.4
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        -766.0,
+        -778.8
+      ],
+      "V": [
+        -780.0,
+        -723.3
+      ],
+      "V_chain": [
+        -764.3,
+        -737.4
+      ],
+      "V_ring": [
+        -780.0,
+        -723.3
+      ],
+      "ring": [
+        1825.61,
+        106.16
+      ],
+      "ring_before": [
+        1825.55,
+        104.54
+      ],
+      "anchor": [
+        961.3,
+        544.9
+      ],
+      "end": [
+        957.7,
+        510.0
+      ],
+      "events": 9,
+      "held_ms": 395
+    },
+    {
+      "n": 4,
+      "tag": "stop0",
+      "style": "v800",
+      "cursor": [
+        -18.4,
+        22.5
+      ],
+      "predicted": [
+        -17.8,
+        21.7
+      ],
+      "shift": [
+        -12.9,
+        14.1
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        -780.0,
+        -723.3
+      ],
+      "V": [
+        -767.1,
+        -737.4
+      ],
+      "V_chain": [
+        -767.1,
+        -737.4
+      ],
+      "V_ring": [
+        -767.1,
+        -737.4
+      ],
+      "ring": [
+        1826.11,
+        105.61
+      ],
+      "ring_before": [
+        1825.61,
+        106.16
+      ],
+      "anchor": [
+        968.7,
+        516.2
+      ],
+      "end": [
+        950.3,
+        538.7
+      ],
+      "events": 6,
+      "held_ms": 383
+    },
+    {
+      "n": 5,
+      "tag": "stop1",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        7.6
+      ],
+      "predicted": [
+        -412.3,
+        6.1
+      ],
+      "shift": [
+        -412.3,
+        6.1
+      ],
+      "score": 0.0,
+      "source": "model",
+      "V_before": [
+        -767.1,
+        -737.4
+      ],
+      "V": [
+        -354.8,
+        -743.5
+      ],
+      "V_chain": [
+        -354.8,
+        -743.5
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1169.5,
+        523.6
+      ],
+      "end": [
+        749.5,
+        531.3
+      ],
+      "events": 105,
+      "held_ms": 877
+    },
+    {
+      "n": 6,
+      "tag": "stop1",
+      "style": "v800",
+      "cursor": [
+        -102.6,
+        1.9
+      ],
+      "predicted": [
+        -100.7,
+        1.5
+      ],
+      "shift": [
+        -100.7,
+        1.5
+      ],
+      "score": 0.0,
+      "source": "model",
+      "V_before": [
+        -354.8,
+        -743.5
+      ],
+      "V": [
+        -254.1,
+        -745.0
+      ],
+      "V_chain": [
+        -254.1,
+        -745.0
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1010.8,
+        526.5
+      ],
+      "end": [
+        908.2,
+        528.4
+      ],
+      "events": 26,
+      "held_ms": 478
+    },
+    {
+      "n": 7,
+      "tag": "stop2",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        1.3
+      ],
+      "predicted": [
+        -412.4,
+        0.0
+      ],
+      "shift": [
+        -416.4,
+        1.6
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        -254.1,
+        -745.0
+      ],
+      "V": [
+        -104.4,
+        -740.8
+      ],
+      "V_chain": [
+        162.3,
+        -746.6
+      ],
+      "V_ring": [
+        -104.4,
+        -740.8
+      ],
+      "ring": [
+        1851.5,
+        105.48
+      ],
+      "ring_before": [
+        1835.55,
+        105.54
+      ],
+      "anchor": [
+        1169.5,
+        526.8
+      ],
+      "end": [
+        749.5,
+        528.1
+      ],
+      "events": 105,
+      "held_ms": 875
+    },
+    {
+      "n": 8,
+      "tag": "stop2",
+      "style": "v800",
+      "cursor": [
+        -365.1,
+        5.5
+      ],
+      "predicted": [
+        -358.5,
+        4.2
+      ],
+      "shift": [
+        -363.1,
+        5.0
+      ],
+      "score": 0.704,
+      "source": "image",
+      "V_before": [
+        -104.4,
+        -740.8
+      ],
+      "V": [
+        256.6,
+        -745.5
+      ],
+      "V_chain": [
+        258.7,
+        -745.8
+      ],
+      "V_ring": [
+        250.2,
+        -744.6
+      ],
+      "ring": [
+        1865.09,
+        105.33
+      ],
+      "ring_before": [
+        1851.5,
+        105.48
+      ],
+      "anchor": [
+        1142.1,
+        524.7
+      ],
+      "end": [
+        776.9,
+        530.2
+      ],
+      "events": 92,
+      "held_ms": 813
+    },
+    {
+      "n": 9,
+      "tag": "stop3",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        0.9
+      ],
+      "predicted": [
+        -412.4,
+        -0.4
+      ],
+      "shift": [
+        0.0,
+        -0.0
+      ],
+      "score": 0.986,
+      "source": "image",
+      "V_before": [
+        256.6,
+        -745.5
+      ],
+      "V": [
+        256.6,
+        -745.5
+      ],
+      "V_chain": [
+        256.6,
+        -745.5
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1169.5,
+        527.0
+      ],
+      "end": [
+        749.5,
+        527.9
+      ],
+      "events": 105,
+      "held_ms": 876
+    },
+    {
+      "n": 10,
+      "tag": "stop4",
+      "style": "v800",
+      "cursor": [
+        -419.0,
+        -420.0
+      ],
+      "predicted": [
+        -415.7,
+        -408.7
+      ],
+      "shift": [
+        -323.7,
+        -401.2
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        256.6,
+        -745.5
+      ],
+      "V": [
+        780.0,
+        -342.5
+      ],
+      "V_chain": [
+        580.3,
+        -344.3
+      ],
+      "V_ring": [
+        780.0,
+        -342.5
+      ],
+      "ring": [
+        1885.39,
+        121.08
+      ],
+      "ring_before": [
+        1872.98,
+        105.37
+      ],
+      "anchor": [
+        1169.0,
+        737.4
+      ],
+      "end": [
+        750.0,
+        317.4
+      ],
+      "events": 105,
+      "held_ms": 876
+    },
+    {
+      "n": 11,
+      "tag": "stop4",
+      "style": "v800",
+      "cursor": [
+        19.1,
+        -97.1
+      ],
+      "predicted": [
+        17.8,
+        -94.1
+      ],
+      "shift": [
+        18.1,
+        -92.5
+      ],
+      "score": 0.717,
+      "source": "image",
+      "V_before": [
+        780.0,
+        -342.5
+      ],
+      "V": [
+        762.8,
+        -251.0
+      ],
+      "V_chain": [
+        761.9,
+        -249.9
+      ],
+      "V_ring": [
+        765.5,
+        -254.3
+      ],
+      "ring": [
+        1884.83,
+        124.54
+      ],
+      "ring_before": [
+        1885.39,
+        121.08
+      ],
+      "anchor": [
+        949.9,
+        576.0
+      ],
+      "end": [
+        969.1,
+        478.9
+      ],
+      "events": 25,
+      "held_ms": 473
+    },
+    {
+      "n": 12,
+      "tag": "stop5",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        -3.6
+      ],
+      "predicted": [
+        412.4,
+        -2.2
+      ],
+      "shift": [
+        412.8,
+        -2.9
+      ],
+      "score": 0.771,
+      "source": "image",
+      "V_before": [
+        762.8,
+        -251.0
+      ],
+      "V": [
+        350.0,
+        -248.1
+      ],
+      "V_chain": [
+        350.0,
+        -248.1
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        749.5,
+        529.2
+      ],
+      "end": [
+        1169.5,
+        525.7
+      ],
+      "events": 106,
+      "held_ms": 877
+    },
+    {
+      "n": 13,
+      "tag": "stop5",
+      "style": "v800",
+      "cursor": [
+        97.8,
+        -0.1
+      ],
+      "predicted": [
+        96.0,
+        0.2
+      ],
+      "shift": [
+        96.3,
+        -1.0
+      ],
+      "score": 0.84,
+      "source": "image",
+      "V_before": [
+        350.0,
+        -248.1
+      ],
+      "V": [
+        253.7,
+        -247.2
+      ],
+      "V_chain": [
+        253.7,
+        -247.2
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        910.6,
+        527.5
+      ],
+      "end": [
+        1008.4,
+        527.4
+      ],
+      "events": 25,
+      "held_ms": 480
+    },
+    {
+      "n": 14,
+      "tag": "stop6",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        -0.4
+      ],
+      "predicted": [
+        412.4,
+        0.9
+      ],
+      "shift": [
+        418.1,
+        -1.6
+      ],
+      "score": 0.53,
+      "source": "image",
+      "V_before": [
+        253.7,
+        -247.2
+      ],
+      "V": [
+        104.8,
+        -243.7
+      ],
+      "V_chain": [
+        -164.4,
+        -245.5
+      ],
+      "V_ring": [
+        104.8,
+        -243.7
+      ],
+      "ring": [
+        1859.52,
+        124.95
+      ],
+      "ring_before": [
+        1875.5,
+        124.49
+      ],
+      "anchor": [
+        749.5,
+        527.6
+      ],
+      "end": [
+        1169.5,
+        527.3
+      ],
+      "events": 106,
+      "held_ms": 877,
+      "resynced_from": [
+        -97.1,
+        -245.1
+      ]
+    },
+    {
+      "n": 15,
+      "tag": "stop6",
+      "style": "v800",
+      "cursor": [
+        365.5,
+        3.6
+      ],
+      "predicted": [
+        358.9,
+        4.6
+      ],
+      "shift": [
+        366.4,
+        11.7
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        104.8,
+        -243.7
+      ],
+      "V": [
+        -261.6,
+        -255.4
+      ],
+      "V_chain": [
+        -261.6,
+        -255.4
+      ],
+      "V_ring": [
+        -261.6,
+        -255.4
+      ],
+      "ring": [
+        1845.48,
+        124.49
+      ],
+      "ring_before": [
+        1859.52,
+        124.95
+      ],
+      "anchor": [
+        776.8,
+        525.7
+      ],
+      "end": [
+        1142.2,
+        529.2
+      ],
+      "events": 92,
+      "held_ms": 808
+    },
+    {
+      "n": 16,
+      "tag": "stop7",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        -7.4
+      ],
+      "predicted": [
+        412.3,
+        -5.8
+      ],
+      "shift": [
+        334.0,
+        97.0
+      ],
+      "score": 0.636,
+      "source": "image",
+      "V_before": [
+        -261.6,
+        -255.4
+      ],
+      "V": [
+        -595.6,
+        -352.4
+      ],
+      "V_chain": [
+        -595.6,
+        -352.4
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        749.5,
+        531.1
+      ],
+      "end": [
+        1169.5,
+        523.8
+      ],
+      "events": 106,
+      "held_ms": 880
+    },
+    {
+      "n": 17,
+      "tag": "stop7",
+      "style": "v800",
+      "cursor": [
+        170.8,
+        -107.9
+      ],
+      "predicted": [
+        166.6,
+        -104.1
+      ],
+      "shift": [
+        167.9,
+        -101.9
+      ],
+      "score": 0.472,
+      "source": "image",
+      "V_before": [
+        -595.6,
+        -352.4
+      ],
+      "V": [
+        -763.5,
+        -250.5
+      ],
+      "V_chain": [
+        -763.5,
+        -250.5
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        874.1,
+        581.4
+      ],
+      "end": [
+        1044.9,
+        473.5
+      ],
+      "events": 43,
+      "held_ms": 565
+    },
+    {
+      "n": 18,
+      "tag": "stop8",
+      "style": "v800",
+      "cursor": [
+        3.3,
+        -420.0
+      ],
+      "predicted": [
+        -1.0,
+        -407.4
+      ],
+      "shift": [
+        4.6,
+        -390.3
+      ],
+      "score": 0.515,
+      "source": "image",
+      "V_before": [
+        -763.5,
+        -250.5
+      ],
+      "V": [
+        -548.3,
+        214.4
+      ],
+      "V_chain": [
+        -768.1,
+        139.8
+      ],
+      "V_ring": [
+        -548.3,
+        214.4
+      ],
+      "ring": [
+        1834.49,
+        142.9
+      ],
+      "ring_before": [
+        1834.55,
+        127.14
+      ],
+      "anchor": [
+        957.9,
+        737.4
+      ],
+      "end": [
+        961.1,
+        317.4
+      ],
+      "events": 105,
+      "held_ms": 873,
+      "resynced_from": [
+        -713.2,
+        158.4
+      ]
+    },
+    {
+      "n": 19,
+      "tag": "stop8",
+      "style": "v800",
+      "cursor": [
+        218.2,
+        -35.7
+      ],
+      "predicted": [
+        213.9,
+        -34.0
+      ],
+      "shift": [
+        213.0,
+        -33.4
+      ],
+      "score": 0.777,
+      "source": "image",
+      "V_before": [
+        -548.3,
+        214.4
+      ],
+      "V": [
+        -762.3,
+        249.5
+      ],
+      "V_chain": [
+        -761.3,
+        247.7
+      ],
+      "V_ring": [
+        -765.1,
+        254.8
+      ],
+      "ring": [
+        1826.18,
+        144.48
+      ],
+      "ring_before": [
+        1834.49,
+        142.9
+      ],
+      "anchor": [
+        850.4,
+        545.3
+      ],
+      "end": [
+        1068.6,
+        509.6
+      ],
+      "events": 55,
+      "held_ms": 624
+    },
+    {
+      "n": 20,
+      "tag": "stop9",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        2.3
+      ],
+      "predicted": [
+        -412.4,
+        1.0
+      ],
+      "shift": [
+        -422.2,
+        0.2
+      ],
+      "score": 0.626,
+      "source": "image",
+      "V_before": [
+        -762.3,
+        249.5
+      ],
+      "V": [
+        -340.0,
+        249.3
+      ],
+      "V_chain": [
+        -340.0,
+        249.3
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1169.5,
+        526.3
+      ],
+      "end": [
+        749.5,
+        528.6
+      ],
+      "events": 105,
+      "held_ms": 880
+    },
+    {
+      "n": 21,
+      "tag": "stop9",
+      "style": "v800",
+      "cursor": [
+        -87.6,
+        1.2
+      ],
+      "predicted": [
+        -86.0,
+        0.9
+      ],
+      "shift": [
+        -80.6,
+        -0.1
+      ],
+      "score": 0.873,
+      "source": "image",
+      "V_before": [
+        -340.0,
+        249.3
+      ],
+      "V": [
+        -259.4,
+        249.4
+      ],
+      "V_chain": [
+        -259.4,
+        249.4
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1003.3,
+        526.8
+      ],
+      "end": [
+        915.7,
+        528.1
+      ],
+      "events": 22,
+      "held_ms": 460
+    },
+    {
+      "n": 22,
+      "tag": "stop10",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        2.2
+      ],
+      "predicted": [
+        -412.4,
+        0.8
+      ],
+      "shift": [
+        -419.1,
+        0.9
+      ],
+      "score": 0.604,
+      "source": "image",
+      "V_before": [
+        -259.4,
+        249.4
+      ],
+      "V": [
+        -105.5,
+        246.1
+      ],
+      "V_chain": [
+        159.7,
+        248.4
+      ],
+      "V_ring": [
+        -105.5,
+        246.1
+      ],
+      "ring": [
+        1851.46,
+        144.14
+      ],
+      "ring_before": [
+        1835.5,
+        144.51
+      ],
+      "anchor": [
+        1169.5,
+        526.3
+      ],
+      "end": [
+        749.5,
+        528.6
+      ],
+      "events": 105,
+      "held_ms": 873,
+      "resynced_from": [
+        93.4,
+        247.8
+      ]
+    },
+    {
+      "n": 23,
+      "tag": "stop10",
+      "style": "v800",
+      "cursor": [
+        -366.2,
+        -1.2
+      ],
+      "predicted": [
+        -359.6,
+        -2.3
+      ],
+      "shift": [
+        -355.3,
+        -1.7
+      ],
+      "score": 0.526,
+      "source": "image",
+      "V_before": [
+        -105.5,
+        246.1
+      ],
+      "V": [
+        252.8,
+        249.8
+      ],
+      "V_chain": [
+        249.8,
+        247.8
+      ],
+      "V_ring": [
+        261.8,
+        255.7
+      ],
+      "ring": [
+        1865.53,
+        144.52
+      ],
+      "ring_before": [
+        1851.46,
+        144.14
+      ],
+      "anchor": [
+        1142.6,
+        528.0
+      ],
+      "end": [
+        776.4,
+        526.9
+      ],
+      "events": 92,
+      "held_ms": 815
+    },
+    {
+      "n": 24,
+      "tag": "stop11",
+      "style": "v800",
+      "cursor": [
+        -420.0,
+        2.6
+      ],
+      "predicted": [
+        -412.4,
+        1.2
+      ],
+      "shift": [
+        -412.4,
+        1.2
+      ],
+      "score": 0.0,
+      "source": "model",
+      "V_before": [
+        252.8,
+        249.8
+      ],
+      "V": [
+        665.2,
+        248.6
+      ],
+      "V_chain": [
+        665.2,
+        248.6
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1169.5,
+        526.2
+      ],
+      "end": [
+        749.5,
+        528.7
+      ],
+      "events": 105,
+      "held_ms": 875
+    },
+    {
+      "n": 25,
+      "tag": "stop11",
+      "style": "v800",
+      "cursor": [
+        -98.8,
+        0.6
+      ],
+      "predicted": [
+        -97.0,
+        0.3
+      ],
+      "shift": [
+        -96.3,
+        -0.0
+      ],
+      "score": 0.804,
+      "source": "image",
+      "V_before": [
+        665.2,
+        248.6
+      ],
+      "V": [
+        761.5,
+        248.6
+      ],
+      "V_chain": [
+        761.5,
+        248.6
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        1008.9,
+        527.1
+      ],
+      "end": [
+        910.1,
+        527.7
+      ],
+      "events": 25,
+      "held_ms": 481
+    },
+    {
+      "n": 26,
+      "tag": "stop12",
+      "style": "v800",
+      "cursor": [
+        3.7,
+        -420.0
+      ],
+      "predicted": [
+        -0.6,
+        -407.4
+      ],
+      "shift": [
+        -0.1,
+        -406.8
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        761.5,
+        248.6
+      ],
+      "V": [
+        495.6,
+        662.6
+      ],
+      "V_chain": [
+        761.6,
+        655.5
+      ],
+      "V_ring": [
+        495.6,
+        662.6
+      ],
+      "ring": [
+        1874.49,
+        160.46
+      ],
+      "ring_before": [
+        1874.48,
+        144.52
+      ],
+      "anchor": [
+        957.6,
+        737.4
+      ],
+      "end": [
+        961.4,
+        317.4
+      ],
+      "events": 106,
+      "held_ms": 887
+    },
+    {
+      "n": 27,
+      "tag": "stop12",
+      "style": "v800",
+      "cursor": [
+        -270.7,
+        -84.1
+      ],
+      "predicted": [
+        -266.6,
+        -82.4
+      ],
+      "shift": [
+        -259.2,
+        -76.0
+      ],
+      "score": 0.859,
+      "source": "image",
+      "V_before": [
+        495.6,
+        662.6
+      ],
+      "V": [
+        755.2,
+        738.8
+      ],
+      "V_chain": [
+        754.8,
+        738.6
+      ],
+      "V_ring": [
+        756.2,
+        739.6
+      ],
+      "ring": [
+        1884.47,
+        163.47
+      ],
+      "ring_before": [
+        1874.49,
+        160.46
+      ],
+      "anchor": [
+        1094.8,
+        569.5
+      ],
+      "end": [
+        824.2,
+        485.4
+      ],
+      "events": 68,
+      "held_ms": 688
+    },
+    {
+      "n": 28,
+      "tag": "stop13",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        -6.6
+      ],
+      "predicted": [
+        412.3,
+        -5.1
+      ],
+      "shift": [
+        334.0,
+        97.0
+      ],
+      "score": 0.636,
+      "source": "image",
+      "V_before": [
+        755.2,
+        738.8
+      ],
+      "V": [
+        421.2,
+        641.8
+      ],
+      "V_chain": [
+        421.2,
+        641.8
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        749.5,
+        530.7
+      ],
+      "end": [
+        1169.5,
+        524.2
+      ],
+      "events": 106,
+      "held_ms": 884
+    },
+    {
+      "n": 29,
+      "tag": "stop13",
+      "style": "v800",
+      "cursor": [
+        171.3,
+        -106.9
+      ],
+      "predicted": [
+        167.1,
+        -103.2
+      ],
+      "shift": [
+        167.1,
+        -103.2
+      ],
+      "score": 0.0,
+      "source": "model",
+      "V_before": [
+        421.2,
+        641.8
+      ],
+      "V": [
+        254.1,
+        745.0
+      ],
+      "V_chain": [
+        254.1,
+        745.0
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        873.9,
+        580.9
+      ],
+      "end": [
+        1045.1,
+        474.0
+      ],
+      "events": 43,
+      "held_ms": 567
+    },
+    {
+      "n": 30,
+      "tag": "stop14",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        -1.3
+      ],
+      "predicted": [
+        412.4,
+        0.0
+      ],
+      "shift": [
+        402.0,
+        -2.6
+      ],
+      "score": 0.0,
+      "source": "minimap",
+      "V_before": [
+        254.1,
+        745.0
+      ],
+      "V": [
+        78.0,
+        765.4
+      ],
+      "V_chain": [
+        -148.0,
+        747.6
+      ],
+      "V_ring": [
+        78.0,
+        765.4
+      ],
+      "ring": [
+        1858.49,
+        164.49
+      ],
+      "ring_before": [
+        1873.89,
+        164.38
+      ],
+      "anchor": [
+        749.5,
+        528.1
+      ],
+      "end": [
+        1169.5,
+        526.8
+      ],
+      "events": 105,
+      "held_ms": 876
+    },
+    {
+      "n": 31,
+      "tag": "stop14",
+      "style": "v800",
+      "cursor": [
+        338.0,
+        20.0
+      ],
+      "predicted": [
+        332.0,
+        20.4
+      ],
+      "shift": [
+        337.1,
+        18.4
+      ],
+      "score": 0.706,
+      "source": "image",
+      "V_before": [
+        78.0,
+        765.4
+      ],
+      "V": [
+        -259.5,
+        747.8
+      ],
+      "V_chain": [
+        -259.1,
+        747.0
+      ],
+      "V_ring": [
+        -260.7,
+        750.0
+      ],
+      "ring": [
+        1845.51,
+        163.88
+      ],
+      "ring_before": [
+        1858.49,
+        164.49
+      ],
+      "anchor": [
+        790.5,
+        517.5
+      ],
+      "end": [
+        1128.5,
+        537.4
+      ],
+      "events": 85,
+      "held_ms": 773
+    },
+    {
+      "n": 32,
+      "tag": "stop15",
+      "style": "v800",
+      "cursor": [
+        420.0,
+        1.0
+      ],
+      "predicted": [
+        412.4,
+        2.3
+      ],
+      "shift": [
+        334.0,
+        97.0
+      ],
+      "score": 0.636,
+      "source": "image",
+      "V_before": [
+        -259.5,
+        747.8
+      ],
+      "V": [
+        -593.5,
+        650.7
+      ],
+      "V_chain": [
+        -593.5,
+        650.7
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        749.5,
+        526.9
+      ],
+      "end": [
+        1169.5,
+        528.0
+      ],
+      "events": 106,
+      "held_ms": 879
+    },
+    {
+      "n": 33,
+      "tag": "stop15",
+      "style": "v800",
+      "cursor": [
+        172.8,
+        -97.7
+      ],
+      "predicted": [
+        168.7,
+        -94.3
+      ],
+      "shift": [
+        168.7,
+        -94.3
+      ],
+      "score": 0.0,
+      "source": "model",
+      "V_before": [
+        -593.5,
+        650.7
+      ],
+      "V": [
+        -762.2,
+        745.0
+      ],
+      "V_chain": [
+        -762.2,
+        745.0
+      ],
+      "V_ring": null,
+      "ring": null,
+      "ring_before": null,
+      "anchor": [
+        873.1,
+        576.3
+      ],
+      "end": [
+        1045.9,
+        478.6
+      ],
+      "events": 44,
+      "held_ms": 576
+    }
+  ]
+}

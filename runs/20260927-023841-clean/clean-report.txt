@@ -1,0 +1,5 @@
+M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: Clicked the survey button but the mode did not change within 2.0s.
+Total 2.4s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg

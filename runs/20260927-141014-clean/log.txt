@@ -1,0 +1,88 @@
+[   0.000] geoclean 0.9.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260927-141014-clean
+[   0.009] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   0.865] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   1.453] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   1.453] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   1.454] 
+[   1.454] Cleaning survey, bright, polarized. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   2.267] Mode buttons: {'survey': 'active', 'bright': 'enabled', 'polarized': 'enabled', 'darkfield': 'enabled'}
+[   2.550] survey: minimap shows 25 (round 1)
+[   4.617]     #1   survey    block -> removed
+[   4.625]     #2   survey    block -> removed
+[   4.632]     #3   survey    block -> removed
+[   4.639]     #4   survey    block -> removed
+[   4.647]     #5   survey    block -> removed
+[   7.371]     #6   survey    block -> removed
+[   7.378]     #7   survey    block -> removed
+[   7.384]     #8   survey    block -> no_change
+[   7.390]     #9   survey    block -> no_change
+[   7.395]     #10  survey    block -> removed
+[   7.400]     #11  survey    block -> removed
+[   9.212]     #12  survey    block -> removed
+[   9.212]     #13  survey    block -> removed
+[   9.212]     #14  survey    block -> removed
+[   9.212]     #15  survey    block -> removed
+[  10.938]     #16  survey    block -> removed
+[  10.938]     #17  survey    block -> removed
+[  10.938]     #18  survey    block -> removed
+[  13.482]     #19  survey    block -> removed
+[  13.482]     #20  survey    block -> removed
+[  13.493]     #21  survey    block -> no_change
+[  14.882]     #22  survey    block -> removed
+[  16.173]     #23  survey    block -> removed
+[  16.290] survey: minimap shows 6 (round 2)
+[  18.154]     #24  survey    block -> removed
+[  18.164]     #25  survey    block -> no_change
+[  18.164]     #26  survey    block -> removed
+[  19.590]     #27  survey    block -> removed
+[  19.706] survey: minimap shows 3 (round 3)
+[  21.686]     #28  survey    block -> removed
+[  21.797] survey: minimap shows 3 (round 4)
+[  22.858] survey: 24 removed (+0 revealed another), 4 without effect, 3 left on the minimap, 13 views, 20.4s
+[  24.408]   bright zoom measured: 1.401x about [961.5, 526.1]
+[  24.474] bright: minimap shows 7 (round 1)
+[  26.588]     #29  bright    block -> removed
+[  26.589]     #30  bright    block -> removed
+[  27.802]     #31  bright    block -> removed
+[  29.087]     #32  bright    block -> removed
+[  30.447]     #33  bright    block -> removed
+[  32.301]     #34  bright    block -> removed
+[  32.329] bright: 6 removed (+0 revealed another), 0 without effect, FINISHED, 5 views, 9.5s
+[  33.359] polarized: minimap shows 9 (round 1)
+[  35.459]     #35  polarized block -> changed
+[  35.459]     #36  polarized block -> removed
+[  36.089]     #37  polarized block -> removed
+[  37.522]     #38  polarized block -> removed
+[  37.522]     #39  polarized block -> removed
+[  39.685]     #40  polarized block -> no_change
+[  39.685]     #41  polarized block -> removed
+[  39.691]     #42  polarized block -> no_change
+[  41.782]     #43  polarized block -> removed
+[  41.896] polarized: minimap shows 2 (round 2)
+[  44.268]     #44  polarized block -> no_change
+[  44.349] polarized: 6 removed (+1 revealed another), 3 without effect, 1 left on the minimap, 5 views, 12.0s
+[  44.432] Revisit 1: not finished yet: survey, polarized
+[  45.873] survey: minimap shows 3 (round 1)
+[  46.503]     #45  survey    block -> removed
+[  47.802]     #46  survey    block -> removed
+[  47.921] survey: minimap shows 1 (round 2)
+[  49.228]     #47  survey    block -> changed
+[  50.219]     #48  survey    line  -> no_change
+[  50.353] survey: minimap shows 0 (round 3)
+[  50.411] survey: 26 removed (+1 revealed another), 5 without effect, 0 left on the minimap, 16 views, 26.4s
+[  52.325]   polarized zoom: too few features to measure, using 2.08x
+[  52.394] polarized: minimap shows 1 (round 1)
+[  53.498]     #49  polarized block -> removed
+[  53.522] polarized: 7 removed (+1 revealed another), 3 without effect, FINISHED, 6 views, 15.1s
+[  53.608] Revisit 2: not finished yet: survey
+[  54.810] survey: minimap shows 0 (round 1)
+[  54.862] survey: 26 removed (+1 revealed another), 5 without effect, 0 left on the minimap, 16 views, 27.7s
+[  54.900] 
+[  54.901] M3 cleaning report
+
+survey     26 removed (+1 revealed another), 5 clicks without effect; minimap per round [25, 6, 3, 3, 3, 1, 0, 0] -> 0 left; 16 views in 27.7s
+bright     6 removed (+0 revealed another), 0 clicks without effect; minimap per round [7] -> FINISHED (button greyed out); 5 views in 9.5s
+polarized  7 removed (+1 revealed another), 3 clicks without effect; minimap per round [9, 2, 1] -> FINISHED (button greyed out); 6 views in 15.1s
+Zoom: bright 1.4007x (measured), polarized 2.08x
+Total 52.6s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg
+[  54.902] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260927-141014-clean

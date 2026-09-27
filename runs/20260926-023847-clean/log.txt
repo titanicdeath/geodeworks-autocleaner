@@ -1,0 +1,50 @@
+[   0.000] geoclean 0.8.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260926-023847-clean
+[   0.009] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   2.780] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   3.359] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   3.360] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   3.361] 
+[   3.361] Cleaning survey. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   5.481] Mode buttons: present=[True, True, True, True], active=survey
+[   5.539] Mapping the slide first...
+[   5.539] Mapping plan: minimap in survey, bright, polarized, then 16 stops in Survey.
+[   5.539] Map 1/2 Reading the minimap in each mode...
+[   5.652]   minimap in survey: 7 dots
+[   7.002]   minimap in bright: 6 dots
+[   8.264]   minimap in polarized: 10 dots
+[   9.848]   back in Survey: view moved 0.0px (image), ring moved 0.0 minimap px
+[   9.848] Map 2/2 Sweeping in Survey...
+[  11.984]   stop 1/16 at V=[-759.0, -739.0] (2 drags)
+[  13.814]   stop 2/16 at V=[-254.0, -743.0] (2 drags)
+[  15.650]   stop 3/16 at V=[255.0, -746.0] (2 drags)
+[  17.490]   stop 4/16 at V=[756.0, -739.0] (2 drags)
+[  19.305]   stop 5/16 at V=[768.0, -255.0] (2 drags)
+[  21.141]   stop 6/16 at V=[256.0, -247.0] (2 drags)
+[  23.003]   stop 7/16 at V=[-254.0, -246.0] (2 drags)
+[  24.831]   stop 8/16 at V=[-760.0, -246.0] (2 drags)
+[  26.670]   stop 9/16 at V=[-760.0, 243.0] (2 drags)
+[  28.501]   stop 10/16 at V=[-258.0, 251.0] (2 drags)
+[  30.324]   stop 11/16 at V=[254.0, 251.0] (2 drags)
+[  32.137]   stop 12/16 at V=[759.0, 246.0] (2 drags)
+[  33.960]   stop 13/16 at V=[761.0, 741.0] (2 drags)
+[  35.792]   stop 14/16 at V=[243.0, 744.0] (2 drags)
+[  37.562]   stop 15/16 at V=[-253.0, 745.0] (2 drags)
+[  40.606]   stop 16/16 at V=[-774.0, 740.0] (4 drags)
+[  43.393] Map: 29 targets {'survey?': 8, 'survey': 5, 'bright': 3, 'polarized': 9, 'faded?': 4}
+[  43.393] survey: 13 mapped targets
+[  46.432]     #1   survey    block at [947.0, 549.0] -> removed (gone 1.0, HUD 188px, dots 7->6)
+[  47.668]     #2   survey    block at [1060.0, 685.0] -> removed (gone 1.0, HUD 204px, dots 6->5)
+[  49.700]     #3   survey    block at [1013.0, 217.0] -> no_change (gone 0.0, HUD 0px, dots 5->5)
+[  51.734]     #4   survey    block at [1222.0, 307.0] -> no_change (gone 0.0, HUD 0px, dots 5->5)
+[  55.380]     #5   survey    block at [737.0, 282.0] -> no_change (gone 0.0, HUD 0px, dots 5->5)
+[  57.400]     #6   survey    block at [1285.0, 709.0] -> no_change (gone 0.0, HUD 0px, dots 5->5)
+[  60.636]     #7   survey    block at [964.0, 507.0] -> no_change (gone 0.0, HUD 0px, dots 5->5)
+[  60.636] Stopped: 5 clicks in a row changed nothing; stopping to look at why.
+[  60.671] 
+[  60.671] M3 cleaning report
+
+Map: 29 targets {'survey?': 8, 'survey': 5, 'bright': 3, 'polarized': 9, 'faded?': 4} (G:\Revisit\Geo\geodeworks-prototype\runs\20260926-023847-clean)
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: 5 clicks in a row changed nothing; stopping to look at why.
+Total time 57.3s. Before/after purity bar: hud-before.png, hud-after.png. Every click: clicks/NNN-mode-outcome.jpg
+[  60.673] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260926-023847-clean

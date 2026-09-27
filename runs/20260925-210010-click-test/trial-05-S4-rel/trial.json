@@ -1,0 +1,66 @@
+{
+  "trial": 5,
+  "strategy": "S4-rel",
+  "strategy_params": {
+    "name": "S4-rel",
+    "move": "rel",
+    "wiggle": false,
+    "nocoalesce": true,
+    "dwell": 0.15,
+    "hold": 0.08,
+    "steps": 12,
+    "step_px": 12,
+    "step_delay": 0.008,
+    "description": "Relative SendInput steps only, closed-loop."
+  },
+  "target": [
+    927,
+    828
+  ],
+  "parked_at": [
+    1041,
+    802
+  ],
+  "cursor_at_press": [
+    927,
+    828
+  ],
+  "move_trace": {
+    "strategy": "S4-rel",
+    "target": [
+      927,
+      828
+    ],
+    "start": [
+      1041,
+      802
+    ],
+    "events": 10,
+    "wiggle_events": 0,
+    "arrived": [
+      927,
+      828
+    ],
+    "end": [
+      927,
+      828
+    ],
+    "final_error_px": 0.0,
+    "move_ms": 90.8
+  },
+  "hover_patch_changed_px": 0,
+  "verdict": "changed?",
+  "removed": false,
+  "local": {
+    "object_px": 5428,
+    "cursor_on_object": true,
+    "gone_frac": 0.498,
+    "changed_frac": 0.567,
+    "patch_changed_px": 3080
+  },
+  "hud_changed_px": 197,
+  "global_change_frac": 0.0055,
+  "minimap_dots_before": 13,
+  "minimap_dots_after": 13,
+  "press_to_capture_ms": 1016
+}

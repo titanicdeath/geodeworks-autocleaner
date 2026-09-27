@@ -1,0 +1,27 @@
+M1 pan calibration report
+
+Latency: view settled 24.8 ms after a held jump (probes: [24.4, 24.8]), settle used 0.08s
+Drag styles (content shift = G @ cursor):
+  v1600   G=[[0.9495, -0.0167], [0.0062, 0.9121]] residual 6.93px (5.0%), cross-axis 0.02, hold 345ms
+          gain along each test vector: {'(60, 0)': 0.898, '(-60, 0)': 0.767, '(0, 60)': 0.7, '(0, -60)': 0.96, '(200, 0)': 0.985, '(-200, 0)': 0.935, '(0, 200)': 0.909, '(0, -200)': 0.929}
+  v800    G=[[0.9855, 0.0167], [0.0017, 0.9127]] residual 3.08px (2.2%), cross-axis 0.02, hold 425ms
+          gain along each test vector: {'(60, 0)': 0.885, '(-60, 0)': 1.02, '(0, 60)': 0.867, '(0, -60)': 0.897, '(200, 0)': 1.002, '(-200, 0)': 0.976, '(0, 200)': 0.919, '(0, -200)': 0.911}
+  v400    G=[[1.003, 0.0185], [0.0015, 0.9331]] residual 2.26px (1.6%), cross-axis 0.02, hold 588ms
+          gain along each test vector: {'(60, 0)': 0.952, '(-60, 0)': 1.02, '(0, 60)': 0.867, '(0, -60)': 0.93, '(200, 0)': 1.002, '(-200, 0)': 1.007, '(0, 200)': 0.943, '(0, -200)': 0.93}
+  v800np  G=[[0.9895, 0.027], [0.002, 0.9205]] residual 4.17px (2.9%), cross-axis 0.03, hold 364ms
+          gain along each test vector: {'(60, 0)': 0.952, '(-60, 0)': 0.95, '(0, 60)': 0.805, '(0, -60)': 0.835, '(200, 0)': 0.985, '(-200, 0)': 1.001, '(0, 200)': 0.909, '(0, -200)': 0.95}
+  chosen: v800; minimap scale 24.82 slide px / ring px (from drags)
+Minimap scale over the whole run: 25.73 slide px / ring px (fit rms 16.6px, n=80)
+Slide edges (view-centre position where panning stopped, slide px from minimap centre):
+  [1, 0]   extent 804.3  at [804.3, 9.5]  minimap says [744.8, 0.1]  (last drags measured by image)
+  [1, 1]   extent 1064.8  at [758.0, 747.8]  minimap says [744.0, 744.0]  (last drags measured by minimap)
+  [0, 1]   extent 819.5  at [-15.0, 819.5]  minimap says [-13.9, 744.2]  (last drags measured by image)
+  [-1, 1]  extent 1059.1  at [-756.4, 741.4]  minimap says [-743.9, 744.0]  (last drags measured by image/minimap)
+  [-1, 0]  extent 773.1  at [-773.1, 2.9]  minimap says [-744.7, 0.0]  (last drags measured by image)
+  [-1, -1] extent 1090.1  at [-781.2, -760.4]  minimap says [-744.0, -744.0]  (last drags measured by image)
+  [0, -1]  extent 748.9  at [22.0, -748.9]  minimap says [0.0, -744.7]  (last drags measured by image)
+  [1, -1]  extent 1106.6  at [813.7, -751.3]  minimap says [743.9, -743.9]  (last drags measured by image)
+  view-centre limits: x -773.1..804.3, y -748.9..819.5; boundary shape square (diagonal/axis extent 1.373; square = 1.41, round = 1.0)
+Edge probe at +x (slide px): push 150 further -> image says the view moved 0.0, minimap says 0.0; pull back -> image 155.3, minimap -136.8 (None = no features to match)
+Closed-loop pan_to: tracked error max 4.4px, drags per target [2, 5, 3, 4, 2, 2], minimap disagreement max 38.9px
+Closure (true, image-based): 42.65px [9.97, -41.47] after 102 drags (response 0.4)

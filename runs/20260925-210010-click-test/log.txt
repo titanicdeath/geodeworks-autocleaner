@@ -1,0 +1,65 @@
+[   0.000] geoclean 0.5.0-m0 click-test  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260925-210010-click-test
+[   0.003] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   6.102] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   6.704] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   6.704] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   6.705] 
+[   6.705] === Trial 1/6: S0-control - No movement. You keep the cursor on the block; the tool only presses.
+[   6.705]     Hover the CENTRE of a full-contrast block, tap F6, and KEEP THE MOUSE STILL.
+[   6.706]     (F7 skips this strategy, F8 stops everything.)
+[  16.086]     Target recorded at (1105, 316).
+[  17.997]     RESULT: REMOVED  (object gone 1.0, HUD px changed 214, minimap dots 17->16, move 0.1 ms, final error 0.0 px)
+[  17.999] 
+[  17.999] === Trial 2/6: S1-abs-path - Replica of v0.4: 6 absolute SendInput moves (expected to fail).
+[  17.999]     Hover the CENTRE of a full-contrast block and tap F6.
+[  17.999]     (F7 skips this strategy, F8 stops everything.)
+[  30.246]     Target recorded at (1206, 331).
+[  30.246]     Now move the mouse ~3 cm away onto empty background and LET GO of it.
+[  36.894]     Mouse parked at (1083, 330). Moving back with S1-abs-path...
+[  38.721]     RESULT: REMOVED  (object gone 0.92, HUD px changed 218, minimap dots 16->15, move 65.7 ms, final error 0.0 px)
+[  38.723] 
+[  38.723] === Trial 3/6: S2-setcursor-wiggle - SetCursorPos jump, then a 1-count relative wiggle.
+[  38.723]     Hover the CENTRE of a full-contrast block and tap F6.
+[  38.723]     (F7 skips this strategy, F8 stops everything.)
+[  46.105]     (1384, 500) is too close to the rim/HUD/buttons. Pick a block nearer the centre.
+[  55.773]     Target recorded at (822, 723).
+[  55.773]     Now move the mouse ~3 cm away onto empty background and LET GO of it.
+[  58.615]     Mouse parked at (889, 643). Moving back with S2-setcursor-wiggle...
+[  60.357]     RESULT: REMOVED  (object gone 1.0, HUD px changed 276, minimap dots 15->13, move 75.3 ms, final error 0.0 px)
+[  60.359] 
+[  60.359] === Trial 4/6: S3-abs-wiggle - One absolute SendInput move, then a relative wiggle.
+[  60.359]     Hover the CENTRE of a full-contrast block and tap F6.
+[  60.359]     (F7 skips this strategy, F8 stops everything.)
+[  65.400]     Target recorded at (745, 664).
+[  65.400]     Now move the mouse ~3 cm away onto empty background and LET GO of it.
+[  69.394]     Mouse parked at (815, 564). Moving back with S3-abs-wiggle...
+[  71.137]     RESULT: REMOVED  (object gone 1.0, HUD px changed 149, minimap dots 13->13, move 73.8 ms, final error 0.0 px)
+[  71.139] 
+[  71.139] === Trial 5/6: S4-rel - Relative SendInput steps only, closed-loop.
+[  71.139]     Hover the CENTRE of a full-contrast block and tap F6.
+[  71.139]     (F7 skips this strategy, F8 stops everything.)
+[  88.346]     Target recorded at (927, 828).
+[  88.347]     Now move the mouse ~3 cm away onto empty background and LET GO of it.
+[  90.397]     Mouse parked at (1041, 802). Moving back with S4-rel...
+[  92.180]     RESULT: changed?  (object gone 0.498, HUD px changed 197, minimap dots 13->13, move 90.8 ms, final error 0.0 px)
+[  92.182] 
+[  92.182] === Trial 6/6: S5-rel-wiggle-slow - Slow relative steps, wiggle, long dwell and hold.
+[  92.182]     Hover the CENTRE of a full-contrast block and tap F6.
+[  92.183]     (F7 skips this strategy, F8 stops everything.)
+[  96.268]     Target recorded at (886, 829).
+[  96.268]     Now move the mouse ~3 cm away onto empty background and LET GO of it.
+[  99.207]     Mouse parked at (751, 696). Moving back with S5-rel-wiggle-slow...
+[ 101.452]     RESULT: REMOVED  (object gone 1.0, HUD px changed 124, minimap dots 13->11, move 363.0 ms, final error 0.0 px)
+[ 101.467] 
+[ 101.467] M0 click test summary
+
+ #  strategy               verdict                             gone  HUDpx    dots err_px move_ms
+ 1  S0-control             REMOVED                              1.0    214  17->16    0.0     0.1
+ 2  S1-abs-path            REMOVED                             0.92    218  16->15    0.0    65.7
+ 3  S2-setcursor-wiggle    REMOVED                              1.0    276  15->13    0.0    75.3
+ 4  S3-abs-wiggle          REMOVED                              1.0    149  13->13    0.0    73.8
+ 5  S4-rel                 changed?                           0.498    197  13->13    0.0    90.8
+ 6  S5-rel-wiggle-slow     REMOVED                              1.0    124  13->11    0.0   363.0
+
+Removed by: S0-control, S1-abs-path, S2-setcursor-wiggle, S3-abs-wiggle, S5-rel-wiggle-slow
+[ 101.468] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260925-210010-click-test

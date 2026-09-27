@@ -1,0 +1,1626 @@
+{
+  "summary": {
+    "stops": 16,
+    "targets": 33,
+    "by_mode": {
+      "survey": 15,
+      "bright": 4,
+      "survey?": 3,
+      "polarized": 7,
+      "faded?": 4
+    },
+    "specks": 7,
+    "pairs": 8,
+    "pair_residual_px": {
+      "median": 1.92,
+      "max": 3.49
+    },
+    "tracked_vs_refined_px": {
+      "median": 2.519701723128849,
+      "max": 31.235355877510948
+    },
+    "minimap": {
+      "survey": {
+        "dots": 16,
+        "matched": 15,
+        "dots_without_target": 1
+      },
+      "bright": {
+        "dots": 5,
+        "matched": 4,
+        "dots_without_target": 1
+      },
+      "polarized": {
+        "dots": 7,
+        "matched": 7,
+        "dots_without_target": 0
+      },
+      "targets_without_dot": 7,
+      "survey_guess_agreement": 0.769
+    },
+    "coverage_frac": 0.8233764723237184
+  },
+  "targets": [
+    {
+      "mode": "survey",
+      "area": 4258,
+      "contrast": {
+        "survey": 63.25
+      },
+      "dominance": 1.0,
+      "texture": 4.6,
+      "elongation": 1.18,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        282.7,
+        265.4
+      ],
+      "click": [
+        280.0,
+        261.5
+      ],
+      "id": 1,
+      "dot_dist": 9.1
+    },
+    {
+      "mode": "survey",
+      "area": 4575,
+      "contrast": {
+        "survey": 55.89
+      },
+      "dominance": 1.0,
+      "texture": 4.44,
+      "elongation": 1.44,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "kind": "block",
+      "S": [
+        -320.9,
+        287.5
+      ],
+      "click": [
+        -324.0,
+        281.9
+      ],
+      "id": 2,
+      "dot_dist": 34.2
+    },
+    {
+      "mode": "survey",
+      "area": 7615,
+      "contrast": {
+        "survey": 44.08
+      },
+      "dominance": 1.0,
+      "texture": 4.41,
+      "elongation": 1.3,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 5,
+      "kind": "block",
+      "S": [
+        249.6,
+        -325.7
+      ],
+      "click": [
+        247.8,
+        -328.0
+      ],
+      "id": 3,
+      "dot_dist": 24.0
+    },
+    {
+      "mode": "bright",
+      "area": 4286,
+      "contrast": {
+        "survey": 24.13
+      },
+      "dominance": 1.0,
+      "texture": 1.3,
+      "elongation": 1.16,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        234.3,
+        158.7
+      ],
+      "click": [
+        236.0,
+        153.5
+      ],
+      "id": 4,
+      "dot_dist": 14.4
+    },
+    {
+      "mode": "survey?",
+      "area": 10559,
+      "contrast": {
+        "survey": 41.92
+      },
+      "dominance": 1.0,
+      "texture": 4.1,
+      "elongation": 1.11,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -341.1,
+        -236.3
+      ],
+      "click": [
+        -336.6,
+        -222.6
+      ],
+      "id": 5,
+      "dot_dist": null
+    },
+    {
+      "mode": "bright",
+      "area": 4076,
+      "contrast": {
+        "survey": 21.28
+      },
+      "dominance": 1.0,
+      "texture": 1.47,
+      "elongation": 1.06,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "kind": "block",
+      "S": [
+        -180.7,
+        307.6
+      ],
+      "click": [
+        -147.0,
+        294.9
+      ],
+      "id": 6,
+      "dot_dist": 16.0
+    },
+    {
+      "mode": "survey",
+      "area": 4439,
+      "contrast": {
+        "survey": 55.05
+      },
+      "dominance": 1.0,
+      "texture": 4.14,
+      "elongation": 1.5,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -304.4,
+        -331.9
+      ],
+      "click": [
+        -303.6,
+        -333.6
+      ],
+      "id": 7,
+      "dot_dist": 27.8
+    },
+    {
+      "mode": "survey",
+      "area": 6554,
+      "contrast": {
+        "survey": 34.76
+      },
+      "dominance": 1.0,
+      "texture": 3.98,
+      "elongation": 1.22,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "kind": "block",
+      "S": [
+        -356.9,
+        199.2
+      ],
+      "click": [
+        -351.0,
+        203.9
+      ],
+      "id": 8,
+      "dot_dist": 23.0
+    },
+    {
+      "mode": "survey",
+      "area": 4520,
+      "contrast": {
+        "survey": 50.79
+      },
+      "dominance": 1.0,
+      "texture": 4.17,
+      "elongation": 1.38,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        151.7,
+        197.1
+      ],
+      "click": [
+        152.0,
+        195.5
+      ],
+      "id": 9,
+      "dot_dist": 12.8
+    },
+    {
+      "mode": "survey",
+      "area": 4240,
+      "contrast": {
+        "survey": 54.41
+      },
+      "dominance": 1.0,
+      "texture": 4.52,
+      "elongation": 1.16,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -135.5,
+        -320.0
+      ],
+      "click": [
+        -137.6,
+        -322.6
+      ],
+      "id": 10,
+      "dot_dist": 13.0
+    },
+    {
+      "mode": "survey",
+      "area": 4355,
+      "contrast": {
+        "survey": 52.14
+      },
+      "dominance": 1.0,
+      "texture": 4.33,
+      "elongation": 1.11,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 5,
+      "kind": "block",
+      "S": [
+        169.4,
+        -363.8
+      ],
+      "click": [
+        170.8,
+        -366.0
+      ],
+      "id": 11,
+      "dot_dist": 8.0
+    },
+    {
+      "mode": "survey",
+      "area": 3875,
+      "contrast": {
+        "survey": 49.01
+      },
+      "dominance": 1.0,
+      "texture": 3.73,
+      "elongation": 1.09,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -366.6,
+        -149.6
+      ],
+      "click": [
+        -366.6,
+        -148.6
+      ],
+      "id": 12,
+      "dot_dist": 39.8
+    },
+    {
+      "mode": "polarized",
+      "area": 1890,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "kind": "line",
+      "S": [
+        -754.5,
+        16.0
+      ],
+      "click": [
+        -755.0,
+        16.0
+      ],
+      "segment": [
+        [
+          -849.0,
+          16.0
+        ],
+        [
+          -660.0,
+          16.0
+        ]
+      ],
+      "parent": 14,
+      "id": 13,
+      "dot_dist": 18.2
+    },
+    {
+      "mode": "polarized",
+      "area": 1415,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "kind": "line",
+      "S": [
+        -865.0,
+        -58.5
+      ],
+      "click": [
+        -865.0,
+        -59.0
+      ],
+      "segment": [
+        [
+          -871.0,
+          -129.0
+        ],
+        [
+          -859.0,
+          12.0
+        ]
+      ],
+      "parent": 14,
+      "id": 14,
+      "dot_dist": 16.5
+    },
+    {
+      "mode": "polarized",
+      "area": 1656,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "kind": "line",
+      "S": [
+        -485.5,
+        -179.6
+      ],
+      "click": [
+        -485.0,
+        -180.0
+      ],
+      "segment": [
+        [
+          -568.0,
+          -187.0
+        ],
+        [
+          -403.0,
+          -172.1
+        ]
+      ],
+      "parent": 14,
+      "id": 15,
+      "dot_dist": 40.0
+    },
+    {
+      "mode": "polarized",
+      "area": 1298,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "kind": "line",
+      "S": [
+        -639.7,
+        -53.3
+      ],
+      "click": [
+        -640.0,
+        -53.0
+      ],
+      "segment": [
+        [
+          -654.0,
+          10.0
+        ],
+        [
+          -625.5,
+          -116.7
+        ]
+      ],
+      "parent": 14,
+      "id": 16,
+      "dot_dist": 39.9
+    },
+    {
+      "mode": "faded?",
+      "area": 493,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "kind": "line",
+      "S": [
+        -613.0,
+        -162.0
+      ],
+      "click": [
+        -613.0,
+        -162.0
+      ],
+      "segment": [
+        [
+          -622.0,
+          -139.0
+        ],
+        [
+          -604.0,
+          -185.0
+        ]
+      ],
+      "parent": 14,
+      "id": 17,
+      "dot_dist": null
+    },
+    {
+      "mode": "survey",
+      "area": 4173,
+      "contrast": {
+        "survey": 52.7
+      },
+      "dominance": 1.0,
+      "texture": 3.87,
+      "elongation": 1.23,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        96.2,
+        346.1
+      ],
+      "click": [
+        96.0,
+        345.5
+      ],
+      "id": 18,
+      "dot_dist": 5.0
+    },
+    {
+      "mode": "survey?",
+      "area": 4283,
+      "contrast": {
+        "survey": 45.97
+      },
+      "dominance": 1.0,
+      "texture": 4.02,
+      "elongation": 1.31,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        456.6,
+        215.4
+      ],
+      "click": [
+        462.0,
+        206.5
+      ],
+      "id": 19,
+      "dot_dist": null
+    },
+    {
+      "mode": "survey",
+      "area": 5290,
+      "contrast": {
+        "survey": 41.95
+      },
+      "dominance": 1.0,
+      "texture": 3.9,
+      "elongation": 1.27,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 9,
+      "kind": "block",
+      "S": [
+        -401.2,
+        87.8
+      ],
+      "click": [
+        -401.0,
+        84.9
+      ],
+      "id": 20,
+      "dot_dist": 16.3
+    },
+    {
+      "mode": "survey",
+      "area": 4236,
+      "contrast": {
+        "survey": 61.61
+      },
+      "dominance": 1.0,
+      "texture": 3.74,
+      "elongation": 1.22,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -366.5,
+        -57.6
+      ],
+      "click": [
+        -367.6,
+        -60.6
+      ],
+      "id": 21,
+      "dot_dist": 13.5
+    },
+    {
+      "mode": "bright",
+      "area": 4436,
+      "contrast": {
+        "survey": 25.61
+      },
+      "dominance": 1.0,
+      "texture": 1.25,
+      "elongation": 1.03,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 5,
+      "kind": "block",
+      "S": [
+        469.3,
+        -180.1
+      ],
+      "click": [
+        469.8,
+        -180.0
+      ],
+      "id": 22,
+      "dot_dist": 18.6
+    },
+    {
+      "mode": "faded?",
+      "area": 4299,
+      "contrast": {
+        "survey": 53.2
+      },
+      "dominance": 1.0,
+      "texture": 3.94,
+      "elongation": 1.11,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -42.0,
+        -359.9
+      ],
+      "click": [
+        -38.6,
+        -362.6
+      ],
+      "id": 23,
+      "dot_dist": null
+    },
+    {
+      "mode": "survey",
+      "area": 4546,
+      "contrast": {
+        "survey": 44.9
+      },
+      "dominance": 1.0,
+      "texture": 4.38,
+      "elongation": 1.01,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        475.3,
+        143.0
+      ],
+      "click": [
+        475.0,
+        143.5
+      ],
+      "id": 24,
+      "dot_dist": 34.0
+    },
+    {
+      "mode": "bright",
+      "area": 3897,
+      "contrast": {
+        "survey": 23.44
+      },
+      "dominance": 1.0,
+      "texture": 1.7,
+      "elongation": 1.04,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 5,
+      "kind": "block",
+      "S": [
+        421.8,
+        -64.0
+      ],
+      "click": [
+        422.8,
+        -60.0
+      ],
+      "id": 25,
+      "dot_dist": 8.8
+    },
+    {
+      "mode": "survey",
+      "area": 6801,
+      "contrast": {
+        "survey": 39.24
+      },
+      "dominance": 1.0,
+      "texture": 3.86,
+      "elongation": 1.28,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 4,
+      "votes": {
+        "?": 4.0
+      },
+      "best_stop": 6,
+      "kind": "block",
+      "S": [
+        -56.8,
+        -445.9
+      ],
+      "click": [
+        -54.6,
+        -449.6
+      ],
+      "id": 26,
+      "dot_dist": 38.0
+    },
+    {
+      "mode": "survey",
+      "area": 4231,
+      "contrast": {
+        "survey": 51.52
+      },
+      "dominance": 1.0,
+      "texture": 4.3,
+      "elongation": 1.05,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        438.9,
+        15.6
+      ],
+      "click": [
+        440.0,
+        15.5
+      ],
+      "id": 27,
+      "dot_dist": 8.5
+    },
+    {
+      "mode": "faded?",
+      "area": 1238,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 4,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "kind": "line",
+      "S": [
+        95.0,
+        575.0
+      ],
+      "click": [
+        95.0,
+        575.0
+      ],
+      "segment": [
+        [
+          42.0,
+          543.0
+        ],
+        [
+          148.0,
+          607.0
+        ]
+      ],
+      "parent": 31,
+      "id": 28,
+      "dot_dist": null
+    },
+    {
+      "mode": "polarized",
+      "area": 698,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 4,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "kind": "line",
+      "S": [
+        4.5,
+        501.5
+      ],
+      "click": [
+        4.0,
+        501.0
+      ],
+      "segment": [
+        [
+          -17.0,
+          474.0
+        ],
+        [
+          26.0,
+          529.0
+        ]
+      ],
+      "parent": 31,
+      "id": 29,
+      "dot_dist": 13.6
+    },
+    {
+      "mode": "polarized",
+      "area": 439,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 4,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "kind": "line",
+      "S": [
+        179.0,
+        634.0
+      ],
+      "click": [
+        179.0,
+        634.0
+      ],
+      "segment": [
+        [
+          160.0,
+          623.0
+        ],
+        [
+          198.0,
+          645.0
+        ]
+      ],
+      "parent": 31,
+      "id": 30,
+      "dot_dist": 49.2
+    },
+    {
+      "mode": "faded?",
+      "area": 410,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 4,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "kind": "line",
+      "S": [
+        -56.0,
+        490.0
+      ],
+      "click": [
+        -56.0,
+        490.0
+      ],
+      "segment": [
+        [
+          -71.0,
+          504.0
+        ],
+        [
+          -41.0,
+          476.0
+        ]
+      ],
+      "parent": 31,
+      "id": 31,
+      "dot_dist": null
+    },
+    {
+      "mode": "polarized",
+      "area": 390,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 4,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "kind": "line",
+      "S": [
+        -98.0,
+        456.5
+      ],
+      "click": [
+        -98.0,
+        456.0
+      ],
+      "segment": [
+        [
+          -98.0,
+          437.0
+        ],
+        [
+          -98.0,
+          476.0
+        ]
+      ],
+      "parent": 31,
+      "id": 32,
+      "dot_dist": 8.4
+    },
+    {
+      "mode": "survey?",
+      "area": 332,
+      "contrast": {
+        "survey": 31.97
+      },
+      "dominance": 1.0,
+      "texture": 4.54,
+      "elongation": 3.13,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "kind": "block",
+      "S": [
+        474.7,
+        -121.6
+      ],
+      "click": [
+        482.0,
+        -120.5
+      ],
+      "id": 33,
+      "dot_dist": null
+    }
+  ],
+  "specks": [
+    {
+      "mode": "?",
+      "area": 283,
+      "contrast": {
+        "survey": 67.73
+      },
+      "dominance": 1.0,
+      "texture": 8.67,
+      "elongation": 1.13,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "kind": "speck",
+      "S": [
+        101.5,
+        274.0
+      ],
+      "click": [
+        101.0,
+        272.5
+      ],
+      "id": 13
+    },
+    {
+      "mode": "?",
+      "area": 281,
+      "contrast": {
+        "survey": 68.77
+      },
+      "dominance": 1.0,
+      "texture": 8.99,
+      "elongation": 1.13,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "kind": "speck",
+      "S": [
+        -71.5,
+        70.4
+      ],
+      "click": [
+        -71.0,
+        68.9
+      ],
+      "id": 27
+    },
+    {
+      "mode": "?",
+      "area": 293,
+      "contrast": {
+        "survey": 68.29
+      },
+      "dominance": 1.0,
+      "texture": 8.99,
+      "elongation": 1.06,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 5,
+      "kind": "speck",
+      "S": [
+        8.6,
+        -165.6
+      ],
+      "click": [
+        8.8,
+        -166.0
+      ],
+      "id": 28
+    },
+    {
+      "mode": "?",
+      "area": 280,
+      "contrast": {
+        "survey": 69.9
+      },
+      "dominance": 1.0,
+      "texture": 9.19,
+      "elongation": 1.06,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "kind": "speck",
+      "S": [
+        27.9,
+        105.0
+      ],
+      "click": [
+        28.0,
+        103.5
+      ],
+      "id": 29
+    },
+    {
+      "mode": "?",
+      "area": 275,
+      "contrast": {
+        "survey": 70.3
+      },
+      "dominance": 1.0,
+      "texture": 9.4,
+      "elongation": 1.0,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 6,
+      "kind": "speck",
+      "S": [
+        28.7,
+        -157.7
+      ],
+      "click": [
+        28.4,
+        -158.6
+      ],
+      "id": 31
+    },
+    {
+      "mode": "?",
+      "area": 288,
+      "contrast": {
+        "survey": 69.83
+      },
+      "dominance": 1.0,
+      "texture": 9.12,
+      "elongation": 1.06,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "kind": "speck",
+      "S": [
+        12.2,
+        103.3
+      ],
+      "click": [
+        12.0,
+        102.9
+      ],
+      "id": 33
+    },
+    {
+      "mode": "?",
+      "area": 282,
+      "contrast": {
+        "survey": 71.89
+      },
+      "dominance": 1.0,
+      "texture": 9.32,
+      "elongation": 1.13,
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "kind": "speck",
+      "S": [
+        -53.4,
+        72.0
+      ],
+      "click": [
+        -54.0,
+        70.5
+      ],
+      "id": 34
+    }
+  ],
+  "positions": [
+    [
+      -756.3,
+      -752.9
+    ],
+    [
+      -259.9,
+      -746.8
+    ],
+    [
+      244.3,
+      -745.0
+    ],
+    [
+      755.9,
+      -739.3
+    ],
+    [
+      766.0,
+      -250.9
+    ],
+    [
+      256.3,
+      -246.6
+    ],
+    [
+      -245.1,
+      -243.2
+    ],
+    [
+      -747.1,
+      -244.6
+    ],
+    [
+      -762.7,
+      245.7
+    ],
+    [
+      -257.5,
+      248.3
+    ],
+    [
+      253.5,
+      246.0
+    ],
+    [
+      766.9,
+      247.4
+    ],
+    [
+      769.9,
+      739.7
+    ],
+    [
+      228.4,
+      738.4
+    ],
+    [
+      -251.4,
+      746.4
+    ],
+    [
+      -756.3,
+      752.9
+    ]
+  ],
+  "pairs": [
+    {
+      "i": 4,
+      "j": 5,
+      "shift": [
+        509.88282249867916,
+        -4.161047384142876
+      ],
+      "score": 0.552,
+      "vs_tracked": 5.71,
+      "residual": 0.25
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "shift": [
+        502.40583592653275,
+        -1.1363192051649094
+      ],
+      "score": 0.704,
+      "vs_tracked": 4.53,
+      "residual": 2.61
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "shift": [
+        12.405299186706543,
+        -488.0264681726694
+      ],
+      "score": 0.613,
+      "vs_tracked": 12.52,
+      "residual": 3.49
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "shift": [
+        16.451902359724045,
+        -492.01440869271755
+      ],
+      "score": 0.918,
+      "vs_tracked": 13.64,
+      "residual": 1.95
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "shift": [
+        -504.27946627140045,
+        -4.634755969047546
+      ],
+      "score": 0.788,
+      "vs_tracked": 3.8,
+      "residual": 2.15
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "shift": [
+        -509.7766709923744,
+        3.0939112156629562
+      ],
+      "score": 0.669,
+      "vs_tracked": 1.86,
+      "residual": 1.47
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "shift": [
+        -514.0432892926037,
+        -1.0899729803204536
+      ],
+      "score": 0.628,
+      "vs_tracked": 4.85,
+      "residual": 0.72
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "shift": [
+        27.02752580307424,
+        -492.0037000339944
+      ],
+      "score": 0.825,
+      "vs_tracked": 38.38,
+      "residual": 1.89
+    }
+  ],
+  "minimap_dots": {
+    "survey": [
+      [
+        -148.0,
+        -316.3
+      ],
+      [
+        -48.0,
+        -408.9
+      ],
+      [
+        -331.7,
+        -326.5
+      ],
+      [
+        167.0,
+        -371.4
+      ],
+      [
+        272.7,
+        -319.1
+      ],
+      [
+        -264.1,
+        -217.0
+      ],
+      [
+        -378.5,
+        -187.6
+      ],
+      [
+        -378.5,
+        -63.8
+      ],
+      [
+        472.4,
+        176.9
+      ],
+      [
+        430.6,
+        14.0
+      ],
+      [
+        -378.5,
+        191.4
+      ],
+      [
+        -409.8,
+        74.0
+      ],
+      [
+        140.9,
+        190.2
+      ],
+      [
+        274.0,
+        268.0
+      ],
+      [
+        -318.4,
+        321.6
+      ],
+      [
+        91.4,
+        344.6
+      ]
+    ],
+    "bright": [
+      [
+        487.8,
+        -178.7
+      ],
+      [
+        430.6,
+        -63.8
+      ],
+      [
+        -378.5,
+        140.4
+      ],
+      [
+        221.8,
+        165.9
+      ],
+      [
+        -169.6,
+        319.1
+      ]
+    ],
+    "polarized": [
+      [
+        -638.4,
+        -93.2
+      ],
+      [
+        -523.0,
+        -193.5
+      ],
+      [
+        -878.5,
+        -67.9
+      ],
+      [
+        -772.6,
+        14.0
+      ],
+      [
+        16.4,
+        508.0
+      ],
+      [
+        -91.4,
+        451.3
+      ],
+      [
+        143.6,
+        599.9
+      ]
+    ]
+  }
+}

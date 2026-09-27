@@ -1,0 +1,44 @@
+[   0.000] geoclean 0.8.0-m3 clean  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260927-133518-clean
+[   0.007] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   1.268] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   1.823] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   1.823] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   1.824] 
+[   1.824] Cleaning survey, bright, polarized. Survey mode, any position. Tap F6, then take your hand OFF the mouse.
+[   8.241] Mode buttons: {'survey': 'active', 'bright': 'enabled', 'polarized': 'enabled', 'darkfield': 'enabled'}
+[   8.442] survey: minimap shows 1 (round 1)
+[   9.990]     #1   survey    block -> removed
+[  10.017] survey: 1 removed (+0 revealed another), 0 without effect, FINISHED, 1 views, 1.7s
+[  12.134]   bright zoom measured: 1.410x about [957.3, 526.9]
+[  12.191] bright: minimap shows 5 (round 1)
+[  13.850]     #2   bright    block -> removed
+[  14.008]     #3   bright    block -> removed
+[  15.804]     #4   bright    block -> removed
+[  15.962]     #5   bright    block -> removed
+[  17.532]     #6   bright    block -> removed
+[  17.642] bright: minimap shows 1 (round 2)
+[  19.237]     #7   bright    block -> removed
+[  19.267] bright: 6 removed (+0 revealed another), 0 without effect, FINISHED, 4 views, 9.2s
+[  20.948] polarized: minimap shows 7 (round 1)
+[  23.670]     #8   polarized block -> no_change
+[  25.797]     #9   polarized block -> removed
+[  28.854]     #10  polarized block -> removed
+[  29.488]     #11  polarized block -> no_change
+[  29.602] polarized: minimap shows 5 (round 2)
+[  30.757]     #12  polarized block -> removed
+[  30.908]     #13  polarized block -> removed
+[  33.903]     #14  polarized block -> removed
+[  34.049]     #15  polarized block -> removed
+[  35.675]     #16  polarized block -> removed
+[  35.781] polarized: minimap shows 1 (round 3)
+[  37.183]     #17  polarized block -> removed
+[  37.209] polarized: 8 removed (+0 revealed another), 2 without effect, FINISHED, 7 views, 17.9s
+[  37.254] 
+[  37.254] M3 cleaning report
+
+survey     1 removed (+0 revealed another), 0 clicks without effect; minimap per round [1] -> FINISHED (button greyed out); 1 views in 1.7s
+bright     6 removed (+0 revealed another), 0 clicks without effect; minimap per round [5, 1] -> FINISHED (button greyed out); 4 views in 9.2s
+polarized  8 removed (+0 revealed another), 2 clicks without effect; minimap per round [7, 5, 1] -> FINISHED (button greyed out); 7 views in 17.9s
+Zoom: bright 1.4102x (measured), polarized 2.08x
+Total 29.0s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg
+[  37.255] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260927-133518-clean

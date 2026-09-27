@@ -1,0 +1,55 @@
+[   0.000] geoclean 0.6.0-m1 pan-calibrate  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260925-230222-pan-calibrate
+[   0.006] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   3.029] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   3.594] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   3.594] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   3.596] 
+[   3.596] Survey mode, any position. Tap F6, then take your hand OFF the mouse for about a minute.
+[   5.667] Start position from minimap: V=[-0.0, 0.0]
+[   5.686] 1/5 Latency...
+[   8.383]   view settles 52.8 ms after a held move -> settle 0.11s, gap between move/press/release 0.08s
+[   8.383] 2/5 Drag styles...
+[   9.022]     #3   style-v1600    cursor [60, 0]          shift [53.9, 0.0]      (image 0.91)  V [-51.9, 2.3]
+[   9.654]     #4   style-v1600    cursor [-60, 0]         shift [-53.0, -1.9]    (image 0.92)  V [1.1, 4.2]
+[  10.298]     #5   style-v1600    cursor [0, 60]          shift [0.9, 41.9]      (image 0.84)  V [0.2, -37.7]
+[  10.929]     #6   style-v1600    cursor [0, -60]         shift [-1.2, -57.8]    (image 0.80)  V [1.4, 20.1]
+[  11.662]     #7   style-v1600    cursor [200, 0]         shift [214.0, 19.0]    (image 0.76)  V [-212.6, 1.2]
+[  12.391]     #8   style-v1600    cursor [-200, 0]        shift [-213.5, -21.5]  (image 0.73)  V [0.9, 22.7]
+[  13.125]     #9   style-v1600    cursor [0, 200]         shift [-5.2, 183.3]    (image 0.81)  V [6.1, -160.6]
+[  13.853]     #10  style-v1600    cursor [0, -200]        shift [5.3, -184.1]    (image 0.74)  V [0.8, 23.5]
+[  13.854]   v1600  : G=[[+1.054 -0.023] [+0.094 +0.911]]  residual 7.5px (5.2%)  hold 436ms
+[  14.516]     #11  style-v800     cursor [60, 0]          shift [56.9, -0.1]     (image 0.89)  V [-56.2, 23.6]
+[  15.186]     #12  style-v800     cursor [-60, 0]         shift [-57.0, -1.8]    (image 0.90)  V [0.9, 25.4]
+[  15.848]     #13  style-v800     cursor [0, 60]          shift [0.8, 48.4]      (image 0.82)  V [0.0, -23.0]
+[  16.520]     #14  style-v800     cursor [0, -60]         shift [-0.9, -50.2]    (image 0.82)  V [0.9, 27.2]
+[  17.384]     #15  style-v800     cursor [200, 0]         shift [214.0, 19.0]    (image 0.75)  V [-213.1, 8.2]
+[  18.243]     #16  style-v800     cursor [-200, 0]        shift [-203.9, -2.0]   (image 0.63)  V [-9.2, 10.3]
+[  19.116]     #17  style-v800     cursor [0, 200]         shift [-5.0, 180.1]    (image 0.76)  V [-4.1, -169.8]
+[  19.992]     #18  style-v800     cursor [0, -200]        shift [5.3, -177.3]    (image 0.69)  V [-9.4, 7.5]
+[  19.993]   v800   : G=[[+1.037 -0.022] [+0.049 +0.888]]  residual 6.3px (4.4%)  hold 512ms
+[  20.740]     #19  style-v400     cursor [60, 0]          shift [61.0, -0.1]     (image 0.89)  V [-70.4, 7.6]
+[  21.478]     #20  style-v400     cursor [-60, 0]         shift [-59.0, -1.8]    (image 0.90)  V [-11.3, 9.4]
+[  22.212]     #21  style-v400     cursor [0, 60]          shift [1.0, 52.1]      (image 0.83)  V [-12.3, -42.7]
+[  22.968]     #22  style-v400     cursor [0, -60]         shift [-1.0, -54.0]    (image 0.82)  V [-11.3, 11.3]
+[  24.057]     #23  style-v400     cursor [200, 0]         shift [182.0, 0.2]     (minimap 0.00)  V [-193.3, 11.1]
+[  25.159]     #24  style-v400     cursor [-200, 0]        shift [-204.0, -0.9]   (image 0.64)  V [10.8, 12.0]
+[  26.261]     #25  style-v400     cursor [0, 200]         shift [-4.9, 181.0]    (image 0.73)  V [15.7, -169.0]
+[  27.362]     #26  style-v400     cursor [0, -200]        shift [-3.9, -191.0]   (image 0.68)  V [19.6, 22.0]
+[  27.362]   v400   : G=[[+1.017 -0.001] [+0.006 +0.926]]  residual 4.0px (3.0%)  hold 672ms
+[  27.964]     #27  style-v800np   cursor [60, 0]          shift [52.9, -0.1]     (image 0.90)  V [-33.3, 22.1]
+[  28.544]     #28  style-v800np   cursor [-60, 0]         shift [-57.0, -1.8]    (image 0.91)  V [23.7, 23.9]
+[  29.127]     #29  style-v800np   cursor [0, 60]          shift [1.0, 52.1]      (image 0.86)  V [22.7, -28.2]
+[  29.715]     #30  style-v800np   cursor [0, -60]         shift [-1.1, -54.0]    (image 0.84)  V [23.7, 25.8]
+[  30.487]     #31  style-v800np   cursor [200, 0]         shift [214.0, 15.1]    (image 0.68)  V [-190.3, 10.7]
+[  31.260]     #32  style-v800np   cursor [-200, 0]        shift [-214.0, -18.8]  (image 0.69)  V [23.7, 29.5]
+[  32.032]     #33  style-v800np   cursor [0, 200]         shift [4.2, 183.6]     (image 0.76)  V [19.6, -154.1]
+[  32.800]     #34  style-v800np   cursor [0, -200]        shift [-3.9, -188.1]   (image 0.84)  V [23.5, 34.0]
+[  32.801]   v800np : G=[[+1.057 +0.020] [+0.079 +0.926]]  residual 5.4px (3.7%)  hold 432ms
+[  32.801] Stopped: Drags are inconsistent (scatter 5%, cross-axis coupling 0.10; a good run is under 10% and 0.10). The game is probably not seeing the cursor where the tool thinks it is - an input timing problem. Calibration NOT saved.
+[  32.821] 
+[  32.821] M1 pan calibration report
+
+Latency: view settled 52.8 ms after a held jump (probes: [50.8, 52.8]), settle used 0.11s
+STOPPED EARLY: Drags are inconsistent (scatter 5%, cross-axis coupling 0.10; a good run is under 10% and 0.10). The game is probably not seeing the cursor where the tool thinks it is - an input timing problem. Calibration NOT saved.
+[  32.821] Calibration NOT saved: the run did not complete.
+[  32.822] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260925-230222-pan-calibrate

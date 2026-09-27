@@ -1,0 +1,325 @@
+{
+  "modes": [
+    "survey"
+  ],
+  "map": {
+    "folder": "G:\\Revisit\\Geo\\geodeworks-prototype\\runs\\20260926-023847-clean",
+    "summary": {
+      "stops": 16,
+      "targets": 29,
+      "by_mode": {
+        "survey?": 8,
+        "survey": 5,
+        "bright": 3,
+        "polarized": 9,
+        "faded?": 4
+      },
+      "specks": 0,
+      "pairs": 9,
+      "pair_residual_px": {
+        "median": 0.88,
+        "max": 1.61
+      },
+      "tracked_vs_refined_px": {
+        "median": 5.6614741639617225,
+        "max": 29.658676771545707
+      },
+      "minimap": {
+        "survey": {
+          "dots": 7,
+          "matched": 5,
+          "dots_without_target": 2
+        },
+        "bright": {
+          "dots": 6,
+          "matched": 3,
+          "dots_without_target": 3
+        },
+        "polarized": {
+          "dots": 10,
+          "matched": 6,
+          "dots_without_target": 4
+        },
+        "targets_without_dot": 15,
+        "survey_guess_agreement": 1.0
+      },
+      "coverage_frac": 0.823062055087791
+    }
+  },
+  "results": {},
+  "stopped": "5 clicks in a row changed nothing; stopping to look at why.",
+  "seconds": 57.3,
+  "zoom": {
+    "survey": {
+      "zoom": 1.0,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": true
+    },
+    "bright": {
+      "zoom": 1.4,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    },
+    "polarized": {
+      "zoom": 2.08,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    }
+  },
+  "clicks": [
+    {
+      "n": 1,
+      "tag": "map#5",
+      "mode": "survey",
+      "S": [
+        -334.6,
+        330.7
+      ],
+      "kind": "block",
+      "V": [
+        -333.0,
+        330.1
+      ],
+      "outcome": "removed",
+      "click": [
+        947.0,
+        549.0
+      ],
+      "pred": [
+        957.9,
+        528.0
+      ],
+      "dist": 0.1,
+      "area": 4167,
+      "contrast": 90.44,
+      "gone": 1.0,
+      "core_gone": 1.0,
+      "changed": 1.0,
+      "hud_px": 188,
+      "dots": [
+        7,
+        6
+      ],
+      "image": "clicks/001-survey-removed.jpg"
+    },
+    {
+      "n": 2,
+      "tag": "map#16",
+      "mode": "survey",
+      "S": [
+        -225.6,
+        470.3
+      ],
+      "kind": "block",
+      "V": [
+        -333.0,
+        330.1
+      ],
+      "outcome": "removed",
+      "click": [
+        1060.0,
+        685.0
+      ],
+      "pred": [
+        1066.9,
+        667.6
+      ],
+      "dist": 0.4,
+      "area": 4252,
+      "contrast": 85.61,
+      "gone": 1.0,
+      "core_gone": 1.0,
+      "changed": 1.0,
+      "hud_px": 204,
+      "dots": [
+        6,
+        5
+      ],
+      "image": "clicks/002-survey-removed.jpg"
+    },
+    {
+      "n": 3,
+      "tag": "map#17",
+      "mode": "survey",
+      "S": [
+        -264.6,
+        -7.6
+      ],
+      "kind": "block",
+      "V": [
+        -333.0,
+        330.1
+      ],
+      "outcome": "no_change",
+      "click": [
+        1013.0,
+        217.0
+      ],
+      "pred": [
+        1027.9,
+        189.7
+      ],
+      "dist": 22.7,
+      "area": 252,
+      "contrast": 46.03,
+      "gone": 0.0,
+      "core_gone": 0.0,
+      "changed": 0.0,
+      "hud_px": 0,
+      "dots": [
+        5,
+        5
+      ],
+      "image": "clicks/003-survey-no_change.jpg"
+    },
+    {
+      "n": 4,
+      "tag": "map#19",
+      "mode": "survey",
+      "S": [
+        -55.5,
+        83.8
+      ],
+      "kind": "block",
+      "V": [
+        -333.0,
+        330.1
+      ],
+      "outcome": "no_change",
+      "click": [
+        1222.0,
+        307.0
+      ],
+      "pred": [
+        1237.0,
+        281.1
+      ],
+      "dist": 20.1,
+      "area": 280,
+      "contrast": 45.35,
+      "gone": 0.0,
+      "core_gone": 0.0,
+      "changed": 0.0,
+      "hud_px": 0,
+      "dots": [
+        5,
+        5
+      ],
+      "image": "clicks/004-survey-no_change.jpg"
+    },
+    {
+      "n": 5,
+      "tag": "map#3",
+      "mode": "survey",
+      "S": [
+        -258.6,
+        -156.2
+      ],
+      "kind": "block",
+      "V": [
+        -40.2,
+        93.7
+      ],
+      "outcome": "no_change",
+      "click": [
+        737.0,
+        282.0
+      ],
+      "pred": [
+        741.1,
+        277.6
+      ],
+      "dist": 0.5,
+      "area": 294,
+      "contrast": 43.52,
+      "gone": 0.0,
+      "core_gone": 0.0,
+      "changed": 0.0,
+      "hud_px": 0,
+      "dots": [
+        5,
+        5
+      ],
+      "image": "clicks/005-survey-no_change.jpg"
+    },
+    {
+      "n": 6,
+      "tag": "map#1",
+      "mode": "survey",
+      "S": [
+        271.7,
+        277.4
+      ],
+      "kind": "block",
+      "V": [
+        -40.2,
+        93.7
+      ],
+      "outcome": "no_change",
+      "click": [
+        1285.0,
+        709.0
+      ],
+      "pred": [
+        1271.4,
+        711.2
+      ],
+      "dist": 5.6,
+      "area": 286,
+      "contrast": 44.05,
+      "gone": 0.0,
+      "core_gone": 0.0,
+      "changed": 0.0,
+      "hud_px": 0,
+      "dots": [
+        5,
+        5
+      ],
+      "image": "clicks/006-survey-no_change.jpg"
+    },
+    {
+      "n": 7,
+      "tag": "map#22",
+      "mode": "survey",
+      "S": [
+        348.8,
+        -43.1
+      ],
+      "kind": "block",
+      "V": [
+        350.8,
+        -39.7
+      ],
+      "outcome": "no_change",
+      "click": [
+        964.0,
+        507.0
+      ],
+      "pred": [
+        957.5,
+        524.0
+      ],
+      "dist": 7.0,
+      "area": 268,
+      "contrast": 43.75,
+      "gone": 0.0,
+      "core_gone": 0.0,
+      "changed": 0.0,
+      "hud_px": 0,
+      "dots": [
+        5,
+        5
+      ],
+      "image": "clicks/007-survey-no_change.jpg"
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "modes": [
+    "survey",
+    "bright",
+    "polarized"
+  ],
+  "results": {
+    "survey": {
+      "rounds": 3,
+      "views": 7,
+      "finished": true,
+      "dots_per_round": [
+        14,
+        6,
+        2
+      ],
+      "left": 0,
+      "clicks": 21,
+      "removed": 16,
+      "changed": 2,
+      "no_change": 3,
+      "seconds": 18.5
+    }
+  },
+  "seconds": 20.4,
+  "zoom": {
+    "survey": {
+      "zoom": 1.0,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": true
+    },
+    "bright": {
+      "zoom": 1.4,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    },
+    "polarized": {
+      "zoom": 2.08,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    }
+  },
+  "clicks": [
+    {
+      "S": [
+        60.9,
+        -258.1
+      ],
+      "click": [
+        991.0,
+        326.0
+      ],
+      "kind": "block",
+      "area": 10907,
+      "contrast": 33.07,
+      "n": 1,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.702,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/001-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -70.1,
+        -374.9
+      ],
+      "click": [
+        906.0,
+        184.0
+      ],
+      "kind": "block",
+      "area": 4597,
+      "contrast": 43.1,
+      "n": 2,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/002-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -143.6,
+        -191.4
+      ],
+      "click": [
+        799.0,
+        335.0
+      ],
+      "kind": "block",
+      "area": 5254,
+      "contrast": 43.96,
+      "n": 3,
+      "mode": "survey",
+      "outcome": "no_change",
+      "gone": 0.094,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/003-survey-no_change.jpg"
+    },
+    {
+      "S": [
+        274.0,
+        -57.8
+      ],
+      "click": [
+        1228.0,
+        485.0
+      ],
+      "kind": "block",
+      "area": 13775,
+      "contrast": 33.91,
+      "n": 4,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/004-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -213.2,
+        -35.1
+      ],
+      "click": [
+        747.0,
+        486.0
+      ],
+      "kind": "block",
+      "area": 4785,
+      "contrast": 41.37,
+      "n": 5,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/005-survey-removed.jpg"
+    },
+    {
+      "S": [
+        199.1,
+        136.3
+      ],
+      "click": [
+        1194.0,
+        700.0
+      ],
+      "kind": "block",
+      "area": 5424,
+      "contrast": 36.59,
+      "n": 6,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.961,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/006-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -248.0,
+        165.9
+      ],
+      "click": [
+        682.0,
+        693.0
+      ],
+      "kind": "block",
+      "area": 5415,
+      "contrast": 37.63,
+      "n": 7,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        0.8,
+        0.0
+      ],
+      "burst": 1,
+      "image": "clicks/007-survey-removed.jpg"
+    },
+    {
+      "S": [
+        374.5,
+        182.5
+      ],
+      "click": [
+        1127.0,
+        465.0
+      ],
+      "kind": "block",
+      "area": 4238,
+      "contrast": 58.1,
+      "n": 8,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        195.5,
+        227.6
+      ],
+      "burst": 2,
+      "image": "clicks/008-survey-removed.jpg"
+    },
+    {
+      "S": [
+        336.7,
+        57.4
+      ],
+      "click": [
+        1101.0,
+        368.0
+      ],
+      "kind": "block",
+      "area": 9107,
+      "contrast": 33.99,
+      "n": 9,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.972,
+      "V": [
+        195.5,
+        227.6
+      ],
+      "burst": 2,
+      "image": "clicks/009-survey-removed.jpg"
+    },
+    {
+      "S": [
+        195.8,
+        324.7
+      ],
+      "click": [
+        962.0,
+        615.0
+      ],
+      "kind": "block",
+      "area": 4287,
+      "contrast": 47.62,
+      "n": 10,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        195.5,
+        227.6
+      ],
+      "burst": 2,
+      "image": "clicks/010-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -65.2,
+        370.1
+      ],
+      "click": [
+        694.0,
+        677.0
+      ],
+      "kind": "block",
+      "area": 22038,
+      "contrast": 47.35,
+      "n": 11,
+      "mode": "survey",
+      "outcome": "changed",
+      "gone": 0.418,
+      "V": [
+        195.5,
+        227.6
+      ],
+      "burst": 2,
+      "image": "clicks/011-survey-changed.jpg"
+    },
+    {
+      "S": [
+        -65.2,
+        370.1
+      ],
+      "click": [
+        694.0,
+        686.0
+      ],
+      "kind": "line",
+      "area": 12898,
+      "contrast": 54.57,
+      "n": 12,
+      "mode": "survey",
+      "outcome": "no_change",
+      "gone": 0.0,
+      "V": [
+        195.5,
+        227.6
+      ],
+      "burst": 3,
+      "image": "clicks/012-survey-no_change.jpg"
+    },
+    {
+      "S": [
+        381.5,
+        -192.4
+      ],
+      "click": [
+        939.0,
+        513.0
+      ],
+      "kind": "block",
+      "area": 4705,
+      "contrast": 43.45,
+      "n": 13,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        391.6,
+        -204.2
+      ],
+      "burst": 4
+    },
+    {
+      "S": [
+        -384.2,
+        -63.8
+      ],
+      "click": [
+        937.0,
+        531.0
+      ],
+      "kind": "block",
+      "area": 3390,
+      "contrast": 41.41,
+      "n": 14,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.981,
+      "V": [
+        -376.9,
+        -77.1
+      ],
+      "burst": 5
+    },
+    {
+      "S": [
+        151.9,
+        -301.7
+      ],
+      "click": [
+        1042.0,
+        314.0
+      ],
+      "kind": "block",
+      "area": 9392,
+      "contrast": 38.4,
+      "n": 15,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.863,
+      "V": [
+        52.2,
+        -102.1
+      ],
+      "burst": 6
+    },
+    {
+      "S": [
+        -143.6,
+        -191.4
+      ],
+      "click": [
+        761.0,
+        439.0
+      ],
+      "kind": "block",
+      "area": 4110,
+      "contrast": 51.28,
+      "n": 16,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        52.2,
+        -102.1
+      ],
+      "burst": 6
+    },
+    {
+      "S": [
+        242.0,
+        106.7
+      ],
+      "click": [
+        1155.0,
+        734.0
+      ],
+      "kind": "block",
+      "area": 5625,
+      "contrast": 43.48,
+      "n": 17,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.8,
+      "V": [
+        52.2,
+        -102.1
+      ],
+      "burst": 6
+    },
+    {
+      "S": [
+        -326.2,
+        -38.3
+      ],
+      "click": [
+        941.0,
+        525.0
+      ],
+      "kind": "block",
+      "area": 5922,
+      "contrast": 42.77,
+      "n": 18,
+      "mode": "survey",
+      "outcome": "changed",
+      "gone": 0.426,
+      "V": [
+        -323.7,
+        -39.5
+      ],
+      "burst": 7,
+      "image": "clicks/018-survey-changed.jpg"
+    },
+    {
+      "S": [
+        -326.2,
+        -38.3
+      ],
+      "click": [
+        982.0,
+        518.0
+      ],
+      "kind": "block",
+      "area": 4520,
+      "contrast": 26.38,
+      "n": 19,
+      "mode": "survey",
+      "outcome": "no_change",
+      "gone": 0.0,
+      "V": [
+        -323.7,
+        -39.5
+      ],
+      "burst": 8,
+      "image": "clicks/019-survey-no_change.jpg"
+    },
+    {
+      "S": [
+        91.4,
+        -242.5
+      ],
+      "click": [
+        837.0,
+        385.0
+      ],
+      "kind": "block",
+      "area": 6958,
+      "contrast": 38.21,
+      "n": 20,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.863,
+      "V": [
+        182.7,
+        -102.1
+      ],
+      "burst": 9
+    },
+    {
+      "S": [
+        270.6,
+        39.1
+      ],
+      "click": [
+        1035.0,
+        666.0
+      ],
+      "kind": "block",
+      "area": 4314,
+      "contrast": 58.57,
+      "n": 21,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        182.7,
+        -102.1
+      ],
+      "burst": 9
+    }
+  ],
+  "pans": [
+    {
+      "n": 1,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -211.1,
+        -240.3
+      ],
+      "V_before": [
+        0.8,
+        0.0
+      ],
+      "V": [
+        195.5,
+        227.6
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.954,
+      "gain_adj": 0.977,
+      "source": "minimap",
+      "anchor": [
+        1065.0,
+        647.6
+      ],
+      "end": [
+        854.0,
+        407.3
+      ],
+      "events": 17,
+      "held_ms": 357
+    },
+    {
+      "n": 2,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -198.4,
+        443.9
+      ],
+      "V_before": [
+        195.5,
+        227.6
+      ],
+      "V": [
+        391.6,
+        -204.2
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.032,
+      "gain_adj": 0.993,
+      "source": "minimap",
+      "anchor": [
+        1058.7,
+        305.5
+      ],
+      "end": [
+        860.3,
+        749.4
+      ],
+      "events": 30,
+      "held_ms": 418
+    },
+    {
+      "n": 3,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        640.0,
+        -119.1
+      ],
+      "V_before": [
+        391.6,
+        -204.2
+      ],
+      "V": [
+        -234.6,
+        -76.7
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.01,
+      "gain_adj": 0.998,
+      "source": "minimap",
+      "anchor": [
+        639.5,
+        587.0
+      ],
+      "end": [
+        1279.5,
+        467.9
+      ],
+      "events": 43,
+      "held_ms": 489
+    },
+    {
+      "n": 4,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        153.0,
+        -13.8
+      ],
+      "V_before": [
+        -234.6,
+        -76.7
+      ],
+      "V": [
+        -376.9,
+        -77.1
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.944,
+      "gain_adj": 0.97,
+      "source": "minimap",
+      "anchor": [
+        883.0,
+        534.3
+      ],
+      "end": [
+        1036.0,
+        520.6
+      ],
+      "events": 11,
+      "held_ms": 322
+    },
+    {
+      "n": 5,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -444.5,
+        33.1
+      ],
+      "V_before": [
+        -376.9,
+        -77.1
+      ],
+      "V": [
+        52.2,
+        -102.1
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.014,
+      "gain_adj": 0.976,
+      "source": "minimap",
+      "anchor": [
+        1181.7,
+        510.9
+      ],
+      "end": [
+        737.3,
+        544.0
+      ],
+      "events": 30,
+      "held_ms": 420
+    },
+    {
+      "n": 6,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        395.5,
+        -68.6
+      ],
+      "V_before": [
+        52.2,
+        -102.1
+      ],
+      "V": [
+        -323.7,
+        -39.5
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.993,
+      "gain_adj": 0.973,
+      "source": "minimap",
+      "anchor": [
+        761.8,
+        561.8
+      ],
+      "end": [
+        1157.2,
+        493.1
+      ],
+      "events": 27,
+      "held_ms": 411
+    },
+    {
+      "n": 7,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -529.0,
+        67.6
+      ],
+      "V_before": [
+        -323.7,
+        -39.5
+      ],
+      "V": [
+        182.7,
+        -102.1
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.003,
+      "gain_adj": 0.975,
+      "source": "minimap",
+      "anchor": [
+        1224.0,
+        493.7
+      ],
+      "end": [
+        695.0,
+        561.2
+      ],
+      "events": 36,
+      "held_ms": 452
+    }
+  ]
+}

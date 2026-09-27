@@ -1,0 +1,5 @@
+M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: 5 clicks in a row changed nothing; stopping to look at why.
+Total 20.7s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg

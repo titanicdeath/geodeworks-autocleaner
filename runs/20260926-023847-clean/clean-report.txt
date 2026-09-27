@@ -1,0 +1,6 @@
+M3 cleaning report
+
+Map: 29 targets {'survey?': 8, 'survey': 5, 'bright': 3, 'polarized': 9, 'faded?': 4} (G:\Revisit\Geo\geodeworks-prototype\runs\20260926-023847-clean)
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: 5 clicks in a row changed nothing; stopping to look at why.
+Total time 57.3s. Before/after purity bar: hud-before.png, hud-after.png. Every click: clicks/NNN-mode-outcome.jpg

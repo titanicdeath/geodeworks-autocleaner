@@ -1,0 +1,210 @@
+{
+  "kind": "geoclean-pan-calibration",
+  "version": 1,
+  "saved": "2026-09-25 22:28:46",
+  "model": {
+    "G": [
+      [
+        0.6767,
+        0.4827
+      ],
+      [
+        0.0,
+        0.4346
+      ]
+    ],
+    "ring_scale": 25.374255254604368,
+    "style": "step10",
+    "max_cursor": 420.0,
+    "timing": {
+      "anchor": 0.02,
+      "press": 0.03,
+      "step_delay": 0.008,
+      "settle": 0.12405000000000001,
+      "release": 0.04
+    }
+  },
+  "run": "G:\\Revisit\\Geo\\geodeworks-prototype\\runs\\20260925-222555-pan-calibrate",
+  "extent_min": 137.2,
+  "extent_max": 635.7,
+  "edges": [
+    {
+      "direction": [
+        1,
+        0
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        635.7,
+        -108.2
+      ],
+      "extent": 635.7,
+      "edge_V_ring": [
+        649.1,
+        -89.9
+      ]
+    },
+    {
+      "direction": [
+        1,
+        1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        -6.1,
+        200.1
+      ],
+      "extent": 137.2,
+      "edge_V_ring": [
+        0.3,
+        224.9
+      ]
+    },
+    {
+      "direction": [
+        0,
+        1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        -143.0,
+        189.0
+      ],
+      "extent": 189.0,
+      "edge_V_ring": [
+        -129.5,
+        207.8
+      ]
+    },
+    {
+      "direction": [
+        -1,
+        1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        -206.8,
+        147.0
+      ],
+      "extent": 250.1,
+      "edge_V_ring": [
+        -199.5,
+        180.6
+      ]
+    },
+    {
+      "direction": [
+        -1,
+        0
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        -205.1,
+        8.5
+      ],
+      "extent": 205.1,
+      "edge_V_ring": [
+        -181.7,
+        25.8
+      ]
+    },
+    {
+      "direction": [
+        -1,
+        -1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        -12.8,
+        -202.7
+      ],
+      "extent": 152.3,
+      "edge_V_ring": [
+        1.1,
+        -197.0
+      ]
+    },
+    {
+      "direction": [
+        0,
+        -1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        119.5,
+        -181.1
+      ],
+      "extent": 181.1,
+      "edge_V_ring": [
+        130.2,
+        -181.9
+      ]
+    },
+    {
+      "direction": [
+        1,
+        -1
+      ],
+      "measured_by": [
+        "image"
+      ],
+      "edge_V": [
+        194.7,
+        -137.0
+      ],
+      "extent": 234.5,
+      "edge_V_ring": [
+        208.8,
+        -130.3
+      ]
+    }
+  ],
+  "bounds": {
+    "x_max": 635.7,
+    "x_min": -205.1,
+    "y_max": 189.0,
+    "y_min": -181.1,
+    "diag_to_axis": 0.639,
+    "shape": "unclear"
+  },
+  "edge_probe": {
+    "push": {
+      "requested": 150.0,
+      "image_shift": [
+        108.3,
+        0.1
+      ],
+      "source": "image",
+      "score": 0.62,
+      "view_moved_by_image": -108.3,
+      "ring_moved": 103.8
+    },
+    "pull": {
+      "requested": 150.0,
+      "image_shift": [
+        200.0,
+        0.2
+      ],
+      "source": "image",
+      "score": 0.626,
+      "view_moved_by_image": 200.0,
+      "ring_moved": -205.9
+    }
+  },
+  "latency_ms": 62.7,
+  "closure_px": 81.43
+}

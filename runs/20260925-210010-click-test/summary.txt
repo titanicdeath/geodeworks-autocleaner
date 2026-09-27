@@ -1,0 +1,11 @@
+M0 click test summary
+
+ #  strategy               verdict                             gone  HUDpx    dots err_px move_ms
+ 1  S0-control             REMOVED                              1.0    214  17->16    0.0     0.1
+ 2  S1-abs-path            REMOVED                             0.92    218  16->15    0.0    65.7
+ 3  S2-setcursor-wiggle    REMOVED                              1.0    276  15->13    0.0    75.3
+ 4  S3-abs-wiggle          REMOVED                              1.0    149  13->13    0.0    73.8
+ 5  S4-rel                 changed?                           0.498    197  13->13    0.0    90.8
+ 6  S5-rel-wiggle-slow     REMOVED                              1.0    124  13->11    0.0   363.0
+
+Removed by: S0-control, S1-abs-path, S2-setcursor-wiggle, S3-abs-wiggle, S5-rel-wiggle-slow

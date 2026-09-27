@@ -1,0 +1,5 @@
+M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: Mode buttons not recognised (present=[True, True, True, True], colors=[[64, 56, 52], [39, 29, 25], [39, 29, 25], [39, 29, 25]]); not clicking.
+Total 24.8s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg

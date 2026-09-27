@@ -1,0 +1,1672 @@
+{
+  "summary": {
+    "stops": 16,
+    "targets": 46,
+    "by_mode": {
+      "survey": 11,
+      "faded?": 12,
+      "survey?": 18,
+      "bright": 4,
+      "polarized": 1
+    },
+    "pairs": 8,
+    "pair_residual_px": {
+      "median": 1.92,
+      "max": 3.49
+    },
+    "tracked_vs_refined_px": {
+      "median": 2.519701723128849,
+      "max": 31.235355877510948
+    },
+    "minimap": {
+      "survey": {
+        "dots": 13,
+        "matched": 11,
+        "dots_without_target": 2
+      },
+      "bright": {
+        "dots": 4,
+        "matched": 4,
+        "dots_without_target": 0
+      },
+      "polarized": {
+        "dots": 4,
+        "matched": 1,
+        "dots_without_target": 3
+      },
+      "targets_without_dot": 30,
+      "survey_guess_agreement": 0.688
+    },
+    "coverage_frac": 0.8233764723237184
+  },
+  "targets": [
+    {
+      "id": 1,
+      "mode": "survey",
+      "S": [
+        282.7,
+        265.4
+      ],
+      "click": [
+        280.0,
+        261.5
+      ],
+      "area": 4258,
+      "contrast": {
+        "survey": 63.25
+      },
+      "dominance": 1.0,
+      "texture": 4.6,
+      "elongation": 1.18,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": 9.1
+    },
+    {
+      "id": 2,
+      "mode": "faded?",
+      "S": [
+        235.2,
+        -312.7
+      ],
+      "click": [
+        234.8,
+        -305.0
+      ],
+      "area": 1609,
+      "contrast": {
+        "survey": 28.93
+      },
+      "dominance": 1.0,
+      "texture": 3.55,
+      "elongation": 1.61,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 5,
+      "dot_dist": null
+    },
+    {
+      "id": 3,
+      "mode": "faded?",
+      "S": [
+        -321.5,
+        279.2
+      ],
+      "click": [
+        -319.0,
+        283.9
+      ],
+      "area": 100,
+      "contrast": {
+        "survey": 54.72
+      },
+      "dominance": 1.0,
+      "texture": 2.12,
+      "elongation": 2.06,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 4,
+      "mode": "faded?",
+      "S": [
+        -318.6,
+        -249.2
+      ],
+      "click": [
+        -294.6,
+        -230.6
+      ],
+      "area": 3330,
+      "contrast": {
+        "survey": 43.77
+      },
+      "dominance": 1.0,
+      "texture": 2.57,
+      "elongation": 1.87,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 6,
+      "dot_dist": null
+    },
+    {
+      "id": 5,
+      "mode": "survey?",
+      "S": [
+        -328.7,
+        270.9
+      ],
+      "click": [
+        -303.0,
+        291.9
+      ],
+      "area": 3832,
+      "contrast": {
+        "survey": 52.88
+      },
+      "dominance": 1.0,
+      "texture": 4.12,
+      "elongation": 2.23,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 6,
+      "mode": "survey",
+      "S": [
+        -303.3,
+        308.3
+      ],
+      "click": [
+        -318.0,
+        311.9
+      ],
+      "area": 342,
+      "contrast": {
+        "survey": 60.66
+      },
+      "dominance": 1.0,
+      "texture": 4.07,
+      "elongation": 1.45,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": 16.3
+    },
+    {
+      "id": 7,
+      "mode": "bright",
+      "S": [
+        248.1,
+        164.0
+      ],
+      "click": [
+        253.0,
+        152.5
+      ],
+      "area": 1742,
+      "contrast": {
+        "survey": 26.2
+      },
+      "dominance": 1.0,
+      "texture": 1.13,
+      "elongation": 1.72,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": 18.8
+    },
+    {
+      "id": 8,
+      "mode": "survey?",
+      "S": [
+        -320.3,
+        312.3
+      ],
+      "click": [
+        -324.0,
+        322.9
+      ],
+      "area": 552,
+      "contrast": {
+        "survey": 61.93
+      },
+      "dominance": 1.0,
+      "texture": 4.43,
+      "elongation": 1.33,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 9,
+      "mode": "bright",
+      "S": [
+        -180.7,
+        307.6
+      ],
+      "click": [
+        -147.0,
+        294.9
+      ],
+      "area": 4076,
+      "contrast": {
+        "survey": 21.28
+      },
+      "dominance": 1.0,
+      "texture": 1.47,
+      "elongation": 1.06,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "dot_dist": 11.8
+    },
+    {
+      "id": 10,
+      "mode": "survey",
+      "S": [
+        229.4,
+        -342.5
+      ],
+      "click": [
+        193.8,
+        -358.0
+      ],
+      "area": 8162,
+      "contrast": {
+        "survey": 49.06
+      },
+      "dominance": 1.0,
+      "texture": 4.02,
+      "elongation": 1.41,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 5,
+      "dot_dist": 32.1
+    },
+    {
+      "id": 11,
+      "mode": "faded?",
+      "S": [
+        -351.0,
+        213.7
+      ],
+      "click": [
+        -330.0,
+        202.9
+      ],
+      "area": 771,
+      "contrast": {
+        "survey": 27.51
+      },
+      "dominance": 1.0,
+      "texture": 2.95,
+      "elongation": 1.08,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 12,
+      "mode": "faded?",
+      "S": [
+        226.9,
+        144.9
+      ],
+      "click": [
+        228.0,
+        126.5
+      ],
+      "area": 1422,
+      "contrast": {
+        "survey": 23.25
+      },
+      "dominance": 1.0,
+      "texture": 0.99,
+      "elongation": 1.57,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 13,
+      "mode": "survey",
+      "S": [
+        160.1,
+        194.0
+      ],
+      "click": [
+        151.0,
+        196.5
+      ],
+      "area": 4990,
+      "contrast": {
+        "survey": 47.83
+      },
+      "dominance": 1.0,
+      "texture": 3.63,
+      "elongation": 1.9,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "dot_dist": 19.6
+    },
+    {
+      "id": 14,
+      "mode": "survey",
+      "S": [
+        -303.1,
+        -333.9
+      ],
+      "click": [
+        -303.6,
+        -333.6
+      ],
+      "area": 4020,
+      "contrast": {
+        "survey": 57.52
+      },
+      "dominance": 1.0,
+      "texture": 3.96,
+      "elongation": 1.18,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 6,
+      "dot_dist": 26.3
+    },
+    {
+      "id": 15,
+      "mode": "faded?",
+      "S": [
+        -355.6,
+        200.5
+      ],
+      "click": [
+        -388.0,
+        197.9
+      ],
+      "area": 2651,
+      "contrast": {
+        "survey": 33.63
+      },
+      "dominance": 1.0,
+      "texture": 3.49,
+      "elongation": 1.33,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 16,
+      "mode": "survey",
+      "S": [
+        -357.7,
+        -201.7
+      ],
+      "click": [
+        -350.6,
+        -248.6
+      ],
+      "area": 10399,
+      "contrast": {
+        "survey": 43.92
+      },
+      "dominance": 1.0,
+      "texture": 4.11,
+      "elongation": 1.2,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 5,
+      "votes": {
+        "?": 5.0
+      },
+      "best_stop": 6,
+      "dot_dist": 16.2
+    },
+    {
+      "id": 17,
+      "mode": "survey",
+      "S": [
+        -135.5,
+        -320.0
+      ],
+      "click": [
+        -137.6,
+        -322.6
+      ],
+      "area": 4240,
+      "contrast": {
+        "survey": 54.41
+      },
+      "dominance": 1.0,
+      "texture": 4.52,
+      "elongation": 1.16,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 6,
+      "dot_dist": 52.4
+    },
+    {
+      "id": 18,
+      "mode": "survey?",
+      "S": [
+        150.9,
+        -356.7
+      ],
+      "click": [
+        144.8,
+        -363.0
+      ],
+      "area": 1361,
+      "contrast": {
+        "survey": 59.44
+      },
+      "dominance": 1.0,
+      "texture": 5.78,
+      "elongation": 1.4,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 5,
+      "dot_dist": null
+    },
+    {
+      "id": 19,
+      "mode": "survey?",
+      "S": [
+        101.5,
+        274.0
+      ],
+      "click": [
+        101.0,
+        272.5
+      ],
+      "area": 283,
+      "contrast": {
+        "survey": 67.73
+      },
+      "dominance": 1.0,
+      "texture": 8.67,
+      "elongation": 1.13,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 20,
+      "mode": "faded?",
+      "S": [
+        -669.0,
+        -79.2
+      ],
+      "click": [
+        -593.6,
+        -190.1
+      ],
+      "area": 12535,
+      "contrast": {
+        "survey": 33.6
+      },
+      "dominance": 1.0,
+      "texture": 2.02,
+      "elongation": 2.43,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 7,
+      "dot_dist": null
+    },
+    {
+      "id": 21,
+      "mode": "survey",
+      "S": [
+        96.2,
+        346.1
+      ],
+      "click": [
+        96.0,
+        345.5
+      ],
+      "area": 4173,
+      "contrast": {
+        "survey": 52.7
+      },
+      "dominance": 1.0,
+      "texture": 3.87,
+      "elongation": 1.23,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 10,
+      "dot_dist": 5.0
+    },
+    {
+      "id": 22,
+      "mode": "survey?",
+      "S": [
+        443.3,
+        220.9
+      ],
+      "click": [
+        431.0,
+        236.5
+      ],
+      "area": 550,
+      "contrast": {
+        "survey": 57.65
+      },
+      "dominance": 1.0,
+      "texture": 5.04,
+      "elongation": 2.63,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 23,
+      "mode": "bright",
+      "S": [
+        -392.9,
+        107.1
+      ],
+      "click": [
+        -401.0,
+        84.9
+      ],
+      "area": 6478,
+      "contrast": {
+        "survey": 41.63
+      },
+      "dominance": 1.0,
+      "texture": 3.85,
+      "elongation": 1.92,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 9,
+      "dot_dist": 43.7
+    },
+    {
+      "id": 24,
+      "mode": "survey?",
+      "S": [
+        456.5,
+        204.0
+      ],
+      "click": [
+        445.0,
+        246.5
+      ],
+      "area": 415,
+      "contrast": {
+        "survey": 55.2
+      },
+      "dominance": 1.0,
+      "texture": 4.42,
+      "elongation": 4.4,
+      "kind": "line",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 25,
+      "mode": "survey?",
+      "S": [
+        463.2,
+        190.4
+      ],
+      "click": [
+        459.0,
+        255.5
+      ],
+      "area": 488,
+      "contrast": {
+        "survey": 45.8
+      },
+      "dominance": 1.0,
+      "texture": 4.22,
+      "elongation": 5.36,
+      "kind": "line",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 26,
+      "mode": "survey",
+      "S": [
+        -366.5,
+        -57.6
+      ],
+      "click": [
+        -367.6,
+        -60.6
+      ],
+      "area": 4236,
+      "contrast": {
+        "survey": 61.61
+      },
+      "dominance": 1.0,
+      "texture": 3.74,
+      "elongation": 1.22,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 4,
+      "votes": {
+        "?": 4.0
+      },
+      "best_stop": 6,
+      "dot_dist": 13.5
+    },
+    {
+      "id": 27,
+      "mode": "faded?",
+      "S": [
+        468.6,
+        188.7
+      ],
+      "click": [
+        470.0,
+        142.5
+      ],
+      "area": 681,
+      "contrast": {
+        "survey": 37.54
+      },
+      "dominance": 1.0,
+      "texture": 2.85,
+      "elongation": 8.51,
+      "kind": "line",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 28,
+      "mode": "bright",
+      "S": [
+        469.3,
+        -180.1
+      ],
+      "click": [
+        469.8,
+        -180.0
+      ],
+      "area": 4436,
+      "contrast": {
+        "survey": 25.61
+      },
+      "dominance": 1.0,
+      "texture": 1.25,
+      "elongation": 1.03,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 5,
+      "dot_dist": 29.3
+    },
+    {
+      "id": 29,
+      "mode": "survey?",
+      "S": [
+        470.0,
+        168.2
+      ],
+      "click": [
+        497.0,
+        150.5
+      ],
+      "area": 5610,
+      "contrast": {
+        "survey": 45.42
+      },
+      "dominance": 1.0,
+      "texture": 4.04,
+      "elongation": 1.77,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 5,
+      "votes": {
+        "?": 5.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 30,
+      "mode": "survey",
+      "S": [
+        -35.7,
+        -341.9
+      ],
+      "click": [
+        -36.6,
+        -328.6
+      ],
+      "area": 1042,
+      "contrast": {
+        "survey": 65.0
+      },
+      "dominance": 1.0,
+      "texture": 4.45,
+      "elongation": 1.39,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 6,
+      "dot_dist": 54.4
+    },
+    {
+      "id": 31,
+      "mode": "survey?",
+      "S": [
+        -35.7,
+        -355.7
+      ],
+      "click": [
+        -11.6,
+        -368.6
+      ],
+      "area": 1011,
+      "contrast": {
+        "survey": 59.86
+      },
+      "dominance": 1.0,
+      "texture": 4.27,
+      "elongation": 1.64,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 6,
+      "dot_dist": null
+    },
+    {
+      "id": 32,
+      "mode": "survey?",
+      "S": [
+        -71.5,
+        70.4
+      ],
+      "click": [
+        -71.0,
+        68.9
+      ],
+      "area": 281,
+      "contrast": {
+        "survey": 68.77
+      },
+      "dominance": 1.0,
+      "texture": 8.99,
+      "elongation": 1.13,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 33,
+      "mode": "survey?",
+      "S": [
+        8.6,
+        -165.6
+      ],
+      "click": [
+        8.8,
+        -166.0
+      ],
+      "area": 293,
+      "contrast": {
+        "survey": 68.29
+      },
+      "dominance": 1.0,
+      "texture": 8.99,
+      "elongation": 1.06,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 5,
+      "dot_dist": null
+    },
+    {
+      "id": 34,
+      "mode": "faded?",
+      "S": [
+        -41.4,
+        -409.9
+      ],
+      "click": [
+        -58.6,
+        -356.6
+      ],
+      "area": 3743,
+      "contrast": {
+        "survey": 45.24
+      },
+      "dominance": 1.0,
+      "texture": 3.61,
+      "elongation": 1.14,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 3,
+      "votes": {
+        "?": 3.0
+      },
+      "best_stop": 6,
+      "dot_dist": null
+    },
+    {
+      "id": 35,
+      "mode": "survey?",
+      "S": [
+        27.9,
+        105.0
+      ],
+      "click": [
+        28.0,
+        103.5
+      ],
+      "area": 280,
+      "contrast": {
+        "survey": 69.9
+      },
+      "dominance": 1.0,
+      "texture": 9.19,
+      "elongation": 1.06,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 36,
+      "mode": "faded?",
+      "S": [
+        -67.5,
+        -447.9
+      ],
+      "click": [
+        -84.6,
+        -454.6
+      ],
+      "area": 4278,
+      "contrast": {
+        "survey": 36.02
+      },
+      "dominance": 1.0,
+      "texture": 3.35,
+      "elongation": 1.48,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 4,
+      "votes": {
+        "?": 4.0
+      },
+      "best_stop": 6,
+      "dot_dist": null
+    },
+    {
+      "id": 37,
+      "mode": "faded?",
+      "S": [
+        430.1,
+        -24.3
+      ],
+      "click": [
+        423.8,
+        -61.0
+      ],
+      "area": 7593,
+      "contrast": {
+        "survey": 38.32
+      },
+      "dominance": 1.0,
+      "texture": 2.74,
+      "elongation": 1.77,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 5,
+      "votes": {
+        "?": 5.0
+      },
+      "best_stop": 5,
+      "dot_dist": null
+    },
+    {
+      "id": 38,
+      "mode": "survey?",
+      "S": [
+        28.7,
+        -157.7
+      ],
+      "click": [
+        28.4,
+        -158.6
+      ],
+      "area": 275,
+      "contrast": {
+        "survey": 70.3
+      },
+      "dominance": 1.0,
+      "texture": 9.4,
+      "elongation": 1.0,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 6,
+      "dot_dist": null
+    },
+    {
+      "id": 39,
+      "mode": "survey",
+      "S": [
+        427.7,
+        -15.1
+      ],
+      "click": [
+        428.8,
+        -17.0
+      ],
+      "area": 261,
+      "contrast": {
+        "survey": 29.71
+      },
+      "dominance": 1.0,
+      "texture": 2.88,
+      "elongation": 4.25,
+      "kind": "line",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 5,
+      "dot_dist": 33.9
+    },
+    {
+      "id": 40,
+      "mode": "survey?",
+      "S": [
+        12.2,
+        103.3
+      ],
+      "click": [
+        12.0,
+        102.9
+      ],
+      "area": 288,
+      "contrast": {
+        "survey": 69.83
+      },
+      "dominance": 1.0,
+      "texture": 9.12,
+      "elongation": 1.06,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 9,
+      "dot_dist": null
+    },
+    {
+      "id": 41,
+      "mode": "survey?",
+      "S": [
+        -53.4,
+        72.0
+      ],
+      "click": [
+        -54.0,
+        70.5
+      ],
+      "area": 282,
+      "contrast": {
+        "survey": 71.89
+      },
+      "dominance": 1.0,
+      "texture": 9.32,
+      "elongation": 1.13,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": false,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 42,
+      "mode": "faded?",
+      "S": [
+        21.3,
+        542.8
+      ],
+      "click": [
+        -106.1,
+        518.9
+      ],
+      "area": 7798,
+      "contrast": {
+        "survey": 33.83
+      },
+      "dominance": 1.0,
+      "texture": 2.14,
+      "elongation": 3.82,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 13,
+      "dot_dist": null
+    },
+    {
+      "id": 43,
+      "mode": "polarized",
+      "S": [
+        -44.8,
+        481.6
+      ],
+      "click": [
+        -85.0,
+        522.9
+      ],
+      "area": 6001,
+      "contrast": {
+        "survey": 35.31
+      },
+      "dominance": 1.0,
+      "texture": 2.32,
+      "elongation": 2.06,
+      "kind": "block",
+      "survey_guess": "faded",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 2,
+      "votes": {
+        "?": 2.0
+      },
+      "best_stop": 9,
+      "dot_dist": 7.8
+    },
+    {
+      "id": 44,
+      "mode": "survey?",
+      "S": [
+        -159.2,
+        376.7
+      ],
+      "click": [
+        -157.9,
+        377.0
+      ],
+      "area": 118,
+      "contrast": {
+        "survey": 27.55
+      },
+      "dominance": 1.0,
+      "texture": 5.35,
+      "elongation": 2.71,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 14,
+      "dot_dist": null
+    },
+    {
+      "id": 45,
+      "mode": "survey?",
+      "S": [
+        474.7,
+        -121.6
+      ],
+      "click": [
+        482.0,
+        -120.5
+      ],
+      "area": 332,
+      "contrast": {
+        "survey": 31.97
+      },
+      "dominance": 1.0,
+      "texture": 4.54,
+      "elongation": 3.13,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 10,
+      "dot_dist": null
+    },
+    {
+      "id": 46,
+      "mode": "survey?",
+      "S": [
+        1.4,
+        106.1
+      ],
+      "click": [
+        2.8,
+        106.0
+      ],
+      "area": 76,
+      "contrast": {
+        "survey": 71.26
+      },
+      "dominance": 1.0,
+      "texture": 17.97,
+      "elongation": 1.38,
+      "kind": "block",
+      "survey_guess": "full",
+      "method": "contrast",
+      "alpha_scores": null,
+      "partial": true,
+      "views": 1,
+      "votes": {
+        "?": 1.0
+      },
+      "best_stop": 5,
+      "dot_dist": null
+    }
+  ],
+  "positions": [
+    [
+      -756.3,
+      -752.9
+    ],
+    [
+      -259.9,
+      -746.8
+    ],
+    [
+      244.3,
+      -745.0
+    ],
+    [
+      755.9,
+      -739.3
+    ],
+    [
+      766.0,
+      -250.9
+    ],
+    [
+      256.3,
+      -246.6
+    ],
+    [
+      -245.1,
+      -243.2
+    ],
+    [
+      -747.1,
+      -244.6
+    ],
+    [
+      -762.7,
+      245.7
+    ],
+    [
+      -257.5,
+      248.3
+    ],
+    [
+      253.5,
+      246.0
+    ],
+    [
+      766.9,
+      247.4
+    ],
+    [
+      769.9,
+      739.7
+    ],
+    [
+      228.4,
+      738.4
+    ],
+    [
+      -251.4,
+      746.4
+    ],
+    [
+      -756.3,
+      752.9
+    ]
+  ],
+  "pairs": [
+    {
+      "i": 4,
+      "j": 5,
+      "shift": [
+        509.88282249867916,
+        -4.161047384142876
+      ],
+      "score": 0.552,
+      "vs_tracked": 5.71,
+      "residual": 0.25
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "shift": [
+        502.40583592653275,
+        -1.1363192051649094
+      ],
+      "score": 0.704,
+      "vs_tracked": 4.53,
+      "residual": 2.61
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "shift": [
+        12.405299186706543,
+        -488.0264681726694
+      ],
+      "score": 0.613,
+      "vs_tracked": 12.52,
+      "residual": 3.49
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "shift": [
+        16.451902359724045,
+        -492.01440869271755
+      ],
+      "score": 0.918,
+      "vs_tracked": 13.64,
+      "residual": 1.95
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "shift": [
+        -504.27946627140045,
+        -4.634755969047546
+      ],
+      "score": 0.788,
+      "vs_tracked": 3.8,
+      "residual": 2.15
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "shift": [
+        -509.7766709923744,
+        3.0939112156629562
+      ],
+      "score": 0.669,
+      "vs_tracked": 1.86,
+      "residual": 1.47
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "shift": [
+        -514.0432892926037,
+        -1.0899729803204536
+      ],
+      "score": 0.628,
+      "vs_tracked": 4.85,
+      "residual": 0.72
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "shift": [
+        27.02752580307424,
+        -492.0037000339944
+      ],
+      "score": 0.825,
+      "vs_tracked": 38.38,
+      "residual": 1.89
+    }
+  ],
+  "minimap_dots": {
+    "survey": [
+      [
+        -90.0,
+        -345.9
+      ],
+      [
+        -90.0,
+        -345.9
+      ],
+      [
+        201.5,
+        -326.7
+      ],
+      [
+        -293.6,
+        -309.4
+      ],
+      [
+        -264.1,
+        -217.0
+      ],
+      [
+        -361.0,
+        -185.8
+      ],
+      [
+        -378.5,
+        -63.8
+      ],
+      [
+        408.5,
+        12.8
+      ],
+      [
+        -378.5,
+        130.7
+      ],
+      [
+        140.9,
+        190.2
+      ],
+      [
+        274.0,
+        268.0
+      ],
+      [
+        -287.1,
+        306.3
+      ],
+      [
+        91.4,
+        344.6
+      ]
+    ],
+    "bright": [
+      [
+        484.2,
+        -154.9
+      ],
+      [
+        -370.6,
+        144.7
+      ],
+      [
+        231.8,
+        173.3
+      ],
+      [
+        -173.3,
+        316.8
+      ]
+    ],
+    "polarized": [
+      [
+        -584.1,
+        -140.4
+      ],
+      [
+        -824.2,
+        -25.8
+      ],
+      [
+        -47.5,
+        474.3
+      ],
+      [
+        143.6,
+        599.9
+      ]
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+M3 cleaning report
+
+Zoom: bright 1.4x, polarized 2.08x
+STOPPED: Roblox is no longer the active window.
+Total 0.9s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg

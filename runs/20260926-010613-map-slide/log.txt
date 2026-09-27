@@ -1,0 +1,3 @@
+[   0.000] geoclean 0.7.0-m2 map-slide  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260926-010613-map-slide
+[   0.013] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   1.797] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260926-010613-map-slide

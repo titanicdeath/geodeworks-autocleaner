@@ -1,0 +1,23 @@
+M1 pan calibration report
+
+Latency: view settled 35.0 ms after a held jump (probes: [35.0, 29.8]), settle used 0.08s
+Drag styles (content shift = G @ cursor):
+  jump    G=[[0.5023, 0.0], [0.0009, 0.0]] - view barely moved, not usable
+  step10  G=[[0.8807, 0.0119], [0.0004, 0.9077]] residual 6.03px (4.6%), hold 305ms
+          gain along each test vector: {'(60, 0)': 0.845, '(-60, 0)': 0.677, '(0, 60)': 0.802, '(0, -60)': 0.835, '(200, 0)': 0.894, '(-200, 0)': 0.888, '(0, 200)': 0.889, '(0, -200)': 0.943}
+  step3   G=[[0.975, 0.0129], [0.0002, 0.9748]] residual 3.08px (2.1%), hold 578ms
+          gain along each test vector: {'(60, 0)': 1.012, '(-60, 0)': 1.012, '(0, 60)': 0.917, '(0, -60)': 0.883, '(200, 0)': 0.981, '(-200, 0)': 0.963, '(0, 200)': 0.972, '(0, -200)': 0.991}
+  chosen: step3; minimap scale 26.23 slide px / ring px (from drags)
+Minimap scale over the whole run: 25.98 slide px / ring px (fit rms 11.3px, n=66)
+Slide edges (view-centre position where panning stopped, slide px from minimap centre):
+  [1, 0]   extent 790.4  at [790.4, 5.4]  minimap says [786.1, -1.0]
+  [1, 1]   extent 1035.6  at [724.3, 740.2]  minimap says None
+  [0, 1]   extent 762.7  at [364.2, 762.7]  minimap says [366.5, 785.2]
+  [-1, 1]  extent 993.4  at [-633.3, 771.6]  minimap says None
+  [-1, 0]  extent 792.6  at [-792.6, 629.7]  minimap says [-785.5, 629.6]
+  [-1, -1] extent 1000.6  at [-786.6, -628.4]  minimap says None
+  [0, -1]  extent 781.0  at [-352.7, -781.0]  minimap says [-352.7, -781.0]
+  [1, -1]  extent 972.5  at [792.6, -582.7]  minimap says None
+  boundary looks not round - see extents: mean 891px, std 111px
+Closed-loop pan_to: tracked error max 5.0px, drags per target [3, 3, 3, 2, 2, 2], minimap disagreement max 26.8px
+Closure (true, image-based): 10.26px [10.08, 1.88] after 98 drags (response 0.976)

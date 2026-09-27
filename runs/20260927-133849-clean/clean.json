@@ -1,0 +1,1611 @@
+{
+  "modes": [
+    "survey",
+    "bright",
+    "polarized"
+  ],
+  "results": {
+    "survey": {
+      "rounds": 4,
+      "views": 7,
+      "finished": false,
+      "dots_per_round": [
+        14,
+        3,
+        1,
+        1
+      ],
+      "left": 0,
+      "clicks": 18,
+      "removed": 16,
+      "changed": 1,
+      "no_change": 1,
+      "seconds": 16.3
+    },
+    "bright": {
+      "rounds": 1,
+      "views": 4,
+      "finished": true,
+      "dots_per_round": [
+        7
+      ],
+      "left": 0,
+      "clicks": 8,
+      "removed": 6,
+      "changed": 1,
+      "no_change": 1,
+      "seconds": 11.5
+    },
+    "polarized": {
+      "rounds": 2,
+      "views": 6,
+      "finished": true,
+      "dots_per_round": [
+        12,
+        3
+      ],
+      "left": 0,
+      "clicks": 12,
+      "removed": 11,
+      "changed": 0,
+      "no_change": 1,
+      "seconds": 15.2
+    }
+  },
+  "seconds": 43.2,
+  "zoom": {
+    "survey": {
+      "zoom": 1.0,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": true
+    },
+    "bright": {
+      "zoom": 1.4,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": true
+    },
+    "polarized": {
+      "zoom": 2.08,
+      "centre": [
+        959.4999999999885,
+        527.4463501838587
+      ],
+      "measured": false
+    }
+  },
+  "clicks": [
+    {
+      "S": [
+        255.1,
+        -140.4
+      ],
+      "click": [
+        906.0,
+        321.0
+      ],
+      "kind": "block",
+      "area": 4370,
+      "contrast": 37.34,
+      "n": 1,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/001-survey-removed.jpg"
+    },
+    {
+      "S": [
+        374.7,
+        -162.3
+      ],
+      "click": [
+        1002.0,
+        314.0
+      ],
+      "kind": "block",
+      "area": 3954,
+      "contrast": 40.99,
+      "n": 2,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/002-survey-removed.jpg"
+    },
+    {
+      "S": [
+        456.8,
+        -38.3
+      ],
+      "click": [
+        1079.0,
+        411.0
+      ],
+      "kind": "block",
+      "area": 4083,
+      "contrast": 39.77,
+      "n": 3,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/003-survey-removed.jpg"
+    },
+    {
+      "S": [
+        600.3,
+        39.4
+      ],
+      "click": [
+        1202.0,
+        463.0
+      ],
+      "kind": "block",
+      "area": 4248,
+      "contrast": 45.07,
+      "n": 4,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/004-survey-removed.jpg"
+    },
+    {
+      "S": [
+        419.0,
+        322.9
+      ],
+      "click": [
+        1074.0,
+        741.0
+      ],
+      "kind": "block",
+      "area": 4333,
+      "contrast": 35.45,
+      "n": 5,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/005-survey-removed.jpg"
+    },
+    {
+      "S": [
+        225.4,
+        183.3
+      ],
+      "click": [
+        867.0,
+        582.0
+      ],
+      "kind": "block",
+      "area": 10088,
+      "contrast": 29.1,
+      "n": 6,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/006-survey-removed.jpg"
+    },
+    {
+      "S": [
+        512.0,
+        189.5
+      ],
+      "click": [
+        1153.0,
+        646.0
+      ],
+      "kind": "block",
+      "area": 4150,
+      "contrast": 42.32,
+      "n": 7,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.3,
+        102.0
+      ],
+      "burst": 1,
+      "image": "clicks/007-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -495.3,
+        332.4
+      ],
+      "click": [
+        743.0,
+        491.0
+      ],
+      "kind": "block",
+      "area": 4537,
+      "contrast": 34.09,
+      "n": 8,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "burst": 2,
+      "image": "clicks/008-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -421.6,
+        233.6
+      ],
+      "click": [
+        805.0,
+        409.0
+      ],
+      "kind": "block",
+      "area": 4482,
+      "contrast": 37.19,
+      "n": 9,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "burst": 2,
+      "image": "clicks/009-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -85.3,
+        286.7
+      ],
+      "click": [
+        1140.0,
+        488.0
+      ],
+      "kind": "block",
+      "area": 6495,
+      "contrast": 48.78,
+      "n": 10,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "burst": 2,
+      "image": "clicks/010-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -233.0,
+        514.8
+      ],
+      "click": [
+        1014.0,
+        662.0
+      ],
+      "kind": "block",
+      "area": 4296,
+      "contrast": 46.64,
+      "n": 11,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "burst": 2,
+      "image": "clicks/011-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -153.3,
+        414.8
+      ],
+      "click": [
+        1090.0,
+        595.0
+      ],
+      "kind": "block",
+      "area": 4278,
+      "contrast": 38.6,
+      "n": 12,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "burst": 2,
+      "image": "clicks/012-survey-removed.jpg"
+    },
+    {
+      "S": [
+        -52.2,
+        -447.9
+      ],
+      "click": [
+        949.0,
+        537.0
+      ],
+      "kind": "block",
+      "area": 4238,
+      "contrast": 42.96,
+      "n": 13,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -52.1,
+        -434.1
+      ],
+      "burst": 3
+    },
+    {
+      "S": [
+        290.1,
+        238.6
+      ],
+      "click": [
+        960.0,
+        584.0
+      ],
+      "kind": "block",
+      "area": 8134,
+      "contrast": 31.77,
+      "n": 14,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        261.4,
+        178.8
+      ],
+      "burst": 4
+    },
+    {
+      "S": [
+        -291.5,
+        41.5
+      ],
+      "click": [
+        965.0,
+        534.0
+      ],
+      "kind": "block",
+      "area": 9759,
+      "contrast": 48.94,
+      "n": 15,
+      "mode": "survey",
+      "outcome": "changed",
+      "gone": 0.519,
+      "V": [
+        -287.0,
+        51.0
+      ],
+      "burst": 5,
+      "image": "clicks/015-survey-changed.jpg"
+    },
+    {
+      "S": [
+        -291.5,
+        41.5
+      ],
+      "click": [
+        936.0,
+        530.0
+      ],
+      "kind": "block",
+      "area": 13940,
+      "contrast": 45.84,
+      "n": 16,
+      "mode": "survey",
+      "outcome": "no_change",
+      "gone": 0.0,
+      "V": [
+        -287.0,
+        51.0
+      ],
+      "burst": 6,
+      "image": "clicks/016-survey-no_change.jpg"
+    },
+    {
+      "S": [
+        169.6,
+        232.3
+      ],
+      "click": [
+        981.0,
+        521.0
+      ],
+      "kind": "block",
+      "area": 5607,
+      "contrast": 35.51,
+      "n": 17,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 0.81,
+      "V": [
+        182.9,
+        229.8
+      ],
+      "burst": 7
+    },
+    {
+      "S": [
+        169.6,
+        293.5
+      ],
+      "click": [
+        941.0,
+        571.0
+      ],
+      "kind": "block",
+      "area": 4254,
+      "contrast": 44.72,
+      "n": 18,
+      "mode": "survey",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        182.9,
+        229.8
+      ],
+      "burst": 8
+    },
+    {
+      "S": [
+        -278.9,
+        -400.4
+      ],
+      "click": [
+        796.0,
+        393.0
+      ],
+      "kind": "block",
+      "area": 9117,
+      "contrast": 39.01,
+      "n": 19,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 0.766,
+      "V": [
+        -157.0,
+        -280.5
+      ],
+      "burst": 9
+    },
+    {
+      "S": [
+        -157.9,
+        -287.2
+      ],
+      "click": [
+        912.0,
+        489.0
+      ],
+      "kind": "block",
+      "area": 8162,
+      "contrast": 57.67,
+      "n": 20,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -157.0,
+        -280.5
+      ],
+      "burst": 9
+    },
+    {
+      "S": [
+        19.1,
+        -377.0
+      ],
+      "click": [
+        1238.0,
+        406.0
+      ],
+      "kind": "block",
+      "area": 8614,
+      "contrast": 50.49,
+      "n": 21,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -157.0,
+        -280.5
+      ],
+      "burst": 9
+    },
+    {
+      "S": [
+        -43.9,
+        -270.3
+      ],
+      "click": [
+        1111.0,
+        518.0
+      ],
+      "kind": "block",
+      "area": 674,
+      "contrast": 14.85,
+      "n": 22,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -157.0,
+        -280.5
+      ],
+      "burst": 9
+    },
+    {
+      "S": [
+        -352.4,
+        -114.9
+      ],
+      "click": [
+        963.0,
+        600.0
+      ],
+      "kind": "block",
+      "area": 10230,
+      "contrast": 33.27,
+      "n": 23,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 0.846,
+      "V": [
+        -352.2,
+        -112.5
+      ],
+      "burst": 10
+    },
+    {
+      "S": [
+        -326.2,
+        293.5
+      ],
+      "click": [
+        979.0,
+        522.0
+      ],
+      "kind": "block",
+      "area": 22561,
+      "contrast": 60.69,
+      "n": 24,
+      "mode": "bright",
+      "outcome": "changed",
+      "gone": 0.487,
+      "V": [
+        -326.2,
+        280.8
+      ],
+      "burst": 11,
+      "image": "clicks/024-bright-changed.jpg"
+    },
+    {
+      "S": [
+        -326.2,
+        293.5
+      ],
+      "click": [
+        966.0,
+        522.0
+      ],
+      "kind": "block",
+      "area": 4125,
+      "contrast": 55.78,
+      "n": 25,
+      "mode": "bright",
+      "outcome": "no_change",
+      "gone": 0.0,
+      "V": [
+        -326.2,
+        280.8
+      ],
+      "burst": 12,
+      "image": "clicks/025-bright-no_change.jpg"
+    },
+    {
+      "S": [
+        300.2,
+        -497.8
+      ],
+      "click": [
+        968.0,
+        574.0
+      ],
+      "kind": "block",
+      "area": 1545,
+      "contrast": 59.48,
+      "n": 26,
+      "mode": "bright",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        313.2,
+        -485.0
+      ],
+      "burst": 13
+    },
+    {
+      "S": [
+        424.5,
+        -497.8
+      ],
+      "click": [
+        765.0,
+        565.0
+      ],
+      "kind": "block",
+      "area": 901,
+      "contrast": 77.6,
+      "n": 27,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        513.6,
+        -499.9
+      ],
+      "burst": 14
+    },
+    {
+      "S": [
+        629.5,
+        -520.9
+      ],
+      "click": [
+        1223.0,
+        490.0
+      ],
+      "kind": "block",
+      "area": 1607,
+      "contrast": 77.52,
+      "n": 28,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        513.6,
+        -499.9
+      ],
+      "burst": 14
+    },
+    {
+      "S": [
+        515.5,
+        -499.4
+      ],
+      "click": [
+        912.0,
+        475.0
+      ],
+      "kind": "block",
+      "area": 991,
+      "contrast": 77.48,
+      "n": 29,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        513.6,
+        -499.9
+      ],
+      "burst": 14
+    },
+    {
+      "S": [
+        796.1,
+        -720.7
+      ],
+      "click": [
+        1079.0,
+        374.0
+      ],
+      "kind": "block",
+      "area": 1668,
+      "contrast": 77.49,
+      "n": 30,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        782.5,
+        -650.7
+      ],
+      "burst": 15
+    },
+    {
+      "S": [
+        770.0,
+        -593.7
+      ],
+      "click": [
+        951.0,
+        635.0
+      ],
+      "kind": "block",
+      "area": 1238,
+      "contrast": 75.83,
+      "n": 31,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        782.5,
+        -650.7
+      ],
+      "burst": 15
+    },
+    {
+      "S": [
+        787.3,
+        -805.8
+      ],
+      "click": [
+        873.0,
+        214.0
+      ],
+      "kind": "block",
+      "area": 1270,
+      "contrast": 77.53,
+      "n": 32,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        782.5,
+        -650.7
+      ],
+      "burst": 15
+    },
+    {
+      "S": [
+        -274.0,
+        53.6
+      ],
+      "click": [
+        595.0,
+        431.0
+      ],
+      "kind": "block",
+      "area": 34049,
+      "contrast": 74.9,
+      "n": 33,
+      "mode": "polarized",
+      "outcome": "no_change",
+      "gone": 0.474,
+      "V": [
+        -134.7,
+        116.6
+      ],
+      "burst": 16,
+      "image": "clicks/033-polarized-no_change.jpg"
+    },
+    {
+      "S": [
+        -296.0,
+        293.5
+      ],
+      "click": [
+        910.0,
+        512.0
+      ],
+      "kind": "block",
+      "area": 2552,
+      "contrast": 74.41,
+      "n": 34,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -286.2,
+        280.5
+      ],
+      "burst": 17
+    },
+    {
+      "S": [
+        -8.2,
+        33.6
+      ],
+      "click": [
+        996.0,
+        643.0
+      ],
+      "kind": "block",
+      "area": 22203,
+      "contrast": 73.92,
+      "n": 35,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -0.3,
+        25.7
+      ],
+      "burst": 18
+    },
+    {
+      "S": [
+        -278.9,
+        59.1
+      ],
+      "click": [
+        728.0,
+        327.0
+      ],
+      "kind": "block",
+      "area": 833,
+      "contrast": 74.48,
+      "n": 36,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -170.2,
+        152.8
+      ],
+      "burst": 19
+    },
+    {
+      "S": [
+        -148.2,
+        149.4
+      ],
+      "click": [
+        981.0,
+        491.0
+      ],
+      "kind": "block",
+      "area": 1208,
+      "contrast": 72.71,
+      "n": 37,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -170.2,
+        152.8
+      ],
+      "burst": 19
+    },
+    {
+      "S": [
+        -92.4,
+        247.4
+      ],
+      "click": [
+        1137.0,
+        724.0
+      ],
+      "kind": "block",
+      "area": 1406,
+      "contrast": 72.09,
+      "n": 38,
+      "mode": "polarized",
+      "outcome": "removed",
+      "gone": 1.0,
+      "V": [
+        -170.2,
+        152.8
+      ],
+      "burst": 19
+    }
+  ],
+  "pans": [
+    {
+      "n": 1,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -333.7,
+        -113.3
+      ],
+      "V_before": [
+        -3.2,
+        -1.1
+      ],
+      "V": [
+        313.3,
+        102.0
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.959,
+      "gain_adj": 0.98,
+      "source": "minimap",
+      "anchor": [
+        1126.4,
+        584.1
+      ],
+      "end": [
+        792.6,
+        470.8
+      ],
+      "events": 23,
+      "held_ms": 391
+    },
+    {
+      "n": 2,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        617.2,
+        -269.8
+      ],
+      "V_before": [
+        313.3,
+        102.0
+      ],
+      "V": [
+        -287.0,
+        357.2
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.014,
+      "gain_adj": 0.986,
+      "source": "minimap",
+      "anchor": [
+        650.9,
+        662.4
+      ],
+      "end": [
+        1268.1,
+        392.5
+      ],
+      "events": 42,
+      "held_ms": 486
+    },
+    {
+      "n": 3,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -190.8,
+        640.0
+      ],
+      "V_before": [
+        -287.0,
+        357.2
+      ],
+      "V": [
+        -104.6,
+        -255.1
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.003,
+      "gain_adj": 0.988,
+      "source": "minimap",
+      "anchor": [
+        1054.9,
+        210.4
+      ],
+      "end": [
+        864.1,
+        850.4
+      ],
+      "events": 43,
+      "held_ms": 485
+    },
+    {
+      "n": 4,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -56.1,
+        201.4
+      ],
+      "V_before": [
+        -104.6,
+        -255.1
+      ],
+      "V": [
+        -52.1,
+        -434.1
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.934,
+      "gain_adj": 0.955,
+      "source": "minimap",
+      "anchor": [
+        987.6,
+        426.7
+      ],
+      "end": [
+        931.4,
+        628.2
+      ],
+      "events": 14,
+      "held_ms": 341
+    },
+    {
+      "n": 5,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -315.6,
+        -640.0
+      ],
+      "V_before": [
+        -52.1,
+        -434.1
+      ],
+      "V": [
+        261.4,
+        178.8
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.034,
+      "gain_adj": 0.971,
+      "source": "minimap",
+      "anchor": [
+        1117.3,
+        850.4
+      ],
+      "end": [
+        801.7,
+        210.4
+      ],
+      "events": 43,
+      "held_ms": 485
+    },
+    {
+      "n": 6,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        578.6,
+        144.0
+      ],
+      "V_before": [
+        261.4,
+        178.8
+      ],
+      "V": [
+        -287.0,
+        51.0
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.988,
+      "gain_adj": 0.965,
+      "source": "minimap",
+      "anchor": [
+        670.2,
+        455.5
+      ],
+      "end": [
+        1248.8,
+        599.4
+      ],
+      "events": 39,
+      "held_ms": 467
+    },
+    {
+      "n": 7,
+      "tag": "survey-view",
+      "mode": "survey",
+      "zoom": 1.0,
+      "cursor": [
+        -479.9,
+        -192.1
+      ],
+      "V_before": [
+        -287.0,
+        51.0
+      ],
+      "V": [
+        182.9,
+        229.8
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.023,
+      "gain_adj": 0.976,
+      "source": "minimap",
+      "anchor": [
+        1199.4,
+        623.5
+      ],
+      "end": [
+        719.6,
+        431.4
+      ],
+      "events": 32,
+      "held_ms": 430
+    },
+    {
+      "n": 8,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        410.9,
+        640.0
+      ],
+      "V_before": [
+        182.7,
+        229.7
+      ],
+      "V": [
+        -105.2,
+        -204.4
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.979,
+      "gain_adj": 0.989,
+      "source": "minimap",
+      "anchor": [
+        754.1,
+        210.4
+      ],
+      "end": [
+        1164.9,
+        850.4
+      ],
+      "events": 43,
+      "held_ms": 484
+    },
+    {
+      "n": 9,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        74.8,
+        120.5
+      ],
+      "V_before": [
+        -105.2,
+        -204.4
+      ],
+      "V": [
+        -157.0,
+        -280.5
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.937,
+      "gain_adj": 0.989,
+      "source": "minimap",
+      "anchor": [
+        922.1,
+        467.2
+      ],
+      "end": [
+        996.9,
+        587.7
+      ],
+      "events": 9,
+      "held_ms": 315
+    },
+    {
+      "n": 10,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        284.1,
+        -242.5
+      ],
+      "V_before": [
+        -157.0,
+        -280.5
+      ],
+      "V": [
+        -352.2,
+        -112.5
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.006,
+      "gain_adj": 0.992,
+      "source": "minimap",
+      "anchor": [
+        817.5,
+        648.7
+      ],
+      "end": [
+        1101.5,
+        406.2
+      ],
+      "events": 19,
+      "held_ms": 368
+    },
+    {
+      "n": 11,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        -31.2,
+        -590.5
+      ],
+      "V_before": [
+        -352.2,
+        -112.5
+      ],
+      "V": [
+        -326.2,
+        280.8
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.969,
+      "gain_adj": 0.977,
+      "source": "minimap",
+      "anchor": [
+        975.1,
+        822.7
+      ],
+      "end": [
+        943.9,
+        232.2
+      ],
+      "events": 40,
+      "held_ms": 474
+    },
+    {
+      "n": 12,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        -514.0,
+        640.0
+      ],
+      "V_before": [
+        -326.2,
+        280.8
+      ],
+      "V": [
+        26.5,
+        -166.4
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.027,
+      "gain_adj": 0.99,
+      "source": "minimap",
+      "anchor": [
+        1216.5,
+        210.4
+      ],
+      "end": [
+        702.5,
+        850.4
+      ],
+      "events": 43,
+      "held_ms": 488
+    },
+    {
+      "n": 13,
+      "tag": "bright-view",
+      "mode": "bright",
+      "zoom": 1.4,
+      "cursor": [
+        -399.1,
+        484.3
+      ],
+      "V_before": [
+        26.5,
+        -166.4
+      ],
+      "V": [
+        313.2,
+        -485.0
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.996,
+      "gain_adj": 0.988,
+      "source": "minimap",
+      "anchor": [
+        1159.0,
+        285.3
+      ],
+      "end": [
+        760.0,
+        769.6
+      ],
+      "events": 33,
+      "held_ms": 433
+    },
+    {
+      "n": 14,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        -428.3,
+        4.8
+      ],
+      "V_before": [
+        313.3,
+        -497.7
+      ],
+      "V": [
+        513.6,
+        -499.9
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.991,
+      "gain_adj": 0.995,
+      "source": "minimap",
+      "anchor": [
+        1173.7,
+        525.0
+      ],
+      "end": [
+        745.3,
+        529.9
+      ],
+      "events": 29,
+      "held_ms": 414
+    },
+    {
+      "n": 15,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        -575.1,
+        340.8
+      ],
+      "V_before": [
+        513.6,
+        -499.9
+      ],
+      "V": [
+        782.5,
+        -650.7
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.99,
+      "gain_adj": 0.991,
+      "source": "minimap",
+      "anchor": [
+        1247.1,
+        357.0
+      ],
+      "end": [
+        671.9,
+        697.9
+      ],
+      "events": 39,
+      "held_ms": 462
+    },
+    {
+      "n": 16,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        640.0,
+        -536.1
+      ],
+      "V_before": [
+        782.5,
+        -650.7
+      ],
+      "V": [
+        482.8,
+        -395.7
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.02,
+      "gain_adj": 1.0,
+      "source": "minimap",
+      "anchor": [
+        639.5,
+        795.5
+      ],
+      "end": [
+        1279.5,
+        259.4
+      ],
+      "events": 43,
+      "held_ms": 487
+    },
+    {
+      "n": 17,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        640.0,
+        -530.5
+      ],
+      "V_before": [
+        482.8,
+        -395.7
+      ],
+      "V": [
+        167.3,
+        -150.8
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.029,
+      "gain_adj": 1.015,
+      "source": "minimap",
+      "anchor": [
+        639.5,
+        792.7
+      ],
+      "end": [
+        1279.5,
+        262.2
+      ],
+      "events": 43,
+      "held_ms": 486
+    },
+    {
+      "n": 18,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        640.0,
+        -556.6
+      ],
+      "V_before": [
+        167.3,
+        -150.8
+      ],
+      "V": [
+        -134.7,
+        116.6
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.005,
+      "gain_adj": 1.017,
+      "source": "minimap",
+      "anchor": [
+        639.5,
+        805.8
+      ],
+      "end": [
+        1279.5,
+        249.1
+      ],
+      "events": 43,
+      "held_ms": 490
+    },
+    {
+      "n": 19,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        339.8,
+        -374.2
+      ],
+      "V_before": [
+        -134.7,
+        116.6
+      ],
+      "V": [
+        -286.2,
+        280.5
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.932,
+      "gain_adj": 0.983,
+      "source": "minimap",
+      "anchor": [
+        789.6,
+        714.5
+      ],
+      "end": [
+        1129.4,
+        340.4
+      ],
+      "events": 25,
+      "held_ms": 397
+    },
+    {
+      "n": 20,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        -604.9,
+        540.8
+      ],
+      "V_before": [
+        -286.2,
+        280.5
+      ],
+      "V": [
+        -0.3,
+        25.7
+      ],
+      "style": "v3000np",
+      "moved_ratio": 1.03,
+      "gain_adj": 0.997,
+      "source": "minimap",
+      "anchor": [
+        1262.0,
+        257.1
+      ],
+      "end": [
+        657.0,
+        797.8
+      ],
+      "events": 41,
+      "held_ms": 479
+    },
+    {
+      "n": 21,
+      "tag": "polarized-view",
+      "mode": "polarized",
+      "zoom": 2.08,
+      "cursor": [
+        369.9,
+        -272.7
+      ],
+      "V_before": [
+        -0.3,
+        25.7
+      ],
+      "V": [
+        -170.2,
+        152.8
+      ],
+      "style": "v3000np",
+      "moved_ratio": 0.991,
+      "gain_adj": 0.993,
+      "source": "minimap",
+      "anchor": [
+        774.5,
+        663.8
+      ],
+      "end": [
+        1144.5,
+        391.1
+      ],
+      "events": 25,
+      "held_ms": 391
+    }
+  ]
+}

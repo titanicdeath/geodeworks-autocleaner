@@ -1,0 +1,25 @@
+M1 pan calibration report
+
+Latency: view settled 62.7 ms after a held jump (probes: [62.7, 53.5]), settle used 0.12s
+Drag styles (content shift = G @ cursor):
+  jump    G=[[-0.7819, 0.2451], [0.0691, -0.2869]] residual 48.0px (46.7%), hold 199ms
+          gain along each test vector: {'(60, 0)': -1.008, '(-60, 0)': -1.008, '(0, 60)': -0.505, '(0, -60)': -1.005, '(200, 0)': -0.504, '(-200, 0)': -1.018, '(0, 200)': -0.489, '(0, -200)': 0.0}
+  step10  G=[[0.6767, 0.4827], [0.0, 0.4346]] residual 16.88px (22.4%), hold 305ms
+          gain along each test vector: {'(-60, 0)': 0.677, '(0, 60)': 0.167, '(0, -60)': 0.498, '(0, 200)': 0.453}
+  step6   G=[[0.5011, 0.5252], [0.1578, 0.474]] - view barely moved, not usable
+  step3   G=[[0.48, 0.4971], [0.1385, 0.4942]] - view barely moved, not usable
+  chosen: step10; minimap scale 25.99 slide px / ring px (from drags)
+Minimap scale over the whole run: 25.37 slide px / ring px (fit rms 9.1px, n=208)
+Slide edges (view-centre position where panning stopped, slide px from minimap centre):
+  [1, 0]   extent 635.7  at [635.7, -108.2]  minimap says [649.1, -89.9]  (last drags measured by image)
+  [1, 1]   extent 137.2  at [-6.1, 200.1]  minimap says [0.3, 224.9]  (last drags measured by image)
+  [0, 1]   extent 189.0  at [-143.0, 189.0]  minimap says [-129.5, 207.8]  (last drags measured by image)
+  [-1, 1]  extent 250.1  at [-206.8, 147.0]  minimap says [-199.5, 180.6]  (last drags measured by image)
+  [-1, 0]  extent 205.1  at [-205.1, 8.5]  minimap says [-181.7, 25.8]  (last drags measured by image)
+  [-1, -1] extent 152.3  at [-12.8, -202.7]  minimap says [1.1, -197.0]  (last drags measured by image)
+  [0, -1]  extent 181.1  at [119.5, -181.1]  minimap says [130.2, -181.9]  (last drags measured by image)
+  [1, -1]  extent 234.5  at [194.7, -137.0]  minimap says [208.8, -130.3]  (last drags measured by image)
+  view-centre limits: x -205.1..635.7, y -181.1..189.0; boundary shape unclear (diagonal/axis extent 0.639; square = 1.41, round = 1.0)
+Edge probe at +x (slide px): push 150 further -> image says the view moved -108.3, minimap says 103.8; pull back -> image 200.0, minimap -205.9 (None = no features to match)
+Closed-loop pan_to: tracked error max 259.7px, drags per target [12, 12, 12, 11, 5, 2], minimap disagreement max 29.3px
+Closure (true, image-based): 81.43px [-50.97, 63.5] after 277 drags (response 0.683)

@@ -1,0 +1,7 @@
+M3 cleaning report
+
+survey     2 removed (+0 revealed another), 4 clicks without effect; minimap per round [5, 3] -> 3 left; 5 views in 10.4s
+bright     8 removed (+0 revealed another), 2 clicks without effect; minimap per round [10, 1] -> FINISHED (button greyed out); 4 views in 13.9s
+polarized  9 removed (+0 revealed another), 2 clicks without effect; minimap per round [12, 5, 3] -> 3 left; 8 views in 21.5s
+Zoom: bright 1.4024x (measured), polarized 2.08x
+Total 46.0s after F6. Purity bar: hud-before.png / hud-after.png. Clicks: clicks/NNN-mode-outcome.jpg

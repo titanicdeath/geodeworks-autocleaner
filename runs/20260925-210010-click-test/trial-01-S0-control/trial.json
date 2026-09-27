@@ -1,0 +1,66 @@
+{
+  "trial": 1,
+  "strategy": "S0-control",
+  "strategy_params": {
+    "name": "S0-control",
+    "move": "none",
+    "wiggle": false,
+    "nocoalesce": true,
+    "dwell": 0.05,
+    "hold": 0.08,
+    "steps": 12,
+    "step_px": 12,
+    "step_delay": 0.008,
+    "description": "No movement. You keep the cursor on the block; the tool only presses."
+  },
+  "target": [
+    1105,
+    316
+  ],
+  "parked_at": [
+    1105,
+    316
+  ],
+  "cursor_at_press": [
+    1105,
+    316
+  ],
+  "move_trace": {
+    "strategy": "S0-control",
+    "target": [
+      1105,
+      316
+    ],
+    "start": [
+      1105,
+      316
+    ],
+    "events": 0,
+    "wiggle_events": 0,
+    "arrived": [
+      1105,
+      316
+    ],
+    "end": [
+      1105,
+      316
+    ],
+    "final_error_px": 0.0,
+    "move_ms": 0.1
+  },
+  "hover_patch_changed_px": 0,
+  "verdict": "REMOVED",
+  "removed": true,
+  "local": {
+    "object_px": 3986,
+    "cursor_on_object": true,
+    "gone_frac": 1.0,
+    "changed_frac": 1.0,
+    "patch_changed_px": 3993
+  },
+  "hud_changed_px": 214,
+  "global_change_frac": 0.0068,
+  "minimap_dots_before": 17,
+  "minimap_dots_after": 16,
+  "press_to_capture_ms": 1015
+}

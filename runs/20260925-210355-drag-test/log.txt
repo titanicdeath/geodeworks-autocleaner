@@ -1,0 +1,113 @@
+[   0.000] geoclean 0.5.0-m0 drag-test  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260925-210355-drag-test
+[   0.003] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   1.061] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   1.639] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   1.639] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   1.640] 
+[   1.640] Pan (by hand) so the view is near the MIDDLE of the slide with a few blocks visible.
+[   1.641] Then tap F6 and LET GO of the mouse. The tool will hold the right button and move the
+[   1.641] cursor up to 120px from the microscope centre and back, several times.
+[  11.533] Waiting for the mouse to be still...
+[  12.042] 
+[  12.042] === Right-drag using rel cursor moves
+[  14.004]     offset  +60,  +0: cursor now [60, 0] (0.83s after arrival)
+[  14.888]     offset +120,  +0: cursor now [120, 0] (0.83s after arrival)
+[  15.822]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  16.704]     offset   +0, +60: cursor now [0, 60] (0.83s after arrival)
+[  17.587]     offset   +0,+120: cursor now [0, 120] (0.83s after arrival)
+[  18.518]     offset   +0,  +0: cursor now [0, 0] (0.82s after arrival)
+[  19.393]     offset  -60,  +0: cursor now [-60, 0] (0.82s after arrival)
+[  20.277]     offset -120,  +0: cursor now [-120, 0] (0.83s after arrival)
+[  21.212]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  22.094]     offset   +0, -60: cursor now [0, -60] (0.83s after arrival)
+[  22.975]     offset   +0,-120: cursor now [0, -120] (0.83s after arrival)
+[  23.912]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  25.113] Right-drag analysis (rel moves). shift = slide content movement on screen vs start (px); resp < 0.05 = unreliable match. ring = minimap view-circle movement (px).
+
+label                         cmd      cursor          shift  resp          ring
+start                      (0, 0)      (0, 0)     (0.0, 0.0)   1.0    [0.0, 0.0]
+start-again                (0, 0)      (0, 0)     (0.0, 0.0)   1.0    [0.0, 0.0]
+pressed                    (0, 0)      (0, 0)     (0.0, 0.0)   1.0    [0.0, 0.0]
+at+60+0-0.25s             (60, 0)     (60, 0)   (50.6, -1.0) 0.956 [-1.9, -0.01]
+at+60+0-0.75s             (60, 0)     (60, 0)   (50.6, -1.0) 0.956 [-1.9, -0.01]
+at+120+0-0.25s           (120, 0)    (120, 0)  (101.2, -1.1) 0.597 [-3.79, -0.05]
+at+120+0-0.75s           (120, 0)    (120, 0)  (101.2, -1.1) 0.597 [-3.79, -0.05]
+at+0+0-0.25s               (0, 0)      (0, 0)   (10.1, -1.0) 1.069 [-0.42, -0.06]
+at+0+0-0.75s               (0, 0)      (0, 0)   (10.1, -1.0) 1.069 [-0.42, -0.06]
+at+0+60-0.25s             (0, 60)     (0, 60)   (-0.0, 48.5) 0.626 [-0.05, -1.95]
+at+0+60-0.75s             (0, 60)     (0, 60)   (-0.0, 48.5) 0.626 [-0.05, -1.95]
+at+0+120-0.25s           (0, 120)    (0, 120)  (-0.2, 107.4) 0.275 [-0.06, -4.03]
+at+0+120-0.75s           (0, 120)    (0, 120)  (-0.2, 107.4) 0.275 [-0.06, -4.03]
+at+0+0-0.25s               (0, 0)      (0, 0)    (-0.1, 8.8) 1.077 [0.06, -0.59]
+at+0+0-0.75s               (0, 0)      (0, 0)    (-0.1, 8.8) 1.077 [0.06, -0.59]
+at-60+0-0.25s            (-60, 0)    (-60, 0)  (-50.4, -1.1) 0.881 [1.86, -0.04]
+at-60+0-0.75s            (-60, 0)    (-60, 0)  (-50.4, -1.1) 0.881 [1.86, -0.04]
+at-120+0-0.25s          (-120, 0)   (-120, 0) (-110.5, -1.1) 0.479 [4.51, -0.02]
+at-120+0-0.75s          (-120, 0)   (-120, 0) (-110.5, -1.1) 0.479 [4.51, -0.02]
+at+0+0-0.25s               (0, 0)      (0, 0)  (-10.2, -1.0) 1.078  [0.47, -0.0]
+at+0+0-0.75s               (0, 0)      (0, 0)  (-10.2, -1.0) 1.078  [0.47, -0.0]
+at+0-60-0.25s            (0, -60)    (0, -60)   (0.2, -59.3) 0.716  [-0.1, 2.01]
+at+0-60-0.75s            (0, -60)    (0, -60)   (0.2, -59.3) 0.716  [-0.1, 2.01]
+at+0-120-0.25s          (0, -120)   (0, -120)  (1.0, -115.5) 0.306  [-0.05, 4.4]
+at+0-120-0.75s          (0, -120)   (0, -120)  (1.0, -115.5) 0.306  [-0.05, 4.4]
+at+0+0-0.25s               (0, 0)      (0, 0)   (-0.0, -1.0) 1.084    [0.0, 0.0]
+at+0+0-0.75s               (0, 0)      (0, 0)   (-0.0, -1.0) 1.084    [0.0, 0.0]
+released                   (0, 0)      (0, 0)   (-0.0, -1.0) 1.084    [0.0, 0.0]
+
+Cursor followed the commanded offsets: True
+View moved at all: True
+Drift between 0.25s and 0.75s at a held offset: max 0.0px -> DISPLACEMENT-like (view holds still while cursor holds still)
+Gain (content shift / cursor offset, along the offset): median +0.869 (range +0.808..+0.988). Positive = content moves with the cursor.
+Back at the anchor (0,0) while held: worst residual shift 10.2px
+[  25.714] 
+[  25.714] === Right-drag using abs cursor moves
+[  27.635]     offset  +60,  +0: cursor now [60, 0] (0.82s after arrival)
+[  28.519]     offset +120,  +0: cursor now [120, 0] (0.83s after arrival)
+[  29.446]     offset   +0,  +0: cursor now [0, 0] (0.82s after arrival)
+[  30.332]     offset   +0, +60: cursor now [0, 60] (0.83s after arrival)
+[  31.211]     offset   +0,+120: cursor now [0, 120] (0.83s after arrival)
+[  32.149]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  33.023]     offset  -60,  +0: cursor now [-60, 0] (0.82s after arrival)
+[  33.898]     offset -120,  +0: cursor now [-120, 0] (0.82s after arrival)
+[  34.838]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  35.717]     offset   +0, -60: cursor now [0, -60] (0.83s after arrival)
+[  36.594]     offset   +0,-120: cursor now [0, -120] (0.82s after arrival)
+[  37.530]     offset   +0,  +0: cursor now [0, 0] (0.83s after arrival)
+[  38.745] Right-drag analysis (abs moves). shift = slide content movement on screen vs start (px); resp < 0.05 = unreliable match. ring = minimap view-circle movement (px).
+
+label                         cmd      cursor          shift  resp          ring
+start                      (0, 0)      (0, 0)   (-0.0, -0.0)   1.0    [0.0, 0.0]
+start-again                (0, 0)      (0, 0)   (-0.0, -0.0)   1.0    [0.0, 0.0]
+pressed                    (0, 0)      (0, 0)   (-0.0, -0.0)   1.0    [0.0, 0.0]
+at+60+0-0.25s             (60, 0)     (60, 0)   (60.8, -0.8) 0.873 [-2.52, -0.04]
+at+60+0-0.75s             (60, 0)     (60, 0)   (60.8, -0.8) 0.873 [-2.52, -0.04]
+at+120+0-0.25s           (120, 0)    (120, 0)  (111.3, -0.9) 0.654 [-4.44, -0.07]
+at+120+0-0.75s           (120, 0)    (120, 0)  (111.3, -0.9) 0.654 [-4.44, -0.07]
+at+0+0-0.25s               (0, 0)      (0, 0)   (20.2, -0.8) 1.013 [-0.42, -0.06]
+at+0+0-0.75s               (0, 0)      (0, 0)   (20.2, -0.8) 1.013 [-0.42, -0.06]
+at+0+60-0.25s             (0, 60)     (0, 60)   (-0.1, 38.2) 0.794 [0.05, -1.42]
+at+0+60-0.75s             (0, 60)     (0, 60)   (-0.1, 38.2) 0.794 [0.05, -1.42]
+at+0+120-0.25s           (0, 120)    (0, 120)  (-0.2, 107.4)  0.27 [-0.06, -4.03]
+at+0+120-0.75s           (0, 120)    (0, 120)  (-0.2, 107.4)  0.27 [-0.06, -4.03]
+at+0+0-0.25s               (0, 0)      (0, 0)    (-0.1, 8.8) 1.056 [0.06, -0.59]
+at+0+0-0.75s               (0, 0)      (0, 0)    (-0.1, 8.8) 1.056 [0.06, -0.59]
+at-60+0-0.25s            (-60, 0)    (-60, 0)  (-50.3, -1.0) 0.881 [1.86, -0.04]
+at-60+0-0.75s            (-60, 0)    (-60, 0)  (-50.3, -1.0) 0.881 [1.86, -0.04]
+at-120+0-0.25s          (-120, 0)   (-120, 0) (-110.5, -0.8) 0.466 [4.51, -0.02]
+at-120+0-0.75s          (-120, 0)   (-120, 0) (-110.5, -0.8) 0.466 [4.51, -0.02]
+at+0+0-0.25s               (0, 0)      (0, 0)  (-10.1, -0.9) 1.064  [0.47, -0.0]
+at+0+0-0.75s               (0, 0)      (0, 0)  (-10.1, -0.9) 1.064  [0.47, -0.0]
+at+0-60-0.25s            (0, -60)    (0, -60)   (0.2, -49.4) 0.718  [-0.1, 2.01]
+at+0-60-0.75s            (0, -60)    (0, -60)   (0.2, -49.4) 0.718  [-0.1, 2.01]
+at+0-120-0.25s          (0, -120)   (0, -120)  (0.8, -106.4) 0.408 [-0.09, 4.08]
+at+0-120-0.75s          (0, -120)   (0, -120)  (0.8, -106.4) 0.408 [-0.09, 4.08]
+at+0+0-0.25s               (0, 0)      (0, 0)   (0.1, -10.7) 1.045 [-0.02, 0.46]
+at+0+0-0.75s               (0, 0)      (0, 0)   (0.1, -10.7) 1.045 [-0.02, 0.46]
+released                   (0, 0)      (0, 0)   (0.1, -10.7) 1.045 [-0.02, 0.46]
+
+Cursor followed the commanded offsets: True
+View moved at all: True
+Drift between 0.25s and 0.75s at a held offset: max 0.0px -> DISPLACEMENT-like (view holds still while cursor holds still)
+Gain (content shift / cursor offset, along the offset): median +0.891 (range +0.637..+1.013). Positive = content moves with the cursor.
+Back at the anchor (0,0) while held: worst residual shift 20.2px
+[  39.360] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260925-210355-drag-test

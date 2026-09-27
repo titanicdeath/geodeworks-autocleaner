@@ -1,0 +1,167 @@
+[   0.000] geoclean 0.6.0-m1 pan-calibrate  ->  results in G:\Revisit\Geo\geodeworks-prototype\runs\20260925-231537-pan-calibrate
+[   0.004] Switch to the Roblox window now (click its title bar or Alt-Tab). Waiting for Roblox to become the active window...
+[   2.473] Bound to Roblox window (-8, -8, 1928, 1040). Hold F8 (or Esc) at any time to stop.
+[   3.056] Microscope circle (959, 527, 466), minimap (1856, 134, 50)
+[   3.056] Window: RobloxPlayerBeta.exe rect=(-8, -8, 1928, 1040) dpi=96 awareness=per-monitor-v2 mouse speed=10 enhance precision=False
+[   3.057] 
+[   3.057] Survey mode, any position. Tap F6, then take your hand OFF the mouse for about a minute.
+[   4.912] Start position from minimap: V=[1.0, 0.0]
+[   4.936] 1/5 Latency...
+[   7.735]   view settles 53.2 ms after a held move -> settle 0.11s, gap between move/press/release 0.08s
+[   7.735] 2/5 Drag styles...
+[   8.369]     #3   style-v1600    cursor [60, 0]          shift [45.6, -1.0]     (image 0.96)  V [-46.2, 2.5]
+[   8.993]     #4   style-v1600    cursor [-60, 0]         shift [-52.7, -1.0]    (image 0.96)  V [5.1, 2.6]
+[   9.614]     #5   style-v1600    cursor [0, 60]          shift [0.4, 43.3]      (image 0.91)  V [4.3, -39.0]
+[  10.249]     #6   style-v1600    cursor [0, -60]         shift [-0.4, -59.9]    (image 0.88)  V [3.6, 21.9]
+[  10.974]     #7   style-v1600    cursor [200, 0]         shift [186.2, -0.8]    (image 0.81)  V [-183.0, 23.4]
+[  11.700]     #8   style-v1600    cursor [-200, 0]        shift [-193.1, -1.2]   (image 0.81)  V [11.6, 24.5]
+[  12.414]     #9   style-v1600    cursor [0, 200]         shift [2.1, 189.9]     (image 0.71)  V [10.8, -164.1]
+[  13.144]     #10  style-v1600    cursor [0, -200]        shift [-1.9, -184.0]   (image 0.67)  V [14.3, 18.0]
+[  13.145]   v1600  : G=[[+0.938 +0.010] [+0.001 +0.929]]  residual 6.7px (4.8%)  hold 432ms
+[  13.816]     #11  style-v800     cursor [60, 0]          shift [56.5, -1.0]     (image 0.95)  V [-40.4, 20.3]
+[  14.497]     #12  style-v800     cursor [-60, 0]         shift [-52.5, -0.9]    (image 0.95)  V [13.1, 22.1]
+[  15.166]     #13  style-v800     cursor [0, 60]          shift [0.3, 54.0]      (image 0.90)  V [14.5, -31.9]
+[  15.839]     #14  style-v800     cursor [0, -60]         shift [-0.4, -56.0]    (image 0.90)  V [15.2, 24.1]
+[  16.687]     #15  style-v800     cursor [200, 0]         shift [198.2, 0.2]     (image 0.81)  V [-183.3, 24.3]
+[  17.546]     #16  style-v800     cursor [-200, 0]        shift [-197.2, -1.2]   (image 0.80)  V [14.5, 25.3]
+[  18.385]     #17  style-v800     cursor [0, 200]         shift [2.3, 194.0]     (image 0.69)  V [12.8, -166.7]
+[  19.227]     #18  style-v800     cursor [0, -200]        shift [-1.9, -195.9]   (image 0.66)  V [15.1, 28.0]
+[  19.227]   v800   : G=[[+0.982 +0.010] [+0.003 +0.970]]  residual 3.2px (2.2%)  hold 516ms
+[  19.963]     #19  style-v400     cursor [60, 0]          shift [56.5, -0.9]     (image 0.95)  V [-44.1, 28.0]
+[  20.704]     #20  style-v400     cursor [-60, 0]         shift [-56.5, -1.0]    (image 0.95)  V [13.4, 27.9]
+[  21.458]     #21  style-v400     cursor [0, 60]          shift [0.4, 55.9]      (image 0.89)  V [14.1, -26.8]
+[  22.206]     #22  style-v400     cursor [0, -60]         shift [-0.4, -54.9]    (image 0.90)  V [14.9, 27.2]
+[  23.325]     #23  style-v400     cursor [200, 0]         shift [196.1, 0.2]     (image 0.81)  V [-181.9, 26.6]
+[  24.429]     #24  style-v400     cursor [-200, 0]        shift [-197.1, -1.2]   (image 0.80)  V [15.4, 27.0]
+[  25.540]     #25  style-v400     cursor [0, 200]         shift [2.4, 195.8]     (image 0.69)  V [13.4, -166.7]
+[  26.631]     #26  style-v400     cursor [0, -200]        shift [-1.9, -195.8]   (image 0.66)  V [15.6, 27.9]
+[  26.632]   v400   : G=[[+0.980 +0.010] [+0.003 +0.974]]  residual 2.1px (1.5%)  hold 678ms
+[  27.223]     #27  style-v800np   cursor [60, 0]          shift [52.4, 0.1]      (image 0.96)  V [-36.4, 26.9]
+[  27.804]     #28  style-v800np   cursor [-60, 0]         shift [-60.5, 0.0]     (image 0.95)  V [24.7, 26.4]
+[  28.392]     #29  style-v800np   cursor [0, 60]          shift [0.3, 53.9]      (image 0.90)  V [25.2, -26.8]
+[  28.976]     #30  style-v800np   cursor [0, -60]         shift [-0.3, -51.0]    (image 0.91)  V [25.8, 24.3]
+[  29.752]     #31  style-v800np   cursor [200, 0]         shift [198.3, -0.8]    (image 0.80)  V [-175.5, 25.2]
+[  30.526]     #32  style-v800np   cursor [-200, 0]        shift [-193.0, -1.1]   (image 0.81)  V [17.2, 25.9]
+[  31.284]     #33  style-v800np   cursor [0, 200]         shift [2.2, 189.8]     (image 0.70)  V [15.0, -163.0]
+[  32.068]     #34  style-v800np   cursor [0, -200]        shift [-2.3, -199.3]   (image 0.70)  V [17.9, 35.9]
+[  32.069]   v800np : G=[[+0.975 +0.011] [+0.001 +0.965]]  residual 4.6px (3.2%)  hold 434ms
+[  32.069]   chosen style: v800; minimap scale x 25.55, y 26.12 slide px per minimap px (n=8)
+[  32.069] 3/5 Slide edges (8 directions)...
+[  32.718]     #35  pan_to         cursor [19.5, 37.5]     shift [19.5, 35.1]     (image 0.93)  V [0.2, 1.0]
+[  33.784]     #36  edge(1, 0)     cursor [-356.5, 1.1]    shift [-357.4, 0.2]    (image 0.81)  V [354.7, 1.1]
+[  34.823]     #37  edge(1, 0)     cursor [-356.5, 1.1]    shift [-354.0, -0.3]   (image 0.81)  V [704.0, 0.9]
+[  35.879]     #38  edge(1, 0)     cursor [-356.5, 1.1]    shift [-84.7, 1.2]     (image 0.93)  V [783.1, -0.4]
+[  35.879]   direction (1, 0)  : edge at V=[783.0, -0.0] (extent 783px)
+[  36.668]     #39  probe-push     cursor [-152.8, 0.5]    shift [-0.0, -0.0]     (image 1.00)  V [779.0, -0.5]
+[  37.455]     #40  probe-pull     cursor [152.8, -0.5]    shift [144.7, -2.2]    (image 0.88)  V [631.7, 1.6]
+[  37.455]   edge probe: push 150 -> image 0.0, minimap 0.0; pull back -> image 144.7, minimap 142.5  (px of slide; None = image had no features)
+[  38.573]     #41  pan_to         cursor [420.0, -0.2]    shift [420.4, -0.8]    (image 0.70)  V [213.5, 2.4]
+[  39.430]     #42  pan_to         cursor [217.4, 1.7]     shift [211.1, 1.0]     (image 0.81)  V [5.8, 1.2]
+[  40.335]     #43  edge(1, 1)     cursor [-249.4, -254.3] shift [-242.5, -238.0] (image 0.59)  V [250.3, 244.8]
+[  41.230]     #44  edge(1, 1)     cursor [-249.4, -254.3] shift [-239.4, -244.8] (minimap 0.00)  V [495.7, 506.4]
+[  42.133]     #45  edge(1, 1)     cursor [-249.4, -254.3] shift [-241.0, -236.8] (image 0.79)  V [734.2, 746.1]
+[  43.052]     #46  edge(1, 1)     cursor [-249.4, -254.3] shift [-38.9, -29.9]   (image 0.97)  V [771.3, 777.7]
+[  43.053]   direction (1, 1)  : edge at V=[771.0, 778.0] (extent 1095px)
+[  44.159]     #47  pan_to         cursor [408.5, 420.0]   shift [370.0, 391.1]   (image 0.57)  V [396.8, 384.4]
+[  45.245]     #48  pan_to         cursor [400.0, 395.0]   shift [394.6, 374.1]   (image 0.82)  V [0.5, 5.3]
+[  46.282]     #49  edge(0, 1)     cursor [3.7, -360.8]    shift [1.3, -337.9]    (image 0.46)  V [-4.2, 342.5]
+[  47.317]     #50  edge(0, 1)     cursor [3.7, -360.8]    shift [-1.8, -336.8]   (image 0.71)  V [-8.2, 686.0]
+[  48.370]     #51  edge(0, 1)     cursor [3.7, -360.8]    shift [3.3, -83.7]     (image 0.89)  V [-15.1, 773.2]
+[  48.371]   direction (0, 1)  : edge at V=[-15.0, 773.0] (extent 773px)
+[  49.481]     #52  pan_to         cursor [-12.4, 420.0]   shift [-14.3, 418.1]   (image 0.50)  V [-5.0, 360.9]
+[  50.532]     #53  pan_to         cursor [-8.9, 372.1]    shift [-19.8, 365.6]   (minimap 0.00)  V [2.3, 13.0]
+[  51.436]     #54  edge(-1, 1)    cursor [254.7, -256.0]  shift [249.0, -243.9]  (image 0.89)  V [-249.0, 258.1]
+[  52.344]     #55  edge(-1, 1)    cursor [254.7, -256.0]  shift [250.6, -239.6]  (image 0.61)  V [-496.1, 503.8]
+[  53.242]     #56  edge(-1, 1)    cursor [254.7, -256.0]  shift [255.0, -260.3]  (minimap 0.00)  V [-740.5, 782.5]
+[  54.157]     #57  edge(-1, 1)    cursor [254.7, -256.0]  shift [25.4, -0.0]     (minimap 0.00)  V [-765.9, 782.6]
+[  54.158]   direction (-1, 1) : edge at V=[-766.0, 783.0] (extent 1095px)
+[  55.257]     #58  pan_to         cursor [-409.1, 420.0]  shift [-398.4, 416.0]  (minimap 0.00)  V [-367.5, 366.5]
+[  56.309]     #59  pan_to         cursor [-378.1, 379.1]  shift [-384.3, 366.6]  (image 0.84)  V [12.9, -0.0]
+[  57.343]     #60  edge(-1, 0)    cursor [356.5, -1.1]    shift [351.8, -1.4]    (image 0.66)  V [-343.8, 0.8]
+[  58.394]     #61  edge(-1, 0)    cursor [356.5, -1.1]    shift [343.5, -1.6]    (image 0.49)  V [-687.8, 1.9]
+[  59.453]     #62  edge(-1, 0)    cursor [356.5, -1.1]    shift [76.9, -1.9]     (image 0.95)  V [-765.1, 2.8]
+[  59.453]   direction (-1, 0) : edge at V=[-765.0, 3.0] (extent 765px)
+[  60.581]     #63  pan_to         cursor [-420.0, 2.9]    shift [-405.4, 2.0]    (image 0.60)  V [-359.4, 0.4]
+[  61.632]     #64  pan_to         cursor [-366.0, 1.6]    shift [-361.0, -0.2]   (image 0.64)  V [-0.6, 0.6]
+[  62.550]     #65  edge(-1, -1)   cursor [249.4, 254.3]   shift [255.2, 250.2]   (image 0.91)  V [-255.9, -252.6]
+[  63.485]     #66  edge(-1, -1)   cursor [249.4, 254.3]   shift [236.0, 229.0]   (image 0.55)  V [-490.2, -485.3]
+[  64.388]     #67  edge(-1, -1)   cursor [249.4, 254.3]   shift [240.3, 258.3]   (minimap 0.00)  V [-725.5, -754.6]
+[  65.305]     #68  edge(-1, -1)   cursor [249.4, 254.3]   shift [40.0, 27.7]     (minimap 0.00)  V [-765.5, -782.3]
+[  65.305]   direction (-1, -1): edge at V=[-765.0, -782.0] (extent 1094px)
+[  66.398]     #69  pan_to         cursor [-402.9, -420.0] shift [-382.5, -416.2] (minimap 0.00)  V [-383.0, -366.1]
+[  67.468]     #70  pan_to         cursor [-386.2, -376.2] shift [-384.0, -366.3] (minimap 0.00)  V [1.0, 0.1]
+[  68.506]     #71  edge(0, -1)    cursor [-3.7, 360.8]    shift [-4.7, 351.3]    (image 0.94)  V [4.3, -351.5]
+[  69.543]     #72  edge(0, -1)    cursor [-3.7, 360.8]    shift [-7.4, 332.8]    (image 0.59)  V [8.7, -689.6]
+[  70.589]     #73  edge(0, -1)    cursor [-3.7, 360.8]    shift [-4.0, 80.9]     (image 0.87)  V [9.5, -773.6]
+[  70.590]   direction (0, -1) : edge at V=[9.0, -774.0] (extent 774px)
+[  71.695]     #74  pan_to         cursor [9.4, -420.0]    shift [13.9, -394.6]   (image 0.56)  V [-3.5, -375.8]
+[  72.763]     #75  pan_to         cursor [0.4, -387.4]    shift [2.8, -383.8]    (image 0.95)  V [-4.1, 9.3]
+[  73.668]     #76  edge(1, -1)    cursor [-254.7, 256.0]  shift [-262.1, 250.7]  (image 0.85)  V [254.5, -243.0]
+[  74.576]     #77  edge(1, -1)    cursor [-254.7, 256.0]  shift [-253.1, 243.1]  (image 0.65)  V [502.1, -488.6]
+[  75.474]     #78  edge(1, -1)    cursor [-254.7, 256.0]  shift [-241.8, 232.9]  (minimap 0.00)  V [727.3, -729.0]
+[  76.387]     #79  edge(1, -1)    cursor [-254.7, 256.0]  shift [-38.6, 53.6]    (minimap 0.00)  V [766.0, -782.6]
+[  76.388]   direction (1, -1) : edge at V=[766.0, -783.0] (extent 1095px)
+[  77.491]     #80  pan_to         cursor [409.2, -420.0]  shift [382.5, -417.1]  (minimap 0.00)  V [383.5, -365.5]
+[  78.579]     #81  pan_to         cursor [394.5, -378.1]  shift [382.5, -365.6]  (minimap 0.00)  V [1.0, 0.1]
+[  78.580]   view-centre bounds: {'x_max': 783.1, 'x_min': -765.1, 'y_max': 773.2, 'y_min': -773.6, 'diag_to_axis': 1.415, 'shape': 'square', 'ring_limit_px': 29.97, 'ring_limit_spread': 0.05}
+[  78.580]   minimap scale refit over the whole run: x 26.10, y 25.53 (residual rms [7.9, 8.3] px, n=19)
+[  78.580]   minimap: the view stops 29.97 minimap px from the centre (spread 0.05) = x +-782, y +-765 slide px
+[  78.580] 4/5 Closed-loop accuracy...
+[  79.694]     #82  pan_to         cursor [-420.0, 1.5]    shift [-417.9, -0.1]   (image 0.79)  V [415.3, 0.3]
+[  80.342]     #83  pan_to         cursor [-44.6, 0.4]     shift [-41.3, 0.1]     (image 0.94)  V [453.4, 0.1]
+[  80.926]     #84  pan_to         cursor [-5.7, 0.2]      shift [-1.0, -1.0]     (image 1.00)  V [451.8, 0.8]
+[  81.501]     #85  pan_to         cursor [-7.4, 0.9]      shift [-7.0, 0.0]      (image 0.99)  V [458.1, 0.6]
+[  81.501]   target [459.0, 0.0]: 4 drags, tracked error 1.1px, minimap says 2.3px off
+[  82.621]     #86  pan_to         cursor [420.0, -128.3]  shift [420.2, -125.7]  (image 0.71)  V [38.9, 126.4]
+[  83.734]     #87  pan_to         cursor [420.0, -128.2]  shift [421.7, -125.4]  (image 0.73)  V [-381.4, 252.5]
+[  84.417]     #88  pan_to         cursor [79.4, -23.9]    shift [75.3, -22.2]    (image 0.83)  V [-456.5, 276.2]
+[  84.418]   target [-459.0, 275.0]: 3 drags, tracked error 2.7px, minimap says 4.4px off
+[  85.524]     #89  pan_to         cursor [-261.4, 420.0]  shift [-262.0, 408.1]  (image 0.71)  V [-194.9, -131.3]
+[  86.532]     #90  pan_to         cursor [-202.0, 338.6]  shift [-198.1, 311.2]  (image 0.88)  V [2.3, -446.7]
+[  87.138]     #91  pan_to         cursor [2.3, 12.8]      shift [2.1, 8.7]       (image 0.95)  V [0.1, -456.4]
+[  87.138]   target [0.0, -459.0]: 3 drags, tracked error 2.7px, minimap says 3.1px off
+[  88.251]     #92  pan_to         cursor [-167.3, -420.0] shift [-171.9, -399.1] (image 0.92)  V [167.9, -55.6]
+[  89.338]     #93  pan_to         cursor [-152.3, -388.1] shift [-154.0, -366.3] (image 0.56)  V [319.7, 312.6]
+[  89.933]     #94  pan_to         cursor [-1.6, -9.0]     shift [-1.1, -6.7]     (image 0.97)  V [319.0, 322.4]
+[  89.934]   target [321.0, 321.0]: 3 drags, tracked error 2.6px, minimap says 10.8px off
+[  91.047]     #95  pan_to         cursor [409.3, 420.0]   shift [404.8, 399.2]   (image 0.67)  V [-83.5, -76.6]
+[  91.830]     #96  pan_to         cursor [147.1, 157.2]   shift [145.4, 148.1]   (image 0.77)  V [-230.7, -222.5]
+[  92.419]     #97  pan_to         cursor [-1.3, 7.2]      shift [-0.0, 0.0]      (image 1.00)  V [-232.0, -220.9]
+[  93.016]     #98  pan_to         cursor [-2.7, 8.9]      shift [-1.9, 5.0]      (image 0.98)  V [-228.2, -226.9]
+[  93.016]   target [-230.0, -230.0]: 4 drags, tracked error 3.0px, minimap says 6.7px off
+[  94.069]     #99  pan_to         cursor [-371.2, -138.1] shift [-369.0, -135.1] (image 0.97)  V [141.8, -90.1]
+[  94.070]   target [138.0, -92.0]: 1 drags, tracked error 4.4px, minimap says 5.7px off
+[  94.070] 5/5 Closure...
+[  94.846]     #100 pan_to         cursor [145.4, -93.4]   shift [143.0, -90.8]   (image 0.90)  V [-0.7, 0.5]
+[  94.861]   back at centre: tracker says 0.8px, image vs first centre visit says 4.1px (response 0.95)
+[  94.879] 
+[  94.879] M1 pan calibration report
+
+Latency: view settled 53.2 ms after a held jump (probes: [53.2, 24.4]), settle used 0.11s
+Drag styles (content shift = G @ cursor):
+  v1600   G=[[0.9376, 0.0097], [0.0009, 0.9286]] residual 6.66px (4.8%), cross-axis 0.01, hold 432ms
+          gain along each test vector: {'(60, 0)': 0.76, '(-60, 0)': 0.878, '(0, 60)': 0.722, '(0, -60)': 0.998, '(200, 0)': 0.931, '(-200, 0)': 0.966, '(0, 200)': 0.95, '(0, -200)': 0.92}
+  v800    G=[[0.9819, 0.0101], [0.0031, 0.97]] residual 3.16px (2.2%), cross-axis 0.01, hold 516ms
+          gain along each test vector: {'(60, 0)': 0.942, '(-60, 0)': 0.875, '(0, 60)': 0.9, '(0, -60)': 0.933, '(200, 0)': 0.991, '(-200, 0)': 0.986, '(0, 200)': 0.97, '(0, -200)': 0.98}
+  v400    G=[[0.9796, 0.0104], [0.0033, 0.9744]] residual 2.1px (1.5%), cross-axis 0.01, hold 678ms
+          gain along each test vector: {'(60, 0)': 0.942, '(-60, 0)': 0.942, '(0, 60)': 0.932, '(0, -60)': 0.915, '(200, 0)': 0.981, '(-200, 0)': 0.986, '(0, 200)': 0.979, '(0, -200)': 0.979}
+  v800np  G=[[0.9752, 0.0107], [0.0008, 0.9646]] residual 4.63px (3.2%), cross-axis 0.01, hold 434ms
+          gain along each test vector: {'(60, 0)': 0.873, '(-60, 0)': 1.008, '(0, 60)': 0.898, '(0, -60)': 0.85, '(200, 0)': 0.992, '(-200, 0)': 0.965, '(0, 200)': 0.949, '(0, -200)': 0.997}
+  chosen: v800; minimap scale (x, y) [25.555, 26.116] slide px / ring px (from the style drags)
+Minimap scale over the whole run (x, y): [26.1, 25.526] slide px / ring px (residual rms [7.9, 8.3] px, n=19)
+Slide edges (view-centre position where panning stopped, slide px from minimap centre):
+  [1, 0]   extent 783.1  at [783.1, -0.4]  minimap says [766.5, -0.8]  (last drags measured by image)
+  [1, 1]   extent 1095.3  at [771.3, 777.7]  minimap says [765.9, 782.7]  (last drags measured by image)
+  [0, 1]   extent 773.2  at [-15.1, 773.2]  minimap says [-26.0, 783.4]  (last drags measured by image)
+  [-1, 1]  extent 1094.9  at [-765.9, 782.6]  minimap says [-765.9, 782.6]  (last drags measured by minimap)
+  [-1, 0]  extent 765.1  at [-765.1, 2.8]  minimap says [-766.3, -0.2]  (last drags measured by image)
+  [-1, -1] extent 1094.5  at [-765.5, -782.3]  minimap says [-765.5, -782.3]  (last drags measured by minimap)
+  [0, -1]  extent 773.6  at [9.5, -773.6]  minimap says [-0.2, -783.2]  (last drags measured by image)
+  [1, -1]  extent 1095.0  at [766.0, -782.6]  minimap says [766.0, -782.6]  (last drags measured by minimap)
+  view-centre limits: x -765.1..783.1, y -773.6..773.2; boundary shape square (diagonal/axis extent 1.415; square = 1.41, round = 1.0)
+  minimap: view stops 29.97 minimap px from centre in every direction (spread 0.05) = [782.2, 765.0] slide px (x, y)
+Edge probe at +x (slide px): push 150 further -> image says the view moved 0.0, minimap says 0.0; pull back -> image 144.7, minimap 142.5 (None = no features to match)
+Closed-loop pan_to: tracked error max 4.4px, drags per target [4, 3, 3, 3, 4, 1], minimap disagreement max 10.8px
+Closure (true, image-based): 4.08px [-3.98, 0.92] after 100 drags (response 0.95)
+[  94.880] Saved calibration: G:\Revisit\Geo\geodeworks-prototype\pan_calibration.json
+[  94.881] Results folder: G:\Revisit\Geo\geodeworks-prototype\runs\20260925-231537-pan-calibrate

@@ -1,0 +1,18 @@
+{
+  "requested_point": [
+    977,
+    581
+  ],
+  "source": "user_hover_F6",
+  "status": "input_sent",
+  "note": "Visual progress is a heuristic, not game confirmation.",
+  "actual_cursor": [
+    977,
+    581
+  ],
+  "visual_progress": true,
+  "markers_before": 19,
+  "markers_after": 18,
+  "local_foreground_before": 625,
+  "local_foreground_after": 0
+}

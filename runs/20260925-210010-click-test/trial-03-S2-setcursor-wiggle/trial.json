@@ -1,0 +1,66 @@
+{
+  "trial": 3,
+  "strategy": "S2-setcursor-wiggle",
+  "strategy_params": {
+    "name": "S2-setcursor-wiggle",
+    "move": "setcursor",
+    "wiggle": true,
+    "nocoalesce": true,
+    "dwell": 0.15,
+    "hold": 0.08,
+    "steps": 12,
+    "step_px": 12,
+    "step_delay": 0.008,
+    "description": "SetCursorPos jump, then a 1-count relative wiggle."
+  },
+  "target": [
+    822,
+    723
+  ],
+  "parked_at": [
+    889,
+    643
+  ],
+  "cursor_at_press": [
+    822,
+    723
+  ],
+  "move_trace": {
+    "strategy": "S2-setcursor-wiggle",
+    "target": [
+      822,
+      723
+    ],
+    "start": [
+      889,
+      643
+    ],
+    "events": 1,
+    "wiggle_events": 4,
+    "arrived": [
+      822,
+      723
+    ],
+    "end": [
+      822,
+      723
+    ],
+    "final_error_px": 0.0,
+    "move_ms": 75.3
+  },
+  "hover_patch_changed_px": 0,
+  "verdict": "REMOVED",
+  "removed": true,
+  "local": {
+    "object_px": 4270,
+    "cursor_on_object": true,
+    "gone_frac": 1.0,
+    "changed_frac": 1.0,
+    "patch_changed_px": 4280
+  },
+  "hud_changed_px": 276,
+  "global_change_frac": 0.0074,
+  "minimap_dots_before": 15,
+  "minimap_dots_after": 13,
+  "press_to_capture_ms": 1022
+}

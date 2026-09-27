@@ -1,0 +1,66 @@
+{
+  "trial": 6,
+  "strategy": "S5-rel-wiggle-slow",
+  "strategy_params": {
+    "name": "S5-rel-wiggle-slow",
+    "move": "rel",
+    "wiggle": true,
+    "nocoalesce": true,
+    "dwell": 0.3,
+    "hold": 0.15,
+    "steps": 12,
+    "step_px": 6,
+    "step_delay": 0.012,
+    "description": "Slow relative steps, wiggle, long dwell and hold."
+  },
+  "target": [
+    886,
+    829
+  ],
+  "parked_at": [
+    751,
+    696
+  ],
+  "cursor_at_press": [
+    886,
+    829
+  ],
+  "move_trace": {
+    "strategy": "S5-rel-wiggle-slow",
+    "target": [
+      886,
+      829
+    ],
+    "start": [
+      751,
+      696
+    ],
+    "events": 23,
+    "wiggle_events": 4,
+    "arrived": [
+      886,
+      829
+    ],
+    "end": [
+      886,
+      829
+    ],
+    "final_error_px": 0.0,
+    "move_ms": 363.0
+  },
+  "hover_patch_changed_px": 0,
+  "verdict": "REMOVED",
+  "removed": true,
+  "local": {
+    "object_px": 4142,
+    "cursor_on_object": true,
+    "gone_frac": 1.0,
+    "changed_frac": 1.0,
+    "patch_changed_px": 4169
+  },
+  "hud_changed_px": 124,
+  "global_change_frac": 0.0073,
+  "minimap_dots_before": 13,
+  "minimap_dots_after": 11,
+  "press_to_capture_ms": 1091
+}
